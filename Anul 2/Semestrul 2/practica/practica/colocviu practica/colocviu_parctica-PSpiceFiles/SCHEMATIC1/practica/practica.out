@@ -1,0 +1,223 @@
+
+**** 06/08/20 11:56:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "practica.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.AUTOCONVERGE ITL1=1000 ITL2=1000 ITL4=1000 RELTOL=0.05 ABSTOL=1.0E-6 VNTOL=.001 PIVTOL=1.0E-10 
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source COLOCVIU_PARCTICA
+X_U1         INPUT OUTPUT N00261 LM7912C
+V_V1         0 INPUT 30V
+C_C1         0 INPUT  2.2uF  
+C_C2         0 OUTPUT  1uF  
+C_C3         0 N00261  25uF  
+X_R1         0 0 N00365 POT PARAMS: SET=0 VALUE=750
+R_R2         OUTPUT N00365  750 TC=0,0 
+R_RL         OUTPUT 0  50 TC=0,0 
+
+**** RESUMING practica.cir ****
+.END
+
+**** 06/08/20 11:56:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Dlim    X_U1.x1.Dz      
+          IS   10.000000E-15   50.000000E-15 
+          BV                    7.11         
+         IBV                   50.000000E-09 
+          RS                    3            
+          VJ     .7                          
+
+
+**** 06/08/20 11:56:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Npn1    X_U1.x1.Pnp1    
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   10.000000E-15   10.000000E-15 
+          BF   50             250            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 06/08/20 11:56:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Rbg1    
+           R    1            
+         TC1 -950.000000E-09 
+         TC2 -653.000000E-09 
+
+
+**** 06/08/20 11:56:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Sbg1    
+         RON    1            
+        ROFF    1.000000E+06 
+         VON    3.7          
+        VOFF    3            
+
+
+**** 06/08/20 11:56:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(INPUT)  -30.0000  (N00261)  -28.0270 (N00365)-36.49E-06 (OUTPUT)  -27.3650     
+
+(X_U1.x1.4)  -28.2140                 (X_U1.x1.5)  -28.4460                     
+
+(X_U1.x1.6)  -29.1640                 (X_U1.x1.7)  -29.9240                     
+
+(X_U1.x1.8)  -27.3710                 (X_U1.x1.9)  -27.3710                     
+
+(X_U1.x1.50)  -29.8900                (X_U1.x1.51)  -29.8900                    
+
+(X_U1.x1.52)  -29.2660                (X_U1.x1.53)  -29.7000                    
+
+(X_U1.x1.54)  -28.4460                (X_U1.x1.100)   -7.4000                   
+
+(X_U1.x1.101)-224.2E-06               (X_U1.x1.102)   -1.9729                   
+
+(X_U1.x1.105) -455.8600               (X_U1.x1.106)   -1.7862                   
+
+(X_U1.x1.107)   -1.0000               (X_U1.x1.108)    -.9729                   
+
+(X_U1.x1.200)  694.0000               (X_U1.x1.Imon)  -27.3650              
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.840E-01
+    X_U1.x1.Vbg   7.400E-06
+    X_U1.x1.Vgainf  -6.940E+02
+    X_U1.x1.Vl1  -4.541E-01
+    X_U1.x1.Vl2   7.962E-13
+    X_U1.x1.Vmon  -5.838E-01
+    X_U1.x1.Veset   1.970E-07
+
+    TOTAL POWER DISSIPATION   4.82E+05  WATTS
+
+
+
+          JOB CONCLUDED
+ AutoConverge Simulator Options
+ ITL1 = 150
+ ITL2 = 20
+ ITL4 = 10
+ RELTOL = 0.001
+ ABSTOL = 1e-012
+ VNTOL = 1e-006
+ PIVTOL = 1e-013
+
+**** 06/08/20 11:56:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

@@ -1,0 +1,9 @@
+* source LAB4-TC
+J_J1         OUT1 VIN N00204 BF245A 
+J_J2         N00204 0 OUT2 BF245A 
+R_R1         OUT1 V+  10k TC=0,0 
+R_R2         OUT2 V+  10k TC=0,0 
+I_I1         N00204 V- DC 1mA  
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+V_V3         VIN 0 0Vdc

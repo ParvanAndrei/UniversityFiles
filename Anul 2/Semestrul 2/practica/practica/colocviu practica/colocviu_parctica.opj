@@ -1,0 +1,90 @@
+(ExpressProject "colocviu_parctica"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\colocviu_parctica.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\colocviu_parctica-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\colocviu_parctica-pspicefiles\schematic1\practica.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\colocviu_parctica-pspicefiles\schematic1\practica.sim"
+        (DisplayName "SCHEMATIC1-practica")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LM7912C
+      (FullPartName "LM7912C.Normal")
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (C_elect
+      (FullPartName "C_elect.Normal")
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM7905CT/TO220
+      (FullPartName "LM7905CT/TO220.Normal")
+      (LibraryName
+         "C:\USERS\YOYOL\DESKTOP\COLLEGE STUFF\ORCAD\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "yoyol")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\yoyol\Desktop\College stuff\orcad\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1349 52 373")
+        (Scroll "246 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\YOYOL\DESKTOP\FACULTATE\COLOCVIU_PARCTICA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

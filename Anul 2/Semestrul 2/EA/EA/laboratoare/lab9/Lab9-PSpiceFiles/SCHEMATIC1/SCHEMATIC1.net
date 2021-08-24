@@ -1,0 +1,8 @@
+* source LAB9
+E_U1         OUT 0 VALUE {LIMIT(V(N00189,N00683)*1E6,-15V,+15V)}
+R_R1         IN N00189  15.8k TC=0,0 
+R_R2         IN N00683  10k TC=0,0 
+R_R3         N00683 OUT  10k TC=0,0 
+C_C1         0 N00189  10n  TC=0,0 
+V_V1         IN 0  AC 1
++SIN 0 1 1k 0 0 0

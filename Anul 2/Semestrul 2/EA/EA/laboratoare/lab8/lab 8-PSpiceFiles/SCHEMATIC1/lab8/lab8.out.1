@@ -1,0 +1,51 @@
+
+**** 04/16/20 16:55:20 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab8"  [ C:\Users\yoyol\Desktop\Facultate\lab 8-PSpiceFiles\SCHEMATIC1\lab8.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab8.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN vI 0 5 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB 8
+E_U1         VX 0 VALUE {LIMIT(V(VX,N00887)*1E6,-15V,+15V)}
+E_U2         VO 0 VALUE {LIMIT(V(VP,VN)*1E6,-15V,+15V)}
+V_V1         V+ 0 12V
+V_V2         0 V- 12V
+R_R1         VI VP  309 TC=0,0 
+R_R2         VP VO  309 TC=0,0 
+R_R3         VX VN  309 TC=0,0 
+R_R4         VN VO  309 TC=0,0 
+R_R5         V- N00887  86.6k TC=0,0 
+R_RL         0 VP  100 TC=0,0 
+R_R6         0 N00887  10k TC=0,0 
+V_V3         VI 0 5V
+
+**** RESUMING lab8.cir ****
+.END
+
+ERROR(ORPSIM-15090): DC device vI is undefined
+

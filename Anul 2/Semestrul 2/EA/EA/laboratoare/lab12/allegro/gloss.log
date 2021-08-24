@@ -1,0 +1,164 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : LAB12-t25-3.brd                               )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Thu May 21 17:23:12 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+
+Via Eliminate glossing in progress.
+Started on Thu May 21 17:23:12 2020
+ with Parameters: 
+   Jog limit            : -1 
+   Used pin escapes        : YES 
+   Unused pin escapes      : YES 
+   Stand alone vias        : YES 
+   Regular through vias    : YES 
+
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu May 21 17:23:12 2020
+
+
+Via Eliminate Total Stats:
+Vias: Total Candidates = 0,  Total Eliminations = 0,  100 % Eliminatons.
+
+
+
+
+Via Eliminate glossing in progress.
+Started on Thu May 21 17:23:12 2020
+ with Parameters: 
+   Jog limit            : -1 
+   Used pin escapes        : YES 
+   Unused pin escapes      : YES 
+   Stand alone vias        : YES 
+   Regular through vias    : YES 
+
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu May 21 17:23:12 2020
+
+
+Via Eliminate Total Stats:
+Vias: Total Candidates = 0,  Total Eliminations = 0,  100 % Eliminatons.
+
+
+
+
+Line entry into Pad glossing in progress.
+Started on Thu May 21 17:23:12 2020
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+
+Finished execution 1
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu May 21 17:23:12 2020
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 0
+Number of Actual Glossings                    : 0
+Number of Glossings Aborted by DRC violations : 0
+
+
+
+
+Line Smooth glossing in progress.
+Started on Thu May 21 17:23:12 2020
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 1
+ Corner type  : 45
+ Length limit is -0.01.
+
+ Maximum 45 limit is -0.01.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu May 21 17:23:12 2020
+
+ - 0 - Error(s) from Line smooth Glossing
+
+
+Line Centering Between Pins glossing in progress.
+Started on Thu May 21 17:23:12 2020
+
+Minimum Move Size 2.00.
+Line spacing MINIMUM
+Pad Tolerance 100.00.
+Corner type 45
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu May 21 17:23:12 2020
+
+
+
+Line Center Between Pins Stats
+
+Number of Glossing Attempts                   : 18
+Number of Actual Glossings                    : 0
+Number of Glossings Aborted by DRC violations : 0
+Number of Glossings Aborted by No-Gloss nets  : 0
+
+
+
+Line entry into Pad glossing in progress.
+Started on Thu May 21 17:23:12 2020
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+
+Finished execution 1
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu May 21 17:23:12 2020
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 0
+Number of Actual Glossings                    : 0
+Number of Glossings Aborted by DRC violations : 0
+
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.

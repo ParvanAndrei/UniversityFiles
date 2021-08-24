@@ -1,0 +1,94 @@
+
+**** 03/18/20 12:45:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab4-tc"  [ C:\Users\yoyol\Desktop\Facultate\lab4-tc-PSpiceFiles\SCHEMATIC1\lab4-tc.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab4-tc.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V3 -1 1 0.1m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB4-TC
+J_J1         OUT1 VIN N00204 BF245A 
+J_J2         N00204 0 OUT2 BF245A 
+R_R1         OUT1 V+  10k TC=0,0 
+R_R2         OUT2 V+  10k TC=0,0 
+I_I1         N00204 V- DC 1mA  
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+V_V3         VIN 0 0Vdc
+
+**** RESUMING lab4-tc.cir ****
+.END
+
+**** 03/18/20 12:45:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab4-tc"  [ C:\Users\yoyol\Desktop\Facultate\lab4-tc-PSpiceFiles\SCHEMATIC1\lab4-tc.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BF245A          
+               NJF             
+         VTO   -1.409        
+        BETA    1.754000E-03 
+      LAMBDA    2.667000E-03 
+          IS   33.570000E-15 
+         ISR  322.400000E-15 
+       ALPHA  311.700000E-06 
+          VK  243.6          
+          RD    1            
+          RS    1            
+         CGD    3.350000E-12 
+         CGS    3.736000E-12 
+           M     .3622       
+       VTOTC   -2.500000E-03 
+     BETATCE    -.5          
+          KF   13.560000E-18 
+
+
+
+          JOB CONCLUDED
+
+**** 03/18/20 12:45:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab4-tc"  [ C:\Users\yoyol\Desktop\Facultate\lab4-tc-PSpiceFiles\SCHEMATIC1\lab4-tc.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .16
+

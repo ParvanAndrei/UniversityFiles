@@ -1,0 +1,24 @@
+  Revised: Wednesday, May 27, 2020
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials            May 27,2020      20:30:39	Page1
+
+Item	Quantity	Reference	Part	PCB Footprint
+______________________________________________
+
+1	2	C1,C2	2200u	CYLD725LS300040
+2	1	C3	0.22u	DISC200X100LS200X125034
+3	1	C4	2.2uF	CYLD200LS100031
+4	1	C5	0.1u	DISC200X100LS200X125034
+5	1	C6	1uF	CYLD200LS100031
+6	4	D1,D2,D3,D4	D1N4002	DO41
+7	6	J1,J2,J3,J4,J5,J6	CON1	TESTCOUP
+8	1	R1	2.4k	AXRC05
+9	1	U1	LM7812C	TO220AB
+10	1	U2	LM7912C	TO220AB

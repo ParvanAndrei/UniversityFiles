@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-lab6t10"  [ C:\Users\yoyol\Desktop\Facultate\EA\lab6\lab6-tema10-pspicefiles\schematic1\lab6t10.sim ] 
+
+** Creating circuit file "lab6t10.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5m 0 1u 
+.FOUR 10k 30 V([OUT2]) 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

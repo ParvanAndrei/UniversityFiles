@@ -1,0 +1,147 @@
+
+**** 03/18/20 13:23:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab4-t6"  [ c:\users\yoyol\desktop\facultate\laboratorul4-PSpiceFiles\SCHEMATIC1\Lab4-t6.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Lab4-t6.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 10u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LABORATORUL4
+Q_Q1         N00207 0 N00329 Q2N2222
+Q_Q2         N00242 VIN N00329 Q2N2222
+Q_Q3         V+ N00242 OUT Q2N2222
+R_R1         N00207 V+  15k TC=0,0 
+R_R2         N00242 V+  15k TC=0,0 
+R_R3         V- OUT  10k TC=0,0 
+I_I1         N00329 V- DC 1mA  
+V_V3         VIN 0  
++SIN 0 1mV 1kHz 0 0 0
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+
+**** RESUMING Lab4-t6.cir ****
+.END
+
+**** 03/18/20 13:23:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab4-t6"  [ c:\users\yoyol\desktop\facultate\laboratorul4-PSpiceFiles\SCHEMATIC1\Lab4-t6.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N2222         
+               NPN             
+       LEVEL    1            
+          IS   14.340000E-15 
+          BF  255.9          
+          NF    1            
+         VAF   74.03         
+         IKF     .2847       
+         ISE   14.340000E-15 
+          NE    1.307        
+          BR    6.092        
+          NR    1            
+         ISS    0            
+          RB   10            
+          RE    0            
+          RC    1            
+         CJE   22.010000E-12 
+         VJE     .75         
+         MJE     .377        
+         CJC    7.306000E-12 
+         VJC     .75         
+         MJC     .3416       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  411.100000E-12 
+         XTF    3            
+         VTF    1.7          
+         ITF     .6          
+          TR   46.910000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 03/18/20 13:23:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab4-t6"  [ c:\users\yoyol\desktop\facultate\laboratorul4-PSpiceFiles\SCHEMATIC1\Lab4-t6.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)   15.0000  (   V-)  -15.0000  (  OUT)    6.7071  (  VIN)    0.0000      
+
+(N00207)    7.5418 (N00242)    7.3705 (N00329)    -.6253 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -3.312E-06
+    V_V1        -3.164E-03
+    V_V2        -3.171E-03
+
+    TOTAL POWER DISSIPATION   9.50E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/18/20 13:23:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab4-t6"  [ c:\users\yoyol\desktop\facultate\laboratorul4-PSpiceFiles\SCHEMATIC1\Lab4-t6.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

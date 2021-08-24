@@ -1,0 +1,225 @@
+
+**** 04/02/20 17:06:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab6t10"  [ C:\Users\yoyol\Desktop\Facultate\lab6-tema10-PSpiceFiles\SCHEMATIC1\lab6t10.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab6t10.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5m 0 1u 
+.FOUR 10k 30 V([OUT2]) 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB6-TEMA10
+R_RL2         0 OUT2  10k TC=0,0 
+R_R3         IN N00687  10k TC=0,0 
+X_U1         0 N00687 V+ V- OUT2 uA741
+V_V1         V+ 0 15V
+R_R4         N00687 OUT2  10k TC=0,0 
+V_V3         IN 0  
++SIN 0 1 10k 0 0 0
+V_V2         0 V- 15V
+
+**** RESUMING lab6t10.cir ****
+.END
+
+**** 04/02/20 17:06:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab6t10"  [ C:\Users\yoyol\Desktop\Facultate\lab6-tema10-PSpiceFiles\SCHEMATIC1\lab6t10.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 04/02/20 17:06:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab6t10"  [ C:\Users\yoyol\Desktop\Facultate\lab6-tema10-PSpiceFiles\SCHEMATIC1\lab6t10.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 04/02/20 17:06:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab6t10"  [ C:\Users\yoyol\Desktop\Facultate\lab6-tema10-PSpiceFiles\SCHEMATIC1\lab6t10.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (   V+)   15.0000  (   V-)  -15.0000  ( OUT2) 836.1E-06      
+
+(N00687) 19.25E-06 (X_U1.6)-81.52E-09 (X_U1.7) 844.4E-06 (X_U1.8) 844.4E-06     
+
+(X_U1.9)    0.0000 (X_U1.10)    -.6077                   (X_U1.11)   14.9600    
+
+(X_U1.12)   14.9600                   (X_U1.13)    -.5938                       
+
+(X_U1.14)    -.5938                   (X_U1.53)   14.0000                       
+
+(X_U1.54)  -14.0000                   (X_U1.90) 165.3E-06                       
+
+(X_U1.91)   40.0000                   (X_U1.92)  -40.0000                       
+
+(X_U1.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.667E-03
+    V_V3         1.925E-09
+    V_V2        -1.667E-03
+    X_U1.vb     -8.152E-13
+    X_U1.vc      1.400E-11
+    X_U1.ve      1.592E-11
+    X_U1.vlim    1.653E-07
+    X_U1.vlp    -4.000E-11
+    X_U1.vln    -4.000E-11
+
+    TOTAL POWER DISSIPATION   5.00E-02  WATTS
+
+
+**** 04/02/20 17:06:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab6t10"  [ C:\Users\yoyol\Desktop\Facultate\lab6-tema10-PSpiceFiles\SCHEMATIC1\lab6t10.sim ] 
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE V(OUT2)
+
+
+
+ DC COMPONENT =   9.2278E-04
+
+ HARMONIC   FREQUENCY     FOURIER     NORMALIZED     PHASE     NORMALIZED
+    NO         (HZ)      COMPONENT     COMPONENT     (DEG)     PHASE (DEG)
+
+     1    1.0000E+04   9.9959E-01   1.0000E+00   1.7883E+02   0.0000E+00
+     2    2.0000E+04   1.0863E-04   1.0868E-04  -1.2493E+02  -4.8259E+02
+     3    3.0000E+04   1.5528E-05   1.5535E-05  -3.6391E+01  -5.7288E+02
+     4    4.0000E+04   1.3721E-05   1.3727E-05  -1.0731E+01  -7.2605E+02
+     5    5.0000E+04   8.3554E-06   8.3589E-06   4.8525E+01  -8.4562E+02
+     6    6.0000E+04   5.5763E-06   5.5786E-06   1.0814E+02  -9.6484E+02
+     7    7.0000E+04   3.9495E-06   3.9511E-06   1.6486E+02  -1.0869E+03
+     8    8.0000E+04   2.8558E-06   2.8569E-06  -1.3452E+02  -1.5652E+03
+     9    9.0000E+04   2.1274E-06   2.1283E-06  -7.0069E+01  -1.6795E+03
+    10    1.0000E+05   1.8236E-06   1.8244E-06  -7.9014E+00  -1.7962E+03
+    11    1.1000E+05   1.6931E-06   1.6938E-06   5.1693E+01  -1.9154E+03
+    12    1.2000E+05   1.3831E-06   1.3836E-06   1.0672E+02  -2.0392E+03
+    13    1.3000E+05   1.1006E-06   1.1010E-06   1.6298E+02  -2.1618E+03
+    14    1.4000E+05   8.5866E-07   8.5901E-07  -1.3179E+02  -2.6354E+03
+    15    1.5000E+05   6.9936E-07   6.9965E-07  -6.3363E+01  -2.7458E+03
+    16    1.6000E+05   7.0523E-07   7.0553E-07  -1.2373E+00  -2.8625E+03
+    17    1.7000E+05   7.1635E-07   7.1665E-07   5.9849E+01  -2.9803E+03
+    18    1.8000E+05   6.4679E-07   6.4706E-07   1.0993E+02  -3.1090E+03
+    19    1.9000E+05   5.3674E-07   5.3696E-07   1.6224E+02  -3.2355E+03
+    20    2.0000E+05   3.8104E-07   3.8120E-07  -1.2823E+02  -3.7048E+03
+    21    2.1000E+05   3.3792E-07   3.3806E-07  -4.9365E+01  -3.8048E+03
+    22    2.2000E+05   4.7314E-07   4.7333E-07   1.0589E+01  -3.9237E+03
+    23    2.3000E+05   4.9911E-07   4.9932E-07   5.7092E+01  -4.0560E+03
+    24    2.4000E+05   4.2011E-07   4.2029E-07   9.2100E+01  -4.1998E+03
+    25    2.5000E+05   2.6833E-07   2.6845E-07   1.3295E+02  -4.3378E+03
+    26    2.6000E+05   4.3094E-08   4.3112E-08  -1.3867E+02  -4.7883E+03
+    27    2.7000E+05   1.6823E-07   1.6830E-07   2.1795E+00  -4.8262E+03
+    28    2.8000E+05   3.5039E-07   3.5053E-07   4.3453E+01  -4.9638E+03
+    29    2.9000E+05   4.1282E-07   4.1299E-07   8.3225E+01  -5.1028E+03
+    30    3.0000E+05   3.9130E-07   3.9146E-07   1.1501E+02  -5.2499E+03
+
+
+     TOTAL HARMONIC DISTORTION =   1.1128E-02 PERCENT
+
+
+          JOB CONCLUDED
+
+**** 04/02/20 17:06:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab6t10"  [ C:\Users\yoyol\Desktop\Facultate\lab6-tema10-PSpiceFiles\SCHEMATIC1\lab6t10.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .09
+

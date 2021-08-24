@@ -1,0 +1,25 @@
+\t (00:00:03) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu May 21 16:06:58 2020
+\t (00:00:03)         Host=DESKTOP-MV52DM8 User=yoyol Pid=9496 CPUs=8
+\t (00:00:03) CmdLine= C:\Users\yoyol\Desktop\College stuff\orcad\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/LAB11.brd
+\i (00:00:04) trapsize 1030
+\i (00:00:04) trapsize 1055
+\i (00:00:04) trapsize 1055
+\i (00:00:04) generaledit 
+\i (00:00:16) done 
+\i (00:00:16) place manual 
+\i (00:00:16) FORM plc_manual placement_list 
+\i (00:00:16) FORM plc_manual categories Components by refdes 
+\i (00:00:16) trapsize 1055
+\i (00:04:33) setwindow form.plc_manual
+\i (00:04:33) FORM plc_manual cancel  
+\i (00:04:33) setwindow pcb
+\i (00:04:33) generaledit 
+\i (00:04:33) exit 
+\e (00:04:34) Do you want to save the changes you made to LAB11.brd?
+\i (00:04:35) fillin no 
+\t (00:04:35)     Journal end - Thu May 21 16:11:31 2020

@@ -1,0 +1,15 @@
+* source LABROATORUL5
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+V_V3         IN 0  
++SIN 0 1V 1kHz 0 0 0
+Q_Q1         V+ IN OUT1 Q2N3904
+Q_Q2         V- IN OUT1 Q2N3906
+R_R1         OUT1 0  100 TC=0,0 
+R_R2         N02668 V+  10k TC=0,0 
+R_R5         V- N03076  10k TC=0,0 
+R_R6         0 OUT2  100 TC=0,0 
+Q_Q3         V+ N02668 OUT2 Q2N3904
+Q_Q4         V- N03076 OUT2 Q2N3906
+R_R3         IN N02668  500 TC=0,0 
+R_R4         N03076 IN  500 TC=0,0 

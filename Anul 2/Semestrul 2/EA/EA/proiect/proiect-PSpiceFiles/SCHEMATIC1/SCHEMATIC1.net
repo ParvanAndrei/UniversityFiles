@@ -1,0 +1,11 @@
+* source PROIECT
+X_U1A         N04583 N03169 V+ V- UIESMIX TL082
+V_V1         V+ 0 12V
+V_V2         0 V- 12V
+R_RL-3         0 UIESMIX  10k TC=0,0 
+R_R5-3         0 N04583  2.4k TC=0,0 
+R_R1-3         UIN N03169  10k TC=0,0 
+R_R2-3         UIN N03169  10k TC=0,0 
+R_R3-3         UIN N03169  10k TC=0,0 
+R_R4-3         N03169 UIESMIX  10k TC=0,0 
+V_V3         UIN 0 DC 0Vdc AC 0.1V 

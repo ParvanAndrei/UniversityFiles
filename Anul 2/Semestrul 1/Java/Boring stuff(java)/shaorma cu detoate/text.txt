@@ -1,0 +1,4 @@
+dudu,dudu,10
+cos,cos,8
+gogu,gogu,0
+ace,ventura,6

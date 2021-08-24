@@ -1,0 +1,23 @@
+  Revised: Wednesday, May 20, 2020
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials            May 21,2020      18:19:14	Page1
+
+Item	Quantity	Reference	Part	PCB Footprint
+______________________________________________
+
+1	2	C1,C2	10uF	CAP196
+2	1	C3	220uF	CAP196
+3	1	C4	1n	CAP196
+4	5	J1,J2,J3,J4,J5	CON1	TESTCOUP
+5	1	Q1	Q2N2222	TO18
+6	1	R2	100k	AXRC05
+7	1	R3	12k	AXRC05
+8	1	R4	5k	AXRC05
+9	1	R5	470	AXRC05

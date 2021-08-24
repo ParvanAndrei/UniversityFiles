@@ -1,0 +1,9 @@
+* source LABORATOR7-TEAM11
+E_U1         VO 0 VALUE {LIMIT(V(VP,VN)*1E6,-15V,+15V)}
+R_R1         0 VN  1k TC=0,0 
+R_R2         VN VO  1k TC=0,0 
+R_R3         VP VO  1k TC=0,0 
+R_R5         0 N01710  1k TC=0,0 
+V_V1         VP 0 1V
+V_V2         N01710 0 1V
+R_R6         0 VP  500 TC=0,0 

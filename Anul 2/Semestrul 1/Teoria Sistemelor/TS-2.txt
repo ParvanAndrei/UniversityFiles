@@ -1,0 +1,18 @@
+BILetul nr 2 
+ex1
+
+g(s)=40/4s+1
+a) raspunsul la intrare, impulsul diraq cu elementul cu functiea de transfer de mai sus(ec. si reprezentarea in dom . timpului)
+b) sa se det functia de transfer a sist. inchis (G0(S)) rezultat dintr-un regulator automat care are functia de transfer 
+de mai sus si instalatia tehnologica cu functia de transfer Git(S)=1/(s+1)(s+2)
+c) sa se analizeze folosind criteriu Hurwitz daca sisitemul obtinut la b) este stabil
+
+a)2p
+b)2p
+c)1p
+
+ex2
+a) Suprareglajul 2p
+b) Locul de treansfer cu el. de anticipare de ord. I dat de relatia 2p
+  		G(jw)= k(1+jwt)
+c) Discretizarea semnalelor(etape si prezentare) 1p

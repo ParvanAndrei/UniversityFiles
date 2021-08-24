@@ -1,0 +1,9 @@
+* source LABORATOR3
+R_R1         IN VN  100k TC=0,0 
+R_R2         VN OUT  100k TC=0,0 
+R_R3         0 VP  10k TC=0,0 
+R_R4         0 OUT  10k TC=0,0 
+V_V3         IN 0 DC 0Vdc AC 1Vac 
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+X_U1A         VP VN V+ V- OUT LM324

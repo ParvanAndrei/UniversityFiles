@@ -1,0 +1,15 @@
+
+ex1
+
+G(s)=2/3s+1
+a)rasp. in treapta unitara
+b)Git(s)=3/(2s+4)(s+3)
+c)?
+
+ex2
+raspunsul in treapta unitara
+raspunsul la rampa unitara
+functia de transfer a sist. de ordin 2
+
+
+suprareglajul

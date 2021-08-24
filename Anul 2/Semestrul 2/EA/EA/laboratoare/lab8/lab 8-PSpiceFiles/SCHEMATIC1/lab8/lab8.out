@@ -1,0 +1,98 @@
+
+**** 04/16/20 17:11:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab8"  [ C:\Users\yoyol\Desktop\Facultate\lab 8-PSpiceFiles\SCHEMATIC1\lab8.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab8.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 10us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB 8
+E_U1         OUT1 0 VALUE {LIMIT(V(N01665,NO1)*1E6,-15V,+15V)}
+E_U2         OUT2 0 VALUE {LIMIT(V(N01757,N01775)*1E6,-15V,+15V)}
+R_R1         IN N01665  10k TC=0,0 
+R_R2         N01665 OUT1  30k TC=0,0 
+R_R3         IN N01757  10k TC=0,0 
+R_R4         N01757 OUT2  30k TC=0,0 
+R_R5         0 N01775  10k TC=0,0 
+R_R6         N01775 NO2  30k TC=0,0 
+R_rg1         0 NO1  3 TC=0,0 
+R_rg2         0 NO2  3 TC=0,0 
+R_RL2         NO2 OUT2  30 TC=0,0 
+V_V1         IN 0  
++SIN 0 1V 1kHz 0 0 0
+R_RL1         NO1 OUT1  30 TC=0,0 
+
+**** RESUMING lab8.cir ****
+.END
+
+**** 04/16/20 17:11:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab8"  [ C:\Users\yoyol\Desktop\Facultate\lab 8-PSpiceFiles\SCHEMATIC1\lab8.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (  NO1)    0.0000  (  NO2)    0.0000  ( OUT1)    0.0000      
+
+( OUT2)    0.0000  (N01665)    0.0000 (N01757)    0.0000 (N01775)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/16/20 17:11:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab8"  [ C:\Users\yoyol\Desktop\Facultate\lab 8-PSpiceFiles\SCHEMATIC1\lab8.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

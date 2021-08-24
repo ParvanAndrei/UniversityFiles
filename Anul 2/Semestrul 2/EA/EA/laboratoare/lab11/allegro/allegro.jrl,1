@@ -1,0 +1,365 @@
+\t (00:00:03) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed May 20 12:45:24 2020
+\t (00:00:03)         Host=DESKTOP-MV52DM8 User=yoyol Pid=17344 CPUs=8
+\t (00:00:03) CmdLine= C:\Users\yoyol\Desktop\College stuff\orcad\tools\bin\allegro.exe -mpssession yoyol C:\USERS\YOYOL\DESKTOP\FACULTATE\EA\LAB11\allegro\LAB11.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/LAB11.brd
+\i (00:00:03) trapsize 10355
+\i (00:00:03) trapsize 10725
+\i (00:00:03) trapsize 16346
+\i (00:00:03) generaledit 
+\i (00:00:08) xhilite 
+\i (00:00:08) xname_flush 
+\i (00:00:08) done 
+\i (00:00:08) generaledit 
+\i (00:00:49) board outline 
+   (00:00:49) Loading floor.cxt 
+   (00:00:49) Loading fputil.cxt 
+\i (00:01:17) setwindow form.fpbdoutline
+\i (00:01:17) FORM fpbdoutline fpboclearance '100.00 MIL' 
+\i (00:01:17) FORM fpbdoutline fpboplacerect YES 
+\i (00:01:27) FORM fpbdoutline fpboplacewdt '2000.00 MIL' 
+\i (00:01:33) FORM fpbdoutline fpboplacehgt '1500.00 MIL' 
+\i (00:01:46) FORM fpbdoutline fpboplacehgt '1400.00 MIL' 
+\i (00:02:25) FORM fpbdoutline apply  
+\i (00:02:27) fillin confirm
+\i (00:02:28) FORM fpbdoutline done  
+\i (00:02:28) setwindow pcb
+\i (00:02:28) generaledit 
+\i (00:02:33) zoom points 
+\t (00:02:33) Pick 1st corner of the new window.
+\i (00:02:35) zoom out 1 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom out 17817.31 3563.46
+\i (00:02:35) trapsize 16346
+\i (00:02:37) board outline 
+\i (00:02:41) setwindow form.fpbdoutline
+\i (00:02:41) FORM fpbdoutline fpboclearance '100.00 MIL' 
+\i (00:02:41) FORM fpbdoutline fpboplacerect YES 
+\i (00:02:45) FORM fpbdoutline fpboplacewdt '2000.00 MIL' 
+\i (00:02:48) FORM fpbdoutline fpboplacehgt '1500.00 MIL' 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) pick grid 3203.85 14123.08
+\t (00:03:27) last pick:  3200.00 14100.00
+\i (00:03:31) pick grid 5067.31 14057.69
+\t (00:03:31) last pick:  5100.00 14100.00
+\i (00:03:32) pick grid 5198.08 14417.31
+\t (00:03:32) last pick:  5200.00 14400.00
+\e (00:03:35) Command not found: Del
+\i (00:03:40) setwindow form.fpbdoutline
+\i (00:03:40) FORM fpbdoutline done  
+\i (00:03:40) setwindow pcb
+\i (00:03:40) generaledit 
+\i (00:03:41) add connect 
+\t (00:03:42) Pick first element.
+\i (00:03:42) pick grid 2680.77 14286.54
+\t (00:03:42) last pick:  2675.00 14275.00
+\t (00:03:42) last pick:  2675.00 14275.00
+\i (00:03:42) pick grid 3530.77 14580.77
+\t (00:03:42) last pick:  3525.00 14575.00
+\t (00:03:42) DRC error(s) created.
+\i (00:03:42) zoom in 1 
+\i (00:03:42) setwindow pcb
+\i (00:03:42) zoom in 5132.69 12063.46
+\i (00:03:42) trapsize 8173
+\i (00:03:43) zoom in 1 
+\i (00:03:43) setwindow pcb
+\i (00:03:43) zoom in 6375.00 11736.54
+\i (00:03:43) trapsize 4087
+\i (00:03:43) zoom in 1 
+\i (00:03:43) setwindow pcb
+\i (00:03:43) zoom in 6375.01 11736.54
+\i (00:03:43) trapsize 2043
+\i (00:03:43) zoom in 1 
+\i (00:03:43) setwindow pcb
+\i (00:03:43) zoom in 6375.01 11736.54
+\i (00:03:43) trapsize 1022
+\i (00:03:44) zoom in 1 
+\i (00:03:44) setwindow pcb
+\i (00:03:44) zoom in 6375.01 11736.54
+\i (00:03:44) trapsize 511
+\i (00:03:44) zoom in 1 
+\i (00:03:44) setwindow pcb
+\i (00:03:44) zoom in 6375.01 11736.54
+\i (00:03:44) trapsize 255
+\i (00:03:44) Esc 
+\i (00:03:44) Esc 
+\i (00:03:45) pick grid 6375.01 11736.55
+\t (00:03:45) last pick:  6375.00 11725.00
+\t (00:03:45) DRC error(s) created.
+\i (00:03:45) Esc 
+\i (00:03:45) prepopup 6355.09 11674.23
+\i (00:03:46) Esc 
+\i (00:03:46) pick grid 6463.38 11774.86
+\t (00:03:46) last pick:  6475.00 11775.00
+\t (00:03:46) DRC error(s) created.
+\i (00:03:46) Esc 
+\e (00:03:47) Command not found: Del
+\i (00:03:48) zoom in 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom in 6463.38 11629.78
+\i (00:03:48) trapsize 128
+\i (00:03:48) zoom in 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom in 6463.38 11629.79
+\i (00:03:48) trapsize 64
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 6464.54 11630.68
+\i (00:03:49) trapsize 128
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 6464.79 11630.94
+\i (00:03:49) trapsize 255
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 6464.79 11630.94
+\i (00:03:49) trapsize 511
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 6464.78 11630.94
+\i (00:03:49) trapsize 1022
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 6468.87 11639.11
+\i (00:03:49) trapsize 2043
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 6468.87 11639.11
+\i (00:03:49) trapsize 4086
+\i (00:03:49) zoom out 1 
+\i (00:03:49) setwindow pcb
+\i (00:03:49) zoom out 6468.88 11639.12
+\i (00:03:49) trapsize 8173
+\i (00:03:49) mouse_pos 6440.27 11687.59
+\i (00:03:49) mouse_pos 6342.19 11785.67
+\i (00:03:49) mouse_pos 6244.12 11900.09
+\i (00:03:50) pick grid 5263.37 13387.56
+\t (00:03:50) last pick:  5275.00 13400.00
+\t (00:03:50) DRC error(s) created.
+\i (00:03:50) pick grid 4740.30 12701.04
+\t (00:03:50) last pick:  4750.00 12700.00
+\t (00:03:50) DRC error(s) created.
+\i (00:03:50) pick grid 4511.46 12553.92
+\t (00:03:50) last pick:  4500.00 12550.00
+\t (00:03:50) DRC error(s) created.
+\i (00:03:50) pick grid dbl 4511.46 12537.58
+\t (00:03:50) last pick:  4500.00 12550.00
+\t (00:03:50) VIA used for drill.
+\t (00:03:50) DRC error(s) created.
+\i (00:03:51) pick grid 4511.46 12537.58
+\t (00:03:51) last pick:  4500.00 12550.00
+\w (00:03:51) WARNING(SPMHAC-22): The pick was ignored.  It is the same as the previous pick.
+\i (00:03:51) pick grid dbl 4511.46 12537.58
+\t (00:03:51) last pick:  4500.00 12550.00
+\t (00:03:51) VIA used for drill.
+\t (00:03:51) DRC error(s) created.
+\i (00:03:51) mouse_pos 4691.26 12864.50
+\i (00:03:51) mouse_pos 4936.45 13027.95
+\i (00:03:51) mouse_pos 5328.75 13322.18
+\i (00:03:51) mouse_pos 5361.44 13501.98
+\i (00:03:51) mouse_pos 4871.07 14188.51
+\i (00:03:51) mouse_pos 4871.07 14368.31
+\i (00:03:52) pick grid 5018.18 14564.47
+\t (00:03:52) last pick:  5025.00 14575.00
+\t (00:03:52) DRC error(s) created.
+\i (00:03:52) prepopup 9758.48 14450.04
+\i (00:03:53) Esc 
+\i (00:03:54) mouse_pos 5083.56 12472.19
+\i (00:03:54) mouse_pos 5099.91 12684.69
+\i (00:03:54) Esc 
+\i (00:03:54) Esc 
+\i (00:03:55) Esc 
+\i (00:04:08) prepopup 2092.27 14466.39
+\i (00:04:10) cancel 
+\i (00:04:10) generaledit 
+\i (00:04:12) pick grid 5116.26 14548.12
+\t (00:04:12) last pick:  5125.00 14550.00
+\e (00:04:13) Command not found: Del
+\i (00:04:15) drag_start grid 2795.14 16068.28
+\i (00:04:15) drag_stop 6129.70 13894.28
+\e (00:04:16) Command not found: Del
+\e (00:04:16) Command not found: Del
+\e (00:04:17) Command not found: Del
+\e (00:04:17) Command not found: Del
+\i (00:04:19) prepopup 3220.14 15054.84
+\i (00:04:21) pop dyn_option_select @:@Delete 
+\i (00:04:21) delete 
+\i (00:04:21) generaledit 
+\i (00:04:23) board outline 
+\i (00:04:26) setwindow form.fpbdoutline
+\i (00:04:26) FORM fpbdoutline fpboclearance '100.00 MIL' 
+\i (00:04:26) FORM fpbdoutline fpboplacerect YES 
+\i (00:04:32) FORM fpbdoutline fpboplacewdt '2000.00 MIL' 
+\i (00:04:39) FORM fpbdoutline fpboplacehgt '1500.00 MIL' 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) pick 0,0 
+\t (00:05:25) last pick:  0.00 0.00
+\i (00:05:45) setwindow form.fpbdoutline
+\i (00:05:45) FORM fpbdoutline done  
+\i (00:05:45) setwindow pcb
+\i (00:05:45) generaledit 
+\i (00:05:54) zoom fit 
+\i (00:05:54) trapsize 1464
+\i (00:06:11) done 
+\i (00:06:11) place manual 
+\i (00:06:11) setwindow form.plc_manual 
+\i (00:06:11) setwindow form.plc_manual
+\i (00:06:11) FORM plc_manual advanced_settings 
+\i (00:06:11) FORM plc_manual advanced_settings  
+\i (00:06:11) FORM plc_manual library YES 
+\i (00:06:11) FORM plc_manual library YES 
+\i (00:06:11) FORM plc_manual placement_list 
+\i (00:06:11) FORM plc_manual placement_list  
+\i (00:06:11) FORM plc_manual categories Mechanical symbols 
+\i (00:06:11) FORM plc_manual categories Mechanical symbols 
+\i (00:06:11) trapsize 1464
+\i (00:12:14) setwindow pcb
+\i (00:12:14) done 
+\i (00:12:14) place manual 
+\i (00:12:15) setwindow form.plc_manual 
+\i (00:12:15) setwindow form.plc_manual
+\i (00:12:15) FORM plc_manual advanced_settings 
+\i (00:12:15) FORM plc_manual advanced_settings  
+\i (00:12:15) FORM plc_manual library YES 
+\i (00:12:15) FORM plc_manual placement_list 
+\i (00:12:15) FORM plc_manual placement_list  
+\i (00:12:15) FORM plc_manual categories Mechanical symbols 
+\i (00:12:15) trapsize 1464
+\i (00:12:25) setwindow form.find
+\i (00:12:25) FORM find find_name mtg 
+\i (00:12:28) setwindow form.plc_manual
+\i (00:12:28) FORM plc_manual alpha_filter 12 
+\i (00:12:30) setwindow form.find
+\i (00:12:30) FORM find find_name mtg125 
+\i (00:12:32) setwindow pcb
+\i (00:12:32) pick grid 386.63 1180.39
+\t (00:12:32) last pick:  400.00 1200.00
+\i (00:12:34) setwindow form.find
+\i (00:12:34) FORM find find_by_name  
+\i (00:12:41) setwindow form.findname
+\i (00:12:41) FORM findname cancel  
+\i (00:13:02) setwindow pcb
+\i (00:13:02) done 
+\i (00:13:02) place manual 
+\i (00:13:02) setwindow form.plc_manual 
+\i (00:13:02) setwindow form.plc_manual
+\i (00:13:02) FORM plc_manual advanced_settings 
+\i (00:13:02) FORM plc_manual advanced_settings  
+\i (00:13:02) FORM plc_manual library YES 
+\i (00:13:02) FORM plc_manual placement_list 
+\i (00:13:02) FORM plc_manual placement_list  
+\i (00:13:02) FORM plc_manual categories Mechanical symbols 
+\i (00:13:02) trapsize 1464
+\i (00:13:04) setwindow form.mini
+\i (00:13:04) FORM mini mirror YES 
+\i (00:13:04) FORM mini mirror NO 
+\i (00:13:05) setwindow pcb
+\i (00:13:05) pick grid 143.52 225.53
+\t (00:13:05) last pick:  100.00 200.00
+\i (00:13:06) prepopup 246.04 357.34
+\i (00:19:51) trapsize 983
+\i (00:20:07) done 
+\i (00:20:07) place manual 
+\i (00:20:07) FORM plc_manual placement_list 
+\i (00:20:07) FORM plc_manual categories Components by refdes 
+\i (00:20:07) setwindow form.plc_manual
+\i (00:20:07) FORM plc_manual categories Components by refdes 
+\i (00:20:07) setwindow pcb
+\i (00:20:07) trapsize 983
+\i (00:20:17) setwindow form.plc_manual
+\i (00:20:17) FORM plc_manual alpha_filter mtg125 
+\i (00:20:19) FORM plc_manual tree  'Components by refdes' 
+\i (00:20:21) FORM plc_manual categories Components by net group 
+\i (00:20:22) FORM plc_manual categories Package symbols 
+\i (00:20:25) FORM plc_manual categories Mechanical symbols 
+\i (00:20:27) FORM plc_manual tree  MTG125 'Mechanical symbols' 
+\i (00:20:31) setwindow pcb
+\i (00:20:31) pick grid 145.44 1316.80
+\t (00:20:31) last pick:  100.00 1300.00
+\i (00:20:33) setwindow form.plc_manual
+\i (00:20:33) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:20:35) setwindow pcb
+\i (00:20:35) pick grid 182.78 1348.25
+\t (00:20:35) last pick:  200.00 1300.00
+\i (00:20:36) setwindow form.plc_manual
+\i (00:20:36) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:20:38) setwindow pcb
+\i (00:20:38) pick grid 174.92 151.33
+\t (00:20:38) last pick:  200.00 200.00
+\i (00:20:39) setwindow form.plc_manual
+\i (00:20:39) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:20:40) setwindow pcb
+\i (00:20:40) pick grid 1762.95 237.81
+\t (00:20:40) last pick:  1800.00 200.00
+\i (00:20:43) setwindow form.plc_manual
+\i (00:20:43) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:20:44) setwindow pcb
+\i (00:20:44) pick grid 1753.12 1320.74
+\t (00:20:44) last pick:  1800.00 1300.00
+\i (00:20:47) setwindow form.plc_manual
+\i (00:20:47) FORM plc_manual cancel  
+\i (00:20:47) setwindow pcb
+\i (00:20:47) generaledit 
+\i (00:20:58) save 
+\i (00:21:01) fillin yes 
+\i (00:21:01) generaledit 
+\i (00:21:26) zoom in 1 
+\i (00:21:26) setwindow pcb
+\i (00:21:26) zoom in 1678.43 729.16
+\i (00:21:26) trapsize 491
+\i (00:21:26) zoom in 1 
+\i (00:21:26) setwindow pcb
+\i (00:21:26) zoom in 1678.43 729.16
+\i (00:21:26) trapsize 246
+\i (00:21:26) zoom in 1 
+\i (00:21:26) setwindow pcb
+\i (00:21:26) zoom in 1678.43 729.16
+\i (00:21:26) trapsize 123
+\i (00:21:27) zoom out 1 
+\i (00:21:27) setwindow pcb
+\i (00:21:27) zoom out 1682.86 732.11
+\i (00:21:27) trapsize 246
+\i (00:21:27) zoom out 1 
+\i (00:21:27) setwindow pcb
+\i (00:21:27) zoom out 1682.86 732.12
+\i (00:21:27) trapsize 491
+\i (00:21:27) zoom out 1 
+\i (00:21:27) setwindow pcb
+\i (00:21:27) zoom out 1682.85 732.11
+\i (00:21:27) trapsize 983
+\i (00:21:27) zoom out 1 
+\i (00:21:27) setwindow pcb
+\i (00:21:27) zoom out 1713.83 752.75
+\i (00:21:27) trapsize 1965
+\i (00:21:27) zoom out 1 
+\i (00:21:27) setwindow pcb
+\i (00:21:27) zoom out 3427.67 1505.50
+\i (00:21:27) trapsize 3931
+\i (00:21:29) zoom fit 
+\i (00:21:29) trapsize 1055
+\i (00:21:33) done 
+\i (00:21:33) place manual 
+\i (00:21:34) setwindow form.plc_manual 
+\i (00:21:34) setwindow form.plc_manual
+\i (00:21:34) FORM plc_manual advanced_settings 
+\i (00:21:34) FORM plc_manual advanced_settings  
+\i (00:21:34) FORM plc_manual library YES 
+\i (00:21:34) FORM plc_manual placement_list 
+\i (00:21:34) FORM plc_manual placement_list  
+\i (00:21:34) FORM plc_manual categories Mechanical symbols 
+\i (00:21:34) trapsize 1055
+\i (00:21:36) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:21:36) FORM plc_manual tree  MTG125 'Mechanical symbols' 
+\i (00:21:37) pick grid 1750.83 1331.05
+\t (00:21:37) last pick:  1800.00 1300.00
+\i (00:21:39) FORM plc_manual done  
+\i (00:21:39) setwindow pcb
+\i (00:21:39) generaledit 
+\i (00:21:41) save 
+\i (00:21:42) fillin yes 
+\i (00:21:42) generaledit 
+\i (00:22:30) exit 
+\t (00:22:30)     Journal end - Wed May 20 13:07:51 2020

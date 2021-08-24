@@ -1,0 +1,15 @@
+\t (00:00:01) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat May 30 20:45:33 2020
+\t (00:00:01)         Host=DESKTOP-MV52DM8 User=yoyol Pid=15996 CPUs=8
+\t (00:00:01) CmdLine= C:\Users\yoyol\Desktop\College stuff\orcad\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/yoyol/Desktop/Facultate/practica/allegro/PRACTICA2-3.brd
+\i (00:00:02) trapsize 1373
+\i (00:00:03) trapsize 1406
+\i (00:00:03) trapsize 1406
+\i (00:00:03) trapsize 19176
+\i (00:00:03) generaledit 
+\i (00:01:31) exit 
+\t (00:01:31)     Journal end - Sat May 30 20:47:02 2020

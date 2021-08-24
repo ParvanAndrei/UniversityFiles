@@ -1,0 +1,6 @@
+12.7ns  --- 1MHz
+5.55ns  --- 1MHz
+13ns
+125.6
+
+Lab ED Tena circuite RC - _4LF781B__Parvan Andrei Leonard_

@@ -1,0 +1,180 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : PRACTICA2-3.brd                               )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Fri May 29 20:32:18 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+
+Line entry into Pad glossing in progress.
+Started on Fri May 29 20:32:18 2020
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+Glossing was successful:  SYMBOL PIN at (2100.00,1700.00) defined by pad  TO_LLB_PAD48
+
+Glossing was successful:  SYMBOL PIN at (2800.00,1000.00) defined by pad  T1_1
+
+Glossing attempt unsuccessful. Active pad is at (2425.00,1125.00).
+
+Glossing was successful:  SYMBOL PIN at (2425.00,1125.00) defined by pad  TM_AXIAL_LLB_PAD2
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+
+Finished execution 2
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Fri May 29 20:32:18 2020
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 8
+Number of Actual Glossings                    : 3
+Number of Glossings Aborted by DRC violations : 0
+
+
+
+
+Line Smooth glossing in progress.
+Started on Fri May 29 20:32:18 2020
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 1
+ Corner type  : 45
+ Length limit is -0.01.
+
+ Maximum 45 limit is -0.01.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Fri May 29 20:32:18 2020
+
+ - 0 - Error(s) from Line smooth Glossing
+
+
+Line Centering Between Pins glossing in progress.
+Started on Fri May 29 20:32:18 2020
+
+Minimum Move Size 2.00.
+Line spacing MINIMUM
+Pad Tolerance 100.00.
+Corner type 45
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Fri May 29 20:32:18 2020
+
+
+
+Line Center Between Pins Stats
+
+Number of Glossing Attempts                   : 34
+Number of Actual Glossings                    : 0
+Number of Glossings Aborted by DRC violations : 0
+Number of Glossings Aborted by No-Gloss nets  : 0
+
+
+
+Line entry into Pad glossing in progress.
+Started on Fri May 29 20:32:18 2020
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+Glossing attempt unsuccessful. Active pad is at (410.00,1200.00).
+
+Glossing attempt unsuccessful. Active pad is at (410.00,1200.00).
+
+Glossing attempt unsuccessful. Active pad is at (400.00,600.00).
+
+Glossing was successful:  SYMBOL PIN at (400.00,600.00) defined by pad  PAD60SQ36D
+
+Glossing attempt unsuccessful. Active pad is at (410.00,800.00).
+
+Glossing was successful:  SYMBOL PIN at (800.00,1200.00) defined by pad  PAD60SQ36D
+
+Glossing was successful:  SYMBOL PIN at (1300.00,1300.00) defined by pad  TM_CYLND_LLB_PAD8
+
+Glossing attempt unsuccessful. Active pad is at (2425.00,1125.00).
+
+Glossing attempt unsuccessful. Active pad is at (2425.00,1125.00).
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+Glossing attempt unsuccessful. Active pad is at (2200.00,1700.00).
+
+Glossing attempt unsuccessful. Active pad is at (410.00,1200.00).
+
+Glossing attempt unsuccessful. Active pad is at (410.00,1200.00).
+
+Glossing attempt unsuccessful. Active pad is at (410.00,800.00).
+
+Glossing attempt unsuccessful. Active pad is at (2425.00,1125.00).
+
+Glossing attempt unsuccessful. Active pad is at (2425.00,1125.00).
+
+
+Finished execution 2
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Fri May 29 20:32:18 2020
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 18
+Number of Actual Glossings                    : 3
+Number of Glossings Aborted by DRC violations : 0
+
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.

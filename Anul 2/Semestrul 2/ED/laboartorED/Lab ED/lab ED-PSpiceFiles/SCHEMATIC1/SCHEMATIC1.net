@@ -1,0 +1,6 @@
+* source LAB ED
+V_V1         N00128 0  
++PULSE 0V 5V 10n 1n 1n 0.5us 1us
+R_R1         0 N04278  1k TC=0,0 
+X_U1A         N00128 N04278 $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0

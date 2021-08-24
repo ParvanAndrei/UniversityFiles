@@ -1,0 +1,333 @@
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "labED.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 2us 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB ED
+V_V1         N00128 0  
++PULSE 0V 5V 10n 1n 1n 0.5us 1us
+R_R1         0 N04278  1k TC=0,0 
+X_U1A         N00128 N04278 $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+
+**** RESUMING labED.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node N00128
+*
+* Moving X_U1A.U1:IN1 from analog node N00128 to new digital node N00128$AtoD
+X$N00128_AtoD1
++ N00128
++ N00128$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N04278
+*
+* Moving X_U1A.U1:OUT1 from analog node N04278 to new digital node N04278$DtoA
+X$N04278_DtoA1
++ N04278$DtoA
++ N04278
++ $G_DPWR
++ $G_DGND
++ DtoA_STD
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74CLMP         D74             
+          IS    1.000000E-15  100.000000E-18 
+          RS    2              25            
+         CJO    2.000000E-12    2.000000E-12 
+
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q74             
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF   49            
+          NF    1            
+         ISE  100.000000E-18 
+          BR     .03         
+          NR    1            
+         ISC  400.000000E-18 
+         ISS    0            
+          RB   50            
+          RE    0            
+          RC   20            
+         CJE    1.000000E-12 
+         VJE     .9          
+         MJE     .5          
+         CJC  500.000000E-15 
+         VJC     .8          
+         MJC     .33         
+        XCJC    1            
+         CJS    3.000000E-12 
+         VJS     .7          
+         MJS     .33         
+          TF  200.000000E-12 
+          TR   10.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DIN74           
+      S0NAME 0               
+       S0TSW    3.500000E-09 
+       S0RLO    7.13         
+       S0RHI  389            
+      S1NAME 1               
+       S1TSW    5.500000E-09 
+       S1RLO  467            
+       S1RHI  200            
+      S2NAME X               
+       S2TSW    3.500000E-09 
+       S2RLO   42.9          
+       S2RHI  116            
+      S3NAME R               
+       S3TSW    3.500000E-09 
+       S3RLO   42.9          
+       S3RHI  116            
+      S4NAME F               
+       S4TSW    3.500000E-09 
+       S4RLO   42.9          
+       S4RHI  116            
+      S5NAME Z               
+       S5TSW    3.500000E-09 
+       S5RLO  200.000000E+03 
+       S5RHI  200.000000E+03 
+
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74            
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI    2            
+       S0VLO     .8          
+      S1NAME 0               
+       S1VHI     .8          
+       S1VLO   -1.5          
+      S2NAME R               
+       S2VHI    1.4          
+       S2VLO     .8          
+      S3NAME R               
+       S3VHI    2            
+       S3VLO    1.3          
+      S4NAME X               
+       S4VHI    2            
+       S4VLO     .8          
+      S5NAME 1               
+       S5VHI    7            
+       S5VLO    2            
+      S6NAME F               
+       S6VHI    2            
+       S6VLO    1.3          
+      S7NAME F               
+       S7VHI    1.4          
+       S7VLO     .8          
+
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_04            
+      TPLHMN    4.800000E-09 
+      TPLHTY   12.000000E-09 
+      TPLHMX   22.000000E-09 
+      TPHLMN    3.200000E-09 
+      TPHLTY    8.000000E-09 
+      TPHLMX   15.000000E-09 
+
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STD          
+        DRVL  104            
+        DRVH   96.4          
+       AtoD1 AtoD_STD        
+       AtoD2 AtoD_STD_NX     
+       AtoD3 AtoD_STD        
+       AtoD4 AtoD_STD_NX     
+       DtoA1 DtoA_STD        
+       DtoA2 DtoA_STD        
+       DtoA3 DtoA_STD        
+       DtoA4 DtoA_STD        
+      TSWHL1    1.511000E-09 
+      TSWHL2    1.487000E-09 
+      TSWHL3    1.511000E-09 
+      TSWHL4    1.487000E-09 
+      TSWLH1    3.517000E-09 
+      TSWLH2    3.564000E-09 
+      TSWLH3    3.517000E-09 
+      TSWLH4    3.564000E-09 
+       TPWRT  100.000000E+03 
+
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00128)    0.0000 (N04278)    3.0708 ($G_DGND)    0.0000                       
+
+($G_DPWR)    5.0000                   (X$N00128_AtoD1.1)     .0915              
+
+(X$N00128_AtoD1.2)     .0457          (X$N00128_AtoD1.3)     .8277          
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(N00128$AtoD) : 0  (N04278$DtoA) : 1  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         1.043E-03
+    X$DIGIFPWR.VDPWR  -1.069E-02
+    X$DIGIFPWR.VDGND  -4.119E-03
+
+    TOTAL POWER DISSIPATION   5.35E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/13/20 10:13:22 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-labED"  [ c:\users\yoyol\desktop\facultate\laboartored\lab ed\lab ed-pspicefiles\schematic1\labed.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

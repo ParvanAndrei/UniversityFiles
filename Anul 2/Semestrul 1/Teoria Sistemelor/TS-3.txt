@@ -1,0 +1,17 @@
+1) Frecventa de transfer G(s)=15/(s+1)
+a)rasp la intrare treapta unitara a el cu fct de transfer de mai sus. Repr in domeniul timpului
+b) Sa se det, fct de transf a sist inchis G0(s) care are fct de transf Gi(s).
+c) sa se analizeze folosind criteriul Huritz daca sist de la pct b este stabil
+
+2) Sa  se trateze dpdv teoretic urmatoarele chestiuni:
+a) timpul de rasp
+b)analiza spectrala a sistemelor, puterea probabila, fen antialiasing(???)
+
+3. Se da un sistem automat care contine pe cale directa un regulator de tip I, un el de ec de tip PD(T1=0.5s) si o instalatie tehnologica 
+de tip el. de intarziere de ord II (Ie=0.5s). 
+Factorul total de amplificare este K=10. Se cere:
+a) schema caii directe (sist deschis) si fct de transfer echiv
+b) caracteristica lograritmica amplitudine pulsatie a sistemului deschis
+c) aprecierea stabilitatii sistemului deschis folosind relatia lui bode
+
+ 

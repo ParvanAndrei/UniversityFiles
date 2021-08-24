@@ -1,0 +1,9 @@
+* source COLOCVIU_PARCTICA
+X_U1         INPUT OUTPUT N00261 LM7912C
+V_V1         0 INPUT 30V
+C_C1         0 INPUT  2.2uF  
+C_C2         0 OUTPUT  1uF  
+C_C3         0 N00261  25uF  
+X_R1         0 0 N00365 POT PARAMS: SET=0 VALUE=750
+R_R2         OUTPUT N00365  750 TC=0,0 
+R_RL         OUTPUT 0  50 TC=0,0 

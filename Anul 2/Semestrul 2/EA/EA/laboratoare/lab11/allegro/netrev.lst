@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : LAB11.brd                                     )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Wed May 20 12:45:20 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\YOYOL\DESKTOP\FACULTATE\EA\LAB11\allegro'
+Design Directory:            'C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro'
+Old design name:             'C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/LAB11.brd'
+New design name:             'C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/LAB11.brd'
+
+CmdLine: netrev.exe -y 1 -n -i C:\USERS\YOYOL\DESKTOP\FACULTATE\EA\LAB11\allegro C:\USERS\YOYOL\DESKTOP\FACULTATE\EA\LAB11\allegro\LAB11.brd C:\USERS\YOYOL\DESKTOP\FACULTATE\EA\LAB11\allegro\LAB11.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/pstchip.dat 
+   Finished reading C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/pstxprt.dat 
+   Finished reading C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/pstxnet.dat 
+   Finished reading C:/USERS/YOYOL/DESKTOP/FACULTATE/EA/LAB11/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Users/yoyol/Desktop/College stuff/orcad/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Users/yoyol/Desktop/College stuff/orcad/share/local/pcb/symbols 
+           C:/Users/yoyol/Desktop/College stuff/orcad/share/pcb/pcb_lib/symbols 
+           C:/Users/yoyol/Desktop/College stuff/orcad/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Users/yoyol/Desktop/College stuff/orcad/share/local/pcb/padstacks 
+           C:/Users/yoyol/Desktop/College stuff/orcad/share/pcb/pcb_lib/symbols 
+           C:/Users/yoyol/Desktop/College stuff/orcad/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 20 12:45:20 2020
+   DESIGN NAME : 'LAB11'
+   PACKAGING ON Jul 30 2017 03:29:02
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:59
+elapsed time  0:00:00
+

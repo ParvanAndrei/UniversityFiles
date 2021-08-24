@@ -1,0 +1,201 @@
+
+**** 06/08/20 11:32:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "practica.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source COLOCVIU_PARCTICA
+X_U1         INPUT OUTPUT N00261 LM7912C
+V_V1         INPUT 0 30V
+C_C1         0 INPUT  2.2uF  
+C_C2         0 OUTPUT  1uF  
+C_C3         0 N00261  25uF  
+X_R1         0 0 N00365 POT PARAMS: SET=0 VALUE=750
+R_R2         OUTPUT N00365  1k TC=0,0 
+R_RL         OUTPUT 0  50 TC=0,0 
+
+**** RESUMING practica.cir ****
+.END
+
+**** 06/08/20 11:32:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Dlim    X_U1.x1.Dz      
+          IS   10.000000E-15   50.000000E-15 
+          BV                    7.11         
+         IBV                   50.000000E-09 
+          RS                    3            
+          VJ     .7                          
+
+
+**** 06/08/20 11:32:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Npn1    X_U1.x1.Pnp1    
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   10.000000E-15   10.000000E-15 
+          BF   50             250            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 06/08/20 11:32:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Rbg1    
+           R    1            
+         TC1 -950.000000E-09 
+         TC2 -653.000000E-09 
+
+
+**** 06/08/20 11:32:27 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica"  [ C:\Users\yoyol\Desktop\Facultate\colocviu_parctica-PSpiceFiles\SCHEMATIC1\practica.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Sbg1    
+         RON    1            
+        ROFF    1.000000E+06 
+         VON    3.7          
+        VOFF    3            
+
+
+Starting pseudo-transient algorithm.
+
+ERROR -- Convergence problem in transient bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(INPUT)    8.3170  (N00261)     .0058 (N00365) 539.9E-09 (OUTPUT)     .5399     
+
+(X_U1.x1.4)    1.9905                 (X_U1.x1.5)    1.2476                     
+
+(X_U1.x1.6)     .5590                 (X_U1.x1.7)    8.3164                     
+
+(X_U1.x1.8)     .4062                 (X_U1.x1.9)     .5400                     
+
+(X_U1.x1.50)    1.1280                (X_U1.x1.51)    8.2753                    
+
+(X_U1.x1.52)    8.2212                (X_U1.x1.53)    8.4002                    
+
+(X_U1.x1.54)    7.6304                (X_U1.x1.100)   -2.0515                   
+
+(X_U1.x1.101) 251.1E-06               (X_U1.x1.102)    2.3041                   
+
+(X_U1.x1.105)  -21.2020               (X_U1.x1.106)    1.1521                   
+
+(X_U1.x1.107)    -.2772               (X_U1.x1.108)    2.5814                   
+
+(X_U1.x1.200)  192.4000               (X_U1.x1.Imon)     .5399              
+
+
+  These voltages failed to converge:
+
+    V(X_U1.x1.9)              =   540.85mV  \   540.02mV
+    V(X_U1.x1.105)            =    -76.48V  \    -21.20V
+    V(X_U1.x1.106)            =    -76.48V  \     1.152V
+    V(X_U1.x1.5)              =     1.523V  \     1.248V
+    V(X_U1.x1.6)              =   274.29mV  \   559.02mV
+    V(X_U1.x1.4)              =     84.79V  \     1.991V
+
+  These supply currents failed to converge:
+
+    I(X_U1.x1.Ebg)            =  -253.18uA  \   -10.00GA
+    I(X_U1.x1.Eopamp)         =    3.473nA  \    22.35mA
+    I(X_U1.x1.Efb)            =   -83.27mA  \  -742.96uA
+    I(V_V1)                   =   -74.07mA  \   -3.909mA
+    I(X_U1.x1.Vl1)            =   -1.767nA  \   -10.00GA
+    I(X_U1.x1.Vl2)            =    1.706nA  \   -10.00GA
+    I(X_U1.x1.Vmon)           =    94.24mA  \    11.84mA
+
+  These devices failed to converge:
+    X_U1.x1.D1 X_U1.x1.D2 X_U1.x1.Q1 X_U1.x1.Q2 X_U1.x1.Qcl3 
+
+ERROR(ORPSIM-15659): Discontinuing simulation due to convergence problem
+
+**** Interrupt ****

@@ -1,0 +1,114 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001May-28-2020 at 17:34:28}
+primitive 'C_ELECT_0_CAP196_10UF';
+  pin
+    '+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_elect_0';
+    JEDEC_TYPE='CAP196';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'CON1_TESTCOUP_CON1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON1';
+    JEDEC_TYPE='TESTCOUP';
+    VALUE='CON1';
+  end_body;
+end_primitive;
+primitive 'R_AXRC05_10K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AXRC05';
+    VALUE='10k';
+  end_body;
+end_primitive;
+primitive 'R_AXRC05_30K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AXRC05';
+    VALUE='30k';
+  end_body;
+end_primitive;
+primitive 'R_AXRC05_100K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AXRC05';
+    VALUE='100k';
+  end_body;
+end_primitive;
+primitive 'R_AXRC05_33K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AXRC05';
+    VALUE='33k';
+  end_body;
+end_primitive;
+primitive 'LM324_DIP14_3_LM324';
+  pin
+    'OUT':
+      PIN_NUMBER='(1,7,8,14)';
+      OUTPUT_LOAD='(*)';
+    '+':
+      PIN_NUMBER='(3,5,10,12)';
+      INPUT_LOAD='(*)';
+    '-':
+      PIN_NUMBER='(2,6,9,13)';
+      INPUT_LOAD='(*)';
+    'V+':
+      PIN_NUMBER='(4,4,4,4)';
+      INPUT_LOAD='(*)';
+    'V-':
+      PIN_NUMBER='(11,11,11,11)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='LM324';
+    JEDEC_TYPE='DIP14_3';
+    VALUE='LM324';
+  end_body;
+end_primitive;
+END.

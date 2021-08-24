@@ -1,0 +1,3 @@
+    2 NEG  3    
+4   NEG1     *   
+g NEG q NEG  12   

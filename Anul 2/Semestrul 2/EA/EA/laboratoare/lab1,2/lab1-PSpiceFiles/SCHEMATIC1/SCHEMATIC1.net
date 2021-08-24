@@ -1,0 +1,8 @@
+* source LAB1
+X_U1A         0 N01883 N01942 N01925 OUT LM324
+V_V1         N01942 0 15V
+V_V2         0 N01925 15v
+V_V3         IN 0 -1V
+R_R1         IN N01883  10k TC=0,0 
+R_R2         N01883 OUT  100k TC=0,0 
+R_R3         OUT 0  10k TC=0,0 

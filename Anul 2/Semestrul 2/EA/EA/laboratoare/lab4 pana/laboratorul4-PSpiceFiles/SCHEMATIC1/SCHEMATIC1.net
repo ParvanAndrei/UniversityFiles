@@ -1,0 +1,12 @@
+* source LABORATORUL4
+Q_Q1         N00207 0 N00329 Q2N2222
+Q_Q2         N00242 VIN N00329 Q2N2222
+Q_Q3         V+ N00242 OUT Q2N2222
+R_R1         N00207 V+  15k TC=0,0 
+R_R2         N00242 V+  15k TC=0,0 
+R_R3         V- OUT  10k TC=0,0 
+I_I1         N00329 V- DC 1mA  
+V_V3         VIN 0  
++SIN 0 1mV 1kHz 0 0 0
+V_V1         V+ 0 15V
+V_V2         0 V- 15V

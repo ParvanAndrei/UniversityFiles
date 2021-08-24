@@ -1,0 +1,16 @@
+.ALIASES
+X_U1A           U1A(+=N04583 -=N03169 V+=V+ V-=V- OUT=UIESMIX ) CN @PROIECT.SCHEMATIC1(sch_1):INS2867@OPAMP.TL082.Normal(chips)
+V_V1            V1(+=V+ -=0 ) CN @PROIECT.SCHEMATIC1(sch_1):INS2917@SOURCE.VDC.Normal(chips)
+V_V2            V2(+=0 -=V- ) CN @PROIECT.SCHEMATIC1(sch_1):INS2933@SOURCE.VDC.Normal(chips)
+R_RL-3          RL-3(1=0 2=UIESMIX ) CN @PROIECT.SCHEMATIC1(sch_1):INS3006@ANALOG.R.Normal(chips)
+R_R5-3          R5-3(1=0 2=N04583 ) CN @PROIECT.SCHEMATIC1(sch_1):INS4494@ANALOG.R.Normal(chips)
+R_R1-3          R1-3(1=UIN 2=N03169 ) CN @PROIECT.SCHEMATIC1(sch_1):INS4510@ANALOG.R.Normal(chips)
+R_R2-3          R2-3(1=UIN 2=N03169 ) CN @PROIECT.SCHEMATIC1(sch_1):INS4535@ANALOG.R.Normal(chips)
+R_R3-3          R3-3(1=UIN 2=N03169 ) CN @PROIECT.SCHEMATIC1(sch_1):INS4551@ANALOG.R.Normal(chips)
+R_R4-3          R4-3(1=N03169 2=UIESMIX ) CN @PROIECT.SCHEMATIC1(sch_1):INS4567@ANALOG.R.Normal(chips)
+V_V3            V3(+=UIN -=0 ) CN @PROIECT.SCHEMATIC1(sch_1):INS4756@SOURCE.VAC.Normal(chips)
+_    _(Uiesmix=UIESMIX)
+_    _(Uin=UIN)
+_    _(V+=V+)
+_    _(V-=V-)
+.ENDALIASES

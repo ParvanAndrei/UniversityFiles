@@ -1,0 +1,282 @@
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Users/yoyol/Desktop/Facultate/allegro/LAB12-t25-3.brd
+Started on   Thu May 21 17:23:12 2020
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 14  Unplaced 0  Total 14
+        Nets:  W/Rats 7  No/Rats 0  Total 7
+        Pins:  W/Rats 24  No/Rats 0  Unused 0  Unplaced 0  Total 24
+        Equivalent ICs (1 pin = 1/14 EIC)  1
+        Router Keepin (in) (0.1000,0.1000) by (1.9000,1.3000)
+        Board area (sq in)  2.2
+        Board density (sq in/EIC) 1.260
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 17           0           17
+        Already Connected           17           0           17
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)       6.30
+        Etch Length (inches)         5.61        0.00         5.61
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H  5.00  5.00  5.00   5.00  5.00   24.00  25.00
+        X grids:     25.00  Offset: 0.00
+        Y grids:     25.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V  5.00  5.00  5.00   5.00  5.00   24.00  25.00
+        X grids:     25.00  Offset: 0.00
+        Y grids:     25.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 17           0           17
+        Already Connected           17           0           17
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)         5.61        0.00         5.61
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+
+    Total cpu time - 0:0:58 hours
+    Total elapsed time - 259:11:32 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Thu May 21 17:23:12 2020
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Users/yoyol/Desktop/Facultate/allegro/LAB12-t25-3.brd
+Started on   Thu May 21 17:23:12 2020
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 14  Unplaced 0  Total 14
+        Nets:  W/Rats 7  No/Rats 0  Total 7
+        Pins:  W/Rats 24  No/Rats 0  Unused 0  Unplaced 0  Total 24
+        Equivalent ICs (1 pin = 1/14 EIC)  1
+        Router Keepin (in) (0.1000,0.1000) by (1.9000,1.3000)
+        Board area (sq in)  2.2
+        Board density (sq in/EIC) 1.260
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 17           0           17
+        Already Connected           17           0           17
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)       6.30
+        Etch Length (inches)         5.61        0.00         5.61
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H  5.00  5.00  5.00   5.00  5.00   24.00  25.00
+        X grids:     25.00  Offset: 0.00
+        Y grids:     25.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V  5.00  5.00  5.00   5.00  5.00   24.00  25.00
+        X grids:     25.00  Offset: 0.00
+        Y grids:     25.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 17           0           17
+        Already Connected           17           0           17
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)         5.61        0.00         5.61
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+
+    Total cpu time - 0:0:58 hours
+    Total elapsed time - 259:11:32 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Thu May 21 17:23:12 2020
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Users/yoyol/Desktop/Facultate/allegro/LAB12-t25-3.brd
+Started on   Thu May 21 17:23:12 2020
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 14  Unplaced 0  Total 14
+        Nets:  W/Rats 7  No/Rats 0  Total 7
+        Pins:  W/Rats 24  No/Rats 0  Unused 0  Unplaced 0  Total 24
+        Equivalent ICs (1 pin = 1/14 EIC)  1
+        Router Keepin (in) (0.1000,0.1000) by (1.9000,1.3000)
+        Board area (sq in)  2.2
+        Board density (sq in/EIC) 1.260
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 17           0           17
+        Already Connected           17           0           17
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)       6.30
+        Etch Length (inches)         5.47        0.00         5.47
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H  5.00  5.00  5.00   5.00  5.00   24.00  25.00
+        X grids:     25.00  Offset: 0.00
+        Y grids:     25.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     2  BOTTOM               V  5.00  5.00  5.00   5.00  5.00   24.00  25.00
+        X grids:     25.00  Offset: 0.00
+        Y grids:     25.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 17           0           17
+        Already Connected           17           0           17
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)         5.47        0.00         5.47
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                         0
+
+
+
+    Total cpu time - 0:0:58 hours
+    Total elapsed time - 259:11:32 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Thu May 21 17:23:12 2020

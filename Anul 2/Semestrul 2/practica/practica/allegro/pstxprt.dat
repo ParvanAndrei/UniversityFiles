@@ -1,0 +1,200 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001May-27-2020 at 20:31:40 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PRACTICA2';
+ POST_TIME='Jul 30 2017 03:29:02';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_ELECT_2_CYLD725LS300040_2200U':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS332@PRACTICA2.C_ELECT_2.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins332@practica2.\c_elect_2.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins332@practica2.\c_elect_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_ELECT_2_CYLD725LS300040_2200U':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS352@PRACTICA2.C_ELECT_2.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins352@practica2.\c_elect_2.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins352@practica2.\c_elect_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_DISC200X100LS200X125034_0.22U':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS392@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins392@analog.\c.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins392@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_ELECT_2_CYLD200LS100031_2.2UF':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS419@PRACTICA2.C_ELECT_2.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins419@practica2.\c_elect_2.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins419@practica2.\c_elect_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_DISC200X100LS200X125034_0.1U':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS463@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins463@analog.\c.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins463@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_ELECT_2_CYLD200LS100031_1UF':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS490@PRACTICA2.C_ELECT_2.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins490@practica2.\c_elect_2.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins490@practica2.\c_elect_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'D1N4002_DO41_D1N4002':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS149@DIODE.D1N4002.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins149@diode.\d1n4002.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins149@diode.\d1n4002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'D1N4002_DO41_D1N4002':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS165@DIODE.D1N4002.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins165@diode.\d1n4002.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins165@diode.\d1n4002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'D1N4002_DO41_D1N4002':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS181@DIODE.D1N4002.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins181@diode.\d1n4002.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins181@diode.\d1n4002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'D1N4002_DO41_D1N4002':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS197@DIODE.D1N4002.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins197@diode.\d1n4002.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins197@diode.\d1n4002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON1_TESTCOUP_CON1':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4433@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4433@connector.\con1.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4433@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON1_TESTCOUP_CON1':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4453@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4453@connector.\con1.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4453@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON1_TESTCOUP_CON1':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4495@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4495@connector.\con1.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4495@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON1_TESTCOUP_CON1':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4564@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4564@connector.\con1.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4564@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON1_TESTCOUP_CON1':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4587@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4587@connector.\con1.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4587@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON1_TESTCOUP_CON1':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4623@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4623@connector.\con1.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4623@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_AXRC05_2.4K':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS273@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins273@analog.\r.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins273@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'LM7812C_TO220AB_LM7812C':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4101@OPAMP.LM7812C.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4101@opamp.\lm7812c.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4101@opamp.\lm7812c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'LM7912C_TO220AB_LM7912C':;
+
+SECTION_NUMBER 1
+ '@PRACTICA2.SCHEMATIC1(SCH_1):INS4187@OPAMP.LM7912C.NORMAL(CHIPS)':
+ C_PATH='@practica2.schematic1(sch_1):ins4187@opamp.\lm7912c.normal\(chips)',
+ P_PATH='@practica2.schematic1(sch_1):page1_ins4187@opamp.\lm7912c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

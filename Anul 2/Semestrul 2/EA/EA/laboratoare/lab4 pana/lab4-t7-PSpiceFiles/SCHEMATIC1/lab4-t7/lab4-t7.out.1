@@ -1,0 +1,54 @@
+
+**** 03/18/20 10:18:41 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab4-t7"  [ C:\Users\yoyol\Desktop\Facultate\lab4-t7-PSpiceFiles\SCHEMATIC1\lab4-t7.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab4-t7.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V3 -200m 200m 0.1m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB4-T7
+Q_Q1         OUT1 VIN N00257 Q2N2222
+Q_Q2         OUT2 0 N00257 Q2N2222
+Q_Q3         OUT3 VCC N00300 Q2N2222
+Q_Q4         OUT4 0 N00306 Q2N2222
+R_R1         OUT1 V+  15k TC=0,0 
+R_R2         OUT2 V+  15k TC=0,0 
+R_R3         OUT3 V+  15k TC=0,0 
+R_R4         OUT4 V+  15k TC=0,0 
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+V_V3         VIN 0 0Vdc
+I_I1         N00257 V- DC 1mA  
+I_I2         N00312 V- DC 1mA  
+R_R5         N00300 N00312  100 TC=0,0 
+R_R6         N00312 N00306  100 TC=0,0 
+
+**** RESUMING lab4-t7.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node VCC.
+

@@ -1,0 +1,264 @@
+
+**** 05/27/20 19:59:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica2"  [ C:\Users\yoyol\Desktop\Facultate\practica\practica2-PSpiceFiles\SCHEMATIC1\practica2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "practica2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 0 0.1m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PRACTICA2
+X_TX1         N00877 0 N1 0 N2 XFRM_LIN/CT-SEC PARAMS:  LP_VALUE=120mH
++  LS1_VALUE=2.18mH LS2_VALUE=2.18mH COUPLING=.99 RP_VALUE=0.1 RS_VALUE=0.1
+V_V1         N00877 0  
++SIN 0 325V 50Hz 0 0 0
+D_D1         N4 N1 D1N4002 
+D_D2         N1 N3 D1N4002 
+D_D3         N4 N2 D1N4002 
+D_D4         N2 N3 D1N4002 
+R_R1         0 N6  2.4k TC=0,0 
+R_RL1         0 N5  12 TC=0,0 
+R_RL2         N6 0  12 TC=0,0 
+C_C1         N3 0  2200u  
+C_C2         0 N4  2200u  
+C_C3         0 N3  0.22u  TC=0,0 
+C_C4         0 N4  2.2uF  
+C_C5         0 N5  0.1u  TC=0,0 
+C_C6         0 N6  1uF  
+X_U1         N3 N5 0 LM7812C
+X_U2         N4 N6 0 LM7912C
+
+**** RESUMING practica2.cir ****
+.END
+
+**** 05/27/20 19:59:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica2"  [ C:\Users\yoyol\Desktop\Facultate\practica\practica2-PSpiceFiles\SCHEMATIC1\practica2.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4002         X_U1.x1.Dlim    X_U1.x1.Dz      X_U2.x1.Dlim    
+          IS   14.110000E-09   10.000000E-15   50.000000E-15   10.000000E-15 
+           N    1.984                                                        
+         ISR  100.000000E-12                                                 
+         IKF   94.81                                                         
+          BV  100.1                             7.11                         
+         IBV   10                              50.000000E-09                 
+          RS     .03389                         3                            
+          TT    4.761000E-06                                                 
+         CJO   51.170000E-12                                                 
+          VJ     .3905           .7                              .7          
+           M     .2762                                                       
+
+
+               X_U2.x1.Dz      
+          IS   50.000000E-15 
+          BV    7.11         
+         IBV   50.000000E-09 
+          RS    3            
+
+
+**** 05/27/20 19:59:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica2"  [ C:\Users\yoyol\Desktop\Facultate\practica\practica2-PSpiceFiles\SCHEMATIC1\practica2.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Npn1    X_U2.x1.Npn1    X_U2.x1.Pnp1    
+               NPN             NPN             PNP             
+       LEVEL    1               1               1            
+          IS   10.000000E-15   10.000000E-15   10.000000E-15 
+          BF   50              50             250            
+          NF    1               1               1            
+          BR    1               1               1            
+          NR    1               1               1            
+         ISS    0               0               0            
+          RE    0               0               0            
+          RC    0               0               0            
+         CJE    0               0               0            
+         VJE     .75             .75             .75         
+         CJC    0               0               0            
+         VJC     .75             .75             .75         
+         MJC     .33             .33             .33         
+        XCJC    1               1               1            
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.42            2.2          
+           D     .87             .87             .52         
+
+
+**** 05/27/20 19:59:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica2"  [ C:\Users\yoyol\Desktop\Facultate\practica\practica2-PSpiceFiles\SCHEMATIC1\practica2.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.x1.Rbg1    
+           R    1            
+         TC1 -950.000000E-09 
+         TC2 -653.000000E-09 
+
+
+**** 05/27/20 19:59:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica2"  [ C:\Users\yoyol\Desktop\Facultate\practica\practica2-PSpiceFiles\SCHEMATIC1\practica2.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x1.Sbg1    X_U2.x1.Sbg1    
+         RON    1               1            
+        ROFF    1.000000E+06    1.000000E+06 
+         VON    3.7             3.7          
+        VOFF    3               3            
+
+
+**** 05/27/20 19:59:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica2"  [ C:\Users\yoyol\Desktop\Facultate\practica\practica2-PSpiceFiles\SCHEMATIC1\practica2.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   N1)-711.5E-12  (   N2)-711.5E-12  (   N3)-19.17E-12  (   N4)    -.4396      
+
+(   N5) 8.157E-21  (   N6)-620.5E-12  (N00877)    0.0000 (X_TX1.2)    0.0000    
+
+(X_TX1.7)    0.0000                   (X_TX1.8)    0.0000                       
+
+(X_TX1.9) 9.242E-18                   (X_TX1.10) 9.242E-18                      
+
+(X_U1.x1.4) 338.5E-12                 (X_U1.x1.5) 338.5E-12                     
+
+(X_U1.x1.6)-212.9E-21                 (X_U1.x1.7) 8.221E-21                     
+
+(X_U1.x1.8) 8.162E-21                 (X_U1.x1.9) 8.162E-21                     
+
+(X_U2.x1.4)    -.2198                 (X_U2.x1.5)    -.2194                     
+
+(X_U2.x1.6)    -.4396                 (X_U2.x1.7)    -.4396                     
+
+(X_U2.x1.8)-621.0E-12                 (X_U2.x1.9)-621.0E-12                     
+
+(X_U1.x1.55) 128.7E-21                (X_U1.x1.56)-433.7E-21                    
+
+(X_U2.x1.50)    -.4051                (X_U2.x1.51)    -.4051                    
+
+(X_U2.x1.52)     .2183                (X_U2.x1.53)    -.1396                    
+
+(X_U2.x1.54)    -.2186                (X_U1.x1.100)    7.4000                   
+
+(X_U1.x1.101) 7.399E-06               (X_U1.x1.102)-19.17E-12                   
+
+(X_U1.x1.105)     .0166               (X_U1.x1.106) 338.5E-12                   
+
+(X_U1.x1.107)    1.0000               (X_U1.x1.108)   -1.0000                   
+
+(X_U1.x1.200)  694.0000               (X_U2.x1.100)   -7.4000                   
+
+(X_U2.x1.101)-55.71E-06               (X_U2.x1.102)    -.4396                   
+
+(X_U2.x1.105)    -.1253               (X_U2.x1.106)    -.2198                   
+
+(X_U2.x1.107)   -1.0000               (X_U2.x1.108)     .5604                   
+
+(X_U2.x1.200)  694.0000               (X_U2.x1.Imon)-620.5E-12              
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    X_U1.x1.Vbg  -7.400E-06
+    X_U1.x1.Vgainf  -6.940E+02
+    X_U1.x1.Vl1  -6.185E+02
+    X_U1.x1.Vl2  -6.185E+02
+    X_U2.x1.Vbg   7.400E-06
+    X_U2.x1.Vgainf  -6.940E+02
+    X_U2.x1.Vl1  -1.259E-01
+    X_U2.x1.Vl2  -1.260E-01
+    X_U2.x1.Vmon  -5.196E-11
+    X_U2.x1.Veset  -2.068E-07
+
+    TOTAL POWER DISSIPATION   9.65E+05  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/27/20 19:59:03 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-practica2"  [ C:\Users\yoyol\Desktop\Facultate\practica\practica2-PSpiceFiles\SCHEMATIC1\practica2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .19
+

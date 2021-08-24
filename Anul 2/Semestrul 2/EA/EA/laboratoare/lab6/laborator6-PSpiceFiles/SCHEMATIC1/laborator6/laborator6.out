@@ -1,0 +1,192 @@
+
+**** 04/02/20 16:38:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laborator6"  [ C:\Users\yoyol\Desktop\Facultate\laborator6-PSpiceFiles\SCHEMATIC1\laborator6.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "laborator6.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 1 10Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LABORATOR6
+X_U1         IN N00299 V+ V- OUT1 uA741
+X_U2         0 N00470 V+ V- OUT2 uA741
+R_R1         0 N00299  10k TC=0,0 
+R_R2         N00299 OUT1  100k TC=0,0 
+R_R3         IN N00470  10k TC=0,0 
+R_R4         N00470 OUT2  100k TC=0,0 
+R_RL1         0 OUT1  10k TC=0,0 
+R_RL2         0 OUT2  10k TC=0,0 
+V_V3         IN 0 DC 0Vdc AC 1Vac 
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+
+**** RESUMING laborator6.cir ****
+.END
+
+**** 04/02/20 16:38:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laborator6"  [ C:\Users\yoyol\Desktop\Facultate\laborator6-PSpiceFiles\SCHEMATIC1\laborator6.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         X_U2.dx         X_U2.dy         
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+**** 04/02/20 16:38:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laborator6"  [ C:\Users\yoyol\Desktop\Facultate\laborator6-PSpiceFiles\SCHEMATIC1\laborator6.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         X_U2.qx         
+               NPN             NPN             
+       LEVEL    1               1            
+          IS  800.000000E-18  800.000000E-18 
+          BF   93.75           93.75         
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 04/02/20 16:38:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laborator6"  [ C:\Users\yoyol\Desktop\Facultate\laborator6-PSpiceFiles\SCHEMATIC1\laborator6.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (   V+)   15.0000  (   V-)  -15.0000  ( OUT1)     .0082      
+
+( OUT2)     .0082  (N00299) 19.21E-06 (N00470) 19.21E-06 (X_U1.6)-784.8E-09     
+
+(X_U1.7)     .0082 (X_U1.8)     .0082 (X_U1.9)    0.0000 (X_U2.6)-784.9E-09     
+
+(X_U2.7)     .0082 (X_U2.8)     .0082 (X_U2.9)    0.0000 (X_U1.10)    -.6077    
+
+(X_U1.11)   14.9600                   (X_U1.12)   14.9600                       
+
+(X_U1.13)    -.5938                   (X_U1.14)    -.5938                       
+
+(X_U1.53)   14.0000                   (X_U1.54)  -14.0000                       
+
+(X_U1.90) 900.4E-06                   (X_U1.91)   40.0000                       
+
+(X_U1.92)  -40.0000                   (X_U1.99)    0.0000                       
+
+(X_U2.10)    -.6077                   (X_U2.11)   14.9600                       
+
+(X_U2.12)   14.9600                   (X_U2.13)    -.5938                       
+
+(X_U2.14)    -.5938                   (X_U2.53)   14.0000                       
+
+(X_U2.54)  -14.0000                   (X_U2.90) 900.4E-06                       
+
+(X_U2.91)   40.0000                   (X_U2.92)  -40.0000                       
+
+(X_U2.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -7.780E-08
+    V_V1        -3.334E-03
+    V_V2        -3.334E-03
+    X_U1.vb     -7.848E-12
+    X_U1.vc      1.399E-11
+    X_U1.ve      1.593E-11
+    X_U1.vlim    9.004E-07
+    X_U1.vlp    -4.000E-11
+    X_U1.vln    -4.000E-11
+    X_U2.vb     -7.849E-12
+    X_U2.vc      1.399E-11
+    X_U2.ve      1.593E-11
+    X_U2.vlim    9.004E-07
+    X_U2.vlp    -4.000E-11
+    X_U2.vln    -4.001E-11
+
+    TOTAL POWER DISSIPATION   1.00E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/02/20 16:38:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laborator6"  [ C:\Users\yoyol\Desktop\Facultate\laborator6-PSpiceFiles\SCHEMATIC1\laborator6.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

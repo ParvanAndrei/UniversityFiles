@@ -1,0 +1,174 @@
+
+**** 05/12/20 09:51:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab10"  [ c:\users\yoyol\desktop\facultate\lab10-pspicefiles\schematic1\lab10.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab10.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 1 1Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB10
+X_U1         VP VN +VCC 0 VO LM741
+R_R2         VN VO  30k TC=0,0 
+R_RL         0 OUT  10k TC=0,0 
+C_C2         VO OUT  100n  TC=0,0 
+V_V2         +VCC 0 12V
+R_R1         N01935 VN  10k TC=0,0 
+R_R3         VP +VCC  20k TC=0,0 
+R_R4         0 VP  20k TC=0,0 
+C_C3         IN N01935  100n  TC=0,0 
+V_V3         IN 0 DC 0Vdc AC 1Vac 
+
+**** RESUMING lab10.cir ****
+.END
+
+**** 05/12/20 09:51:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab10"  [ c:\users\yoyol\desktop\facultate\lab10-pspicefiles\schematic1\lab10.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x_lm741.dx X_U1.x_lm741.dy 
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 05/12/20 09:51:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab10"  [ c:\users\yoyol\desktop\facultate\lab10-pspicefiles\schematic1\lab10.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x_lm741.qx 
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 05/12/20 09:51:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab10"  [ c:\users\yoyol\desktop\facultate\lab10-pspicefiles\schematic1\lab10.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (   VN)    5.9992  (   VO)    6.0016  (   VP)    5.9992      
+
+(  OUT)    0.0000  ( +VCC)   12.0000  (N01935)    5.9992                        
+
+(X_U1.x_lm741.6)-153.7E-09            (X_U1.x_lm741.7)    6.0016                
+
+(X_U1.x_lm741.8)    6.0016            (X_U1.x_lm741.9)    0.0000                
+
+(X_U1.x_lm741.10)    5.3915           (X_U1.x_lm741.11)   11.9600               
+
+(X_U1.x_lm741.12)   11.9600           (X_U1.x_lm741.13)    5.4054               
+
+(X_U1.x_lm741.14)    5.4054           (X_U1.x_lm741.53)   11.0000               
+
+(X_U1.x_lm741.54)    1.0000           (X_U1.x_lm741.90) 79.77E-06               
+
+(X_U1.x_lm741.91)   40.0000           (X_U1.x_lm741.92)  -40.0000               
+
+(X_U1.x_lm741.99)    6.0000           
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -9.758E-04
+    V_V3         0.000E+00
+    X_U1.x_lm741.vb  -1.537E-12
+    X_U1.x_lm741.vc   4.999E-12
+    X_U1.x_lm741.ve   4.866E-12
+    X_U1.x_lm741.vlim   7.977E-08
+    X_U1.x_lm741.vlp  -4.000E-11
+    X_U1.x_lm741.vln  -4.000E-11
+
+    TOTAL POWER DISSIPATION   1.17E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/12/20 09:51:53 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab10"  [ c:\users\yoyol\desktop\facultate\lab10-pspicefiles\schematic1\lab10.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

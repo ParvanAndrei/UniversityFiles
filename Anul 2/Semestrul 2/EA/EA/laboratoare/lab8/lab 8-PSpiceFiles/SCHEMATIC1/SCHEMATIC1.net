@@ -1,0 +1,15 @@
+* source LAB 8
+E_U1         OUT1 0 VALUE {LIMIT(V(N01665,NO1)*1E6,-15V,+15V)}
+E_U2         OUT2 0 VALUE {LIMIT(V(N01757,N01775)*1E6,-15V,+15V)}
+R_R1         IN N01665  10k TC=0,0 
+R_R2         N01665 OUT1  30k TC=0,0 
+R_R3         IN N01757  10k TC=0,0 
+R_R4         N01757 OUT2  30k TC=0,0 
+R_R5         0 N01775  10k TC=0,0 
+R_R6         N01775 NO2  30k TC=0,0 
+R_rg1         0 NO1  3 TC=0,0 
+R_rg2         0 NO2  3 TC=0,0 
+R_RL2         NO2 OUT2  30 TC=0,0 
+V_V1         IN 0  
++SIN 0 1V 1kHz 0 0 0
+R_RL1         NO1 OUT1  30 TC=0,0 

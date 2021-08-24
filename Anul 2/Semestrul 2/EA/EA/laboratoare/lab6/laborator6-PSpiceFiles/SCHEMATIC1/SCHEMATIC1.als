@@ -1,0 +1,18 @@
+.ALIASES
+X_U1            U1(+=IN -=N00299 V+=V+ V-=V- OUT=OUT1 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS36@EVAL.uA741.Normal(chips)
+X_U2            U2(+=0 -=N00470 V+=V+ V-=V- OUT=OUT2 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS66@EVAL.uA741.Normal(chips)
+R_R1            R1(1=0 2=N00299 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS105@ANALOG.R.Normal(chips)
+R_R2            R2(1=N00299 2=OUT1 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS121@ANALOG.R.Normal(chips)
+R_R3            R3(1=IN 2=N00470 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS137@ANALOG.R.Normal(chips)
+R_R4            R4(1=N00470 2=OUT2 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS153@ANALOG.R.Normal(chips)
+R_RL1           RL1(1=0 2=OUT1 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS169@ANALOG.R.Normal(chips)
+R_RL2           RL2(1=0 2=OUT2 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS185@ANALOG.R.Normal(chips)
+V_V3            V3(+=IN -=0 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS212@SOURCE.VAC.Normal(chips)
+V_V1            V1(+=V+ -=0 ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS241@SOURCE.VDC.Normal(chips)
+V_V2            V2(+=0 -=V- ) CN @LABORATOR6.SCHEMATIC1(sch_1):INS257@SOURCE.VDC.Normal(chips)
+_    _(IN=IN)
+_    _(OUT1=OUT1)
+_    _(OUT2=OUT2)
+_    _(V+=V+)
+_    _(V-=V-)
+.ENDALIASES

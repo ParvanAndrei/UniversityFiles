@@ -1,0 +1,20 @@
+* source PRACTICA2
+X_TX1         N00877 0 N1 0 N2 XFRM_LIN/CT-SEC PARAMS:  LP_VALUE=120mH
++  LS1_VALUE=2.18mH LS2_VALUE=2.18mH COUPLING=.99 RP_VALUE=0.1 RS_VALUE=0.1
+V_V1         N00877 0  
++SIN 0 325V 50Hz 0 0 0
+D_D1         N4 N1 D1N4002 
+D_D2         N1 N3 D1N4002 
+D_D3         N4 N2 D1N4002 
+D_D4         N2 N3 D1N4002 
+R_R1         0 N6  2.4k TC=0,0 
+R_RL1         0 N5  12 TC=0,0 
+R_RL2         N6 0  12 TC=0,0 
+C_C1         N3 0  2200u  
+C_C2         0 N4  2200u  
+C_C3         0 N3  0.22u  TC=0,0 
+C_C4         0 N4  2.2uF  
+C_C5         0 N5  0.1u  TC=0,0 
+C_C6         0 N6  1uF  
+X_U1         N3 N5 0 LM7812C
+X_U2         N4 N6 0 LM7912C

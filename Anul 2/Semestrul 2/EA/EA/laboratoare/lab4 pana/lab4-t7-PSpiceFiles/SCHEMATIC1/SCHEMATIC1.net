@@ -1,0 +1,16 @@
+* source LAB4-T7
+Q_Q1         OUT1 VIN N00257 Q2N2222
+Q_Q2         OUT2 0 N00257 Q2N2222
+Q_Q3         OUT3 VIN N00300 Q2N2222
+Q_Q4         OUT4 0 N00306 Q2N2222
+R_R1         OUT1 V+  15k TC=0,0 
+R_R2         OUT2 V+  15k TC=0,0 
+R_R3         OUT3 V+  15k TC=0,0 
+R_R4         OUT4 V+  15k TC=0,0 
+V_V1         V+ 0 15V
+V_V2         0 V- 15V
+V_V3         VIN 0 0Vdc
+I_I1         N00257 V- DC 1mA  
+I_I2         N00312 V- DC 1mA  
+R_R5         N00300 N00312  100 TC=0,0 
+R_R6         N00312 N00306  100 TC=0,0 

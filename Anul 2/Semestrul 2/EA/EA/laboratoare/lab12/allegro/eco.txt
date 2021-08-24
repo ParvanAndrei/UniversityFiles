@@ -1,0 +1,111 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/YOYOL/DESKTOP/FACULTATE/allegro/LAB12.brd                          |
+|                                                    Thu May 21 16:43:52 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 C3.2           C4.2           J2.1           
+                                 J5.1           R3.1           R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B            pins ADDED TO this new net
+                                 C1.1           Q1.2           R2.1           
+                                 R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  C            pins ADDED TO this new net
+                                 C2.1           Q1.3           R4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  E            pins ADDED TO this new net
+                                 C3.1           Q1.1           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN           pins ADDED TO this new net
+                                 C1.2           J1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01969       pins ADDED TO this new net
+                                 C4.1           J3.1           R2.2           
+                                 R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT          pins ADDED TO this new net
+                                 C2.2           J4.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/YOYOL/DESKTOP/FACULTATE/allegro/LAB12.brd                          |
+|                                                    Thu May 21 16:43:52 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CON1_TESTCOUP_CON1
+ C_ELECT_0_CAP196_10UF
+ C_ELECT_0_CAP196_220UF
+ Q2N2222_TO18_Q2N2222
+ R_AXRC05_5K
+ R_AXRC05_12K
+ R_AXRC05_100K
+ R_AXRC05_470
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/YOYOL/DESKTOP/FACULTATE/allegro/LAB12.brd                          |
+|                                                    Thu May 21 16:43:52 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_ELECT_0_CAP196_10UF 
+ C2                  C_ELECT_0_CAP196_10UF 
+ C3                  C_ELECT_0_CAP196_220UF 
+ C4                  C_ELECT_0_CAP196_10UF 
+ J1                  CON1_TESTCOUP_CON1    
+ J2                  CON1_TESTCOUP_CON1    
+ J3                  CON1_TESTCOUP_CON1    
+ J4                  CON1_TESTCOUP_CON1    
+ J5                  CON1_TESTCOUP_CON1    
+ Q1                  Q2N2222_TO18_Q2N2222  
+ R2                  R_AXRC05_100K         
+ R3                  R_AXRC05_12K          
+ R4                  R_AXRC05_5K           
+ R5                  R_AXRC05_470          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/YOYOL/DESKTOP/FACULTATE/allegro/LAB12.brd                          |
+|                                                    Thu May 21 16:43:52 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ J1.1                           PRIM_FILE      .\pstchip.dat
+ J2.1                           PRIM_FILE      .\pstchip.dat
+ J3.1                           PRIM_FILE      .\pstchip.dat
+ J4.1                           PRIM_FILE      .\pstchip.dat
+ J5.1                           PRIM_FILE      .\pstchip.dat
+ Q1.1                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      24                                        |
+|       Comp definitions added:       8                                        |
+|       Components added      :      14                                        |
+|       Slot property added   :      14                                        |
+|                                                                              |
+|   Total ECO changes reported:      60                                        |
+|------------------------------------------------------------------------------|

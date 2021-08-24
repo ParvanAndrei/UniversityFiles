@@ -1,0 +1,306 @@
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "laboratorED2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\yoyol\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LABORATORED2
+V_V1         N00128 0  
++PULSE 0V 5V 10n 10n 10n 0.5u 1u
+R_R1         0 N00774  1k TC=0,0 
+X_U1A         N00128 0 N00774 $G_CD4000_VDD $G_CD4000_VSS CD4001B PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+
+**** RESUMING laboratorED2.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node 0
+*
+* Moving X_U1A.U1:IN2 from analog node 0 to new digital node 0$AtoD
+X$0_AtoD1
++ 0
++ 0$AtoD
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ AtoD_4000B
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N00128
+*
+* Moving X_U1A.U1:IN1 from analog node N00128 to new digital node N00128$AtoD
+X$N00128_AtoD1
++ N00128
++ N00128$AtoD
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ AtoD_4000B
++       PARAMS: CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N00774
+*
+* Moving X_U1A.U1:OUT1 from analog node N00774 to new digital node N00774$DtoA
+X$N00774_DtoA1
++ N00774$DtoA
++ N00774
++ $G_CD4000_VDD
++ $G_CD4000_VSS
++ DtoA_4000B
++       PARAMS: DRVH=   1.4430E+03 DRVL=   1.4430E+03 CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$CD4000_PWR 0 CD4000_PWR
+
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74CLMP         
+          IS    1.000000E-15 
+          RS    2            
+         CJO    2.000000E-12 
+
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DIN4000B        
+      S0NAME 0               
+       S0TSW   15.000000E-09 
+       S0RLO    1            
+       S0RHI   80.000000E+03 
+      S1NAME 1               
+       S1TSW   15.000000E-09 
+       S1RLO   40.000000E+03 
+       S1RHI    1            
+      S2NAME X               
+       S2TSW   15.000000E-09 
+       S2RLO  800            
+       S2RHI  800            
+      S3NAME R               
+       S3TSW   15.000000E-09 
+       S3RLO  800            
+       S3RHI  800            
+      S4NAME F               
+       S4TSW   15.000000E-09 
+       S4RLO  800            
+       S4RHI  800            
+      S5NAME Z               
+       S5TSW   15.000000E-09 
+       S5RLO    1.000000E+06 
+       S5RHI    1.000000E+06 
+
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO4000B         
+    TIMESTEP  100.000000E-12 
+      S0NAME X               
+       S0VHI     .5          
+       S0VLO    -.5          
+      S1NAME 0               
+       S1VHI    -.5          
+       S1VLO   -3            
+      S2NAME R               
+       S2VHI     .05         
+       S2VLO    -.5          
+      S3NAME R               
+       S3VHI     .5          
+       S3VLO    -.05         
+      S4NAME X               
+       S4VHI     .5          
+       S4VLO    -.5          
+      S5NAME 1               
+       S5VHI    3            
+       S5VLO     .5          
+      S6NAME F               
+       S6VHI     .5          
+       S6VLO    -.05         
+      S7NAME F               
+       S7VHI     .05         
+       S7VLO    -.5          
+
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_CD4001B       
+      TPLHMN   50.000000E-09 
+      TPLHTY  125.000000E-09 
+      TPLHMX  250.000000E-09 
+      TPHLMN   50.000000E-09 
+      TPHLTY  125.000000E-09 
+      TPHLMX  250.000000E-09 
+
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_4000B        
+        DRVL    1.443000E+03 
+        DRVH    1.443000E+03 
+       AtoD1 AtoD_4000B      
+       AtoD2 AtoD_4000B_NX   
+       AtoD3 AtoD_4000B      
+       AtoD4 AtoD_4000B_NX   
+       DtoA1 DtoA_4000B      
+       DtoA2 DtoA_4000B      
+       DtoA3 DtoA_4000B      
+       DtoA4 DtoA_4000B      
+    DIGPOWER CD4000_PWR      
+      TSWHL1    7.720000E-09 
+      TSWHL2    7.860000E-09 
+      TSWHL3    9.710000E-09 
+      TSWHL4    9.630000E-09 
+      TSWLH1    7.560000E-09 
+      TSWLH2    7.400000E-09 
+      TSWLH3    9.410000E-09 
+      TSWLH4    9.240000E-09 
+       TPWRT  100.000000E+03 
+
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00128)    0.0000 (N00774)    3.3040 ($G_CD4000_VDD)    5.0000                 
+
+($G_CD4000_VSS)    0.0000             (X$0_AtoD1.NORM)   -1.2500                
+
+(X$N00128_AtoD1.NORM)   -1.2500       (X$N00774_DtoA1.DRVGND)     .0542         
+
+(X$N00774_DtoA1.DRVPWR)    3.3074     (X$N00774_DtoA1.X1.DRVN)     .0015        
+
+(X$N00774_DtoA1.X1.DRVP)     .0020    (X$0_AtoD1.XNORM.THRESHOLD)    1.5000     
+
+(X$N00128_AtoD1.XNORM.THRESHOLD)    1.5000               
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(N00774$DtoA) : 1  (N00128$AtoD) : 0  (  0$AtoD) : 0     
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         5.001E-08
+    X$CD4000_PWR.VVDD  -3.390E-03
+    X$CD4000_PWR.VVSS  -3.309E-03
+
+    TOTAL POWER DISSIPATION   1.70E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/02/20 19:34:43 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-laboratorED2"  [ C:\Users\yoyol\Desktop\Facultate\LaboratorED2-PSpiceFiles\SCHEMATIC1\laboratorED2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

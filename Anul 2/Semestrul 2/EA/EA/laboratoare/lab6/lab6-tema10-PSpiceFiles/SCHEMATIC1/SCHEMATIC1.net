@@ -1,0 +1,9 @@
+* source LAB6-TEMA10
+R_RL2         0 OUT2  10k TC=0,0 
+R_R3         IN N00687  10k TC=0,0 
+X_U1         0 N00687 V+ V- OUT2 uA741
+V_V1         V+ 0 15V
+R_R4         N00687 OUT2  10k TC=0,0 
+V_V3         IN 0  
++SIN 0 9.5 10k 0 0 0
+V_V2         0 V- 15V

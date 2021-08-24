@@ -1,0 +1,16 @@
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/yoyol/Desktop/Facultate/practica/allegro/PRACTICA2-3.brd ROUTER: 17.2
+DATE: Fri May 29 20:32:18 2020        HOST: DESKTOP-MV52DM8
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        27    0    0 100%    0    0    25.0  0:01:49  0:01:49
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/yoyol/Desktop/Facultate/practica/allegro/PRACTICA2-3.brd ROUTER: 17.2
+DATE: Fri May 29 20:34:17 2020        HOST: DESKTOP-MV52DM8
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        27    0    0 100%    0    0    26.0  0:02:00  0:02:00
