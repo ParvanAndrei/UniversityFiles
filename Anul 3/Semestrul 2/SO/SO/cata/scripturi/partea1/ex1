@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# se da un fisier si un numar n. => fisier concatenat din fisier1,fisier2,...
+
+file=$1;
+i=1;
+while  (( i != $2 ))
+do
+	if [ -f "$file.$i" ]
+	then   
+	   cat "$file.$i" >> $file;
+        else
+           touch "$file.$i"; 
+           echo "Eroare: acest fisier nu a existat inainte de executia comenzii." >> $fname.$i;
+           fi
+       let i=i+1;
+done 
+
+

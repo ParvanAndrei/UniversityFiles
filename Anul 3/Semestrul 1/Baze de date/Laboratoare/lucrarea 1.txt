@@ -1,0 +1,35 @@
+CREATE TABLE Sectii (
+ID_Sectie NUMBER(2) PRIMARY KEY,
+Nume VARCHAR(20) NOT NULL,
+Buget NUMBER (8));
+
+
+
+CREATE TABLE Angajati (
+ID_ang NUMBER(2) PRIMARY KEY,
+Nume VARCHAR(20) NOT NULL,
+Prenume VARCHAR(20) NOT NULL,
+Salariu NUMBER(10),
+CONSTRAINT ID_Sectie FOREIGN KEY (ID_Sectie) REFERENCES Sectii (ID_Sectie));
+
+
+
+
+INSERT INTO Sectii VALUES(1, 'Productie', 200000);
+
+INSERT INTO Sectii VALUES(2, 'Proiectare', 300000);
+
+INSERT INTO Sectii VALUES(3, 'Cercetare', 250000);
+
+
+
+INSERT INTO Angajati VALUES(1, 'Popescu', 'Ion', 1000, 2);
+
+INSERT INTO Angajati VALUES(2, 'Ionescu', 'Cornel', 1500, 1);
+
+INSERT INTO Angajati VALUES(3, 'Popescu ', 'Ion', 2000, 1);
+
+INSERT INTO Angajati (ID_ang, nume, prenume) VALUES (4, 'Vasilescu', 'Maria');
+
+UPDATE angajati
+SET salariu = (0.2 * salariu) + salariu WHERE ID_Sectie = 1;

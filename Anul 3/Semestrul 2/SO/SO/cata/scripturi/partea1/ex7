@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# dintr-un director dat afiseaza nr de fisiere si dimensiunea acestuia
+
+doc=$(find "$1" -type f | wc -l)
+spatiu=$(du -h -s "$1")
+echo "$1 are $doc fisiere si ocupa un spatiu de $spatiu "
+
+
+

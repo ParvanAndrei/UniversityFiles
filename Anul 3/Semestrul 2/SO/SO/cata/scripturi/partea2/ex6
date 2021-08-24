@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+# muta ramura desemnata de cel de-al doilea director ca subramura a primului
+# si aduga extensia .unu la fiecare fiiser
+
+for each in `find "$2" -type f` 
+do
+	 mv "$each" "$each.unu"
+done
+mv "$2" "$1"
+
+

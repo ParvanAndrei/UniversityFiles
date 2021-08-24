@@ -1,0 +1,4 @@
+realizezi un program asem cu cel facut la lab cu o subrutina ce calculeaza maximul dintr-un vector
+definiti in mem 3 siruri de numere
+apelati subrutina de calcul pentru maxim pentru acesti 3,4,5 vect si sa printati pe consola minimul sau maximul
+calculul de minim sa il avem la sfarsit si sa nu mai stiu ce cu printf

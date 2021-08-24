@@ -1,0 +1,54 @@
+#!/bin/bash
+
+# incepand cu directorul dat ca parametru, face o lista a tuturor numelor care apar
+# modifica fisierele care cau acelasi nume
+   dirs=$( find "$1"  -type d -name "*" -printf "%f\n" )
+   dpaths=$( find "$1" -type d -name "*" -printf "%h\n" )
+   files=$( find "$1"  -type f -name "*" -printf "%f\n" )
+   fpaths=$( find "$1" -type f -name "*" -printf "%h\n" )
+   n=1
+  for elem in $files ; do 
+     echo  "fis $n = $elem " 
+     let n=n+1
+   done
+   n=1
+    for elem in $dpaths ; do 
+     echo  "path $n = $elem " 
+     let n=n+1
+   done  
+   n=1
+   for elem in $dirs ; do
+     echo  "dir $n = $elem "
+     let n=n+1
+   done
+
+  arrfiles=(${files//'\n'/ })
+  arrdirs=(${dirs//'\n'/ })
+  arrfpaths=(${fpaths//'\n'/ })
+  arrdpaths=(${dpaths//'\n'/ })
+  echo ${#arrdpaths[@]}
+
+
+ for (( i=0; i<$(( ${#arrfiles[@]}-1 )); i++ )) ; do
+     n=1
+  for (( j=$(( i+1 ));j< ${#arrfiles[@]}; j++ )) ;  do  
+    if [ "${arrfiles[$i]}" = "${arrfiles[$j]}" ]
+        then
+           mv "${arrfpaths[$j]}/${arrfiles[$j]}"  "${arrfpaths[$j]}/${arrfiles[$j]}$n" 
+           let n=n+1
+      fi
+ done
+ done
+
+ for (( i=0; i<$(( ${#arrdirs[@]}-1 )); i++ )) ; do
+     n=1
+  for (( j=$(( i+1 ));j< ${#arrdirs[@]}; j++ )) ;  do  
+    if [ "${arrdirs[$i]}" = "${arrdirs[$j]}" ]
+        then
+        echo "${arrdpaths[$i]}/${arrdirs[$i]} -- " ; echo "${arrdpaths[$j]}/${arrdirs[$j]}"
+           mv "${arrdpaths[$j]}/${arrdirs[$j]}"  "${arrdpaths[$j]}/${arrdirs[$j]}$n" 
+           let n=n+1
+      fi
+ done
+ done
+

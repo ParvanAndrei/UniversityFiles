@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#dintr-un director se afiseaza tot ce are prprietar diferit de creatorul directorului 
+
+# (pentru a nu schimba userul am cautat in folder doar fisierele care au 
+# acelasi proprietar)
+
+base_name=$(basename $1)
+echo "Folder:"$base_name
+owner=$(ls -l $1/.. |  grep "$base_name" | awk '{print $3}')
+echo "Owner:"$owner
+for  file in $1/*
+do
+	ls -l $file | awk -v a="$owner" '$3==a' # schimba == cu != pentru a cauta proprietari diferiti
+done

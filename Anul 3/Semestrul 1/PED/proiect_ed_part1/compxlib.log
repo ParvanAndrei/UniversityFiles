@@ -1,0 +1,52 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.7 (P.20131013)
+   \   \         APPLICATION : C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.7 - C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 14.7 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Reading the compxlib configuration file - 'compxlib.cfg' ...
+Library Source Paths => 'C:/Xilinx/14.7/ISE_DS/ISE'
+Current Working Directory => 'C:\Users\yoyol\Desktop\College stuff\PED\proiect_ed_part1'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: artix7
+
+Scheduling library installation & compilation for libraries: unisim
+
+Signature:-
+------------------------------------------------------------------------------
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s questa -l verilog -dir "C:/Users/yoyol/Desktop/College stuff/PED/questa" -p C:/questasim64_10.6c -arch artix7 -lib unisim -intstyle ise 
+------------------------------------------------------------------------------
+
+Setting up the simulator 'questasim' for compilation ...
+The executable path is set to 'C:\questasim64_10.6c\win64' ...
+Setting up the source libraries for simulator 'questasim' ...
+
+
+
+Compiling Xilinx HDL Libraries for 'questasim' simulator
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Language => 'verilog'
+Output directory => 'C:\Users\yoyol\Desktop\College stuff\PED\questa'
+
+
+Library verilog.secureip will not be compiled, because precompiled info is up to date.
+compxlib[verilog.secureip]: 0 error(s), 1 warning(s), 50.00 % complete
+
+
+
+Library verilog.unisim:verilog.unimacro will not be compiled, because precompiled info is up to date.
+
+Library verilog.unisim will not be compiled, because precompiled info is up to date.
+compxlib[verilog.unisim]: 0 error(s), 4 warning(s), 100.00 % complete
+
+
+Setup file 'C:\Users\yoyol\Desktop\College stuff\PED\questa/modelsim.ini' exists, no copying from 'modelsim.ini' ...

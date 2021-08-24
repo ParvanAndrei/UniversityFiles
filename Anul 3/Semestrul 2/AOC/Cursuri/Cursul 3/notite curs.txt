@@ -1,0 +1,47 @@
+Cursul 3 AOC
+la << respectiv >> sunt comentarii la figuri
+
+
+fig 1
+<<in momentul in care avem de a face cu o memorie cu doua porturi
+fiecare port este necesar sa utilizam doua linii de handshakeing
+>>
+fig 2
+<<cu cat sunt mai multe linii de bus cu atat merge mai bine linia de shaking
+>>
+fig 3
+<<noi ca sa putem sa crestem perforrmanta unui Sist de calc noi trebuie sa folosim cat mai intens 
+si la maxima potential a unitatii centrale, ea trb sa lucreze cat mai mult timp la fclk1 iar timpul de pauza sa fie cat mai redus
+. Asta e principalul motiv de care o astfel de constructie este folosita
+cele 2 linii de la fclk sunt linii de stare a transferului de date. Semnalizarea in cadrul sistemului se va complica usor dar complicatia asta e minora in comparatie cu beneficiile aduse
+>>
+
+fig 4
+<<busul interconecteaza porturile pe aceleasi linii
+in momentul in care vreau sa comunic pe un bus eu pot sa comunic pe mai multe moduri:
+-> unicast- putem conecta un porti la un portj 
+-> broadcast- port-talker va comunica pe porturi numite Listners 
+atunci cand comunicam, noi nu facem altceva decat sa schimbam aplitudinea
+>>
+
+fig5
+<< ma voi folosi de niste legaturi una numita strong(STB) cred si cealalata acknoledge/ready(ACK/RDY)
+1..8..16 ala sunt liniile de conexiune. Transferul este unidirectional
+>>
+
+fig 6
+<< un emitator si un receptor. prin handshakeing receptor afla daca emitatorul trimite ceva
+cum se transmite informatia astfel incat receptorul sa stie despre ce este vorba? 
+BUS ul comun de la fig 5 cred in mod normal trebuie sa stea pe unu 1 logic cu cat este rezistenta de intrare mai mare cu atat curentul este mai redus. Daca curentul este mai redus atunci si puterea consumata pe nu stiu ce va fi foarte mic deoarece puterea depinde mai mult de intensitatea curentului ca e la patrat
+in 1 logic e puterea pe care ar consuma-o in stand by
+cand are loc  comutatia din 1 logic in 0 logic nu stiu ce face nu inteleg ce vorbeste mosu asta.
+in mod normal valoarea stocata pe perioada unei perioade in mod normal are 1 logic.
+ceva cu bitul 0 bitul 1 .... pana la 7 (al8 lea bit)
+dupa perioada asta se introduce bitul de paritate, suma binara modulo 2 a bitilor
+comunicatia eeste asincrona pentru ca tranzitiile de stare au loc pe ceasuri independente la emitatori si la receptor
+pot exista erori in masurarea campului cred. Aceste doua ceasuri se pot masura timpul cu mici inexactitati unul cu celalat daca am transfera inf de la emit la recept, receptoru ar avea
+o mica intarziere, o translatare de timp pana receptioneaza recept
+daca intarzierea asta este mai mare ca perioada nu stiu cui atunci este periclitata fiabilitatea datelor comunicate respectiv receptt ar intelege inf ceva diferit fata de cum a transmis emitatorul
+>>
+
+fig 7 nu am inteles nimica din explicatii

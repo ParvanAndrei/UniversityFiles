@@ -1,0 +1,8 @@
+#!/bin/bash
+# pentru un tip de fiser dat ca parametru sa se stearga din directorul dat ca 
+# parametru si sa se afiseze dimensiunea acestuia inainte si dupa
+echo "Directorul inainte de stergere:"
+du -sh $1
+find $1 -type f -name $2 -delete
+echo "Directorul dupa stergere:"
+du -sh $1

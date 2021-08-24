@@ -1,0 +1,10 @@
+#!/bin/bash
+# pentru fiecare functie definita in program eg: **(**) { afisam nr de apelari
+fct=$(grep -o "\s*[a-Z]*\s*(\s*.*\s*)\s*{" $1 | tr -d " ")
+for each in ${fct}
+do
+a=${each%%(*}
+echo $a
+nr=$(grep -o $a $1 | wc -l)
+echo $((nr - 1))
+done

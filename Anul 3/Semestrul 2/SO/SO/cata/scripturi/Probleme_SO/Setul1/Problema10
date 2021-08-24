@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#din 10 in 10 secunde afiseaza utilizatorii si  id..
+
+while true; do
+	who | awk '{print $1}' | sort | id
+	sleep 10s
+done

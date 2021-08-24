@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# se trimita fiecarui student din fisierul ($1) mesajul din fisierul ($2)
+
+mesaj=$(<$2)
+users=( $(awk '{ print $3 }' $1) )
+for each in ${users[@]}
+do
+      echo "$each"
+      echo "$mesaj" | write "$each" tty7 
+done

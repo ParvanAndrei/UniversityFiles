@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# sa se creeze doua fisiere care sa contina fiecare cate o lista a tuturor
+# fisierelor si subdirectoarelor directorului dat ca parametru
+# lista ordonata in functie de criterii
+
+ls -l $1 | awk '{print $6, $7, $8, $9}' | sort -k4,4 >> alfabetic.txt
+ls -l $1 | awk '{print $6, $7, $8, $9}' | sort  >> cronologic.txt
+

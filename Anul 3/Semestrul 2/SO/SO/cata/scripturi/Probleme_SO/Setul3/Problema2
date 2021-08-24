@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# se afiseaza procesele ce au consumat mai mult de 10s de unitate centrala
+
+ps -u | awk '{if ($4 >0.1) {print $4"\t"$11}}' 

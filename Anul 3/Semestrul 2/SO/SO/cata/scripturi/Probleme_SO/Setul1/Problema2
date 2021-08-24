@@ -1,0 +1,10 @@
+#!/bin/bash
+#afiseaza n liniei($2) din fisierele din folder($1)
+files=$(find $1 -type f)
+ 
+for txt in ${files}
+do
+	echo "Fisierul: " $txt
+	line=$(head -$2 $txt)
+	echo "Are liniile: " $line
+done

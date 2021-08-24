@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mails=$(find /var/spool/mail -type f | wc -w)
+users=$(find /var/spool/mail -type d | wc -w)
+users=$((users-1))
+medie=$((mails/users))
+echo  "Media cutiei postale: "$medie

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# pentru ficeare user din fisier($1) trimite mesajund din fisierul $2 
+
+mesaj=$(cat "$2")
+while IFS='' read -r line || [[ -n "$line" ]]
+do
+        echo "$mesaj" |  write "$line" tty7
+done < "$1"; 
+
+

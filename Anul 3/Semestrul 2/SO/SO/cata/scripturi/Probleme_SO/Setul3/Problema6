@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# se afiseaza liniile din fisier care contin acelasi cuvnte consecutive +
+# numarul liniei pe care apare
+
+
+awk '{for(i = 0; i <= NF-1; i++) { if ($i == $(i+1)) {print "linia "NR":"$0; break}}}' "$1"
+

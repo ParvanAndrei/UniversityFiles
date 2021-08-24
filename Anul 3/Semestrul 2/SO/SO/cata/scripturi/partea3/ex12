@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if (( $# <3 )) ; then
+  echo "Trebuie cel putin 3 parametri -- 2 cuv si un fisier"
+else
+  vechi=$1
+  nou=$2
+
+# while test $# -ne 0
+#	do
+		file=$3
+                echo $file"---"$nou
+#               awk  -v a=$vechi -v b=$nou -v fis=$file {gsub(/a/,b)}' fis
+                awk -v a="$vechi" -v b="$nou" '{ gsub(/a/,b); print }' "$file" 
+#		shift
+#	done
+
+fi

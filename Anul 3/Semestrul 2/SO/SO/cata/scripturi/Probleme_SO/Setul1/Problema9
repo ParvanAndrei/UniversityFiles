@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#afiseaza din 10 in 10 sexunde incarcarea sistemului si spatiul ocupat pe disc
+
+while true 
+do
+	uptime;
+	df;
+	sleep 10;
+done

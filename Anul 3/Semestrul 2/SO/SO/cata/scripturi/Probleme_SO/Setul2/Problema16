@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# se poate alege ce procese pot fi distruse
+
+echo "Lista tuturor proceselor"
+ps
+
+read pid
+kill -9 "$pid"
+
+
+echo "Altul?"
+read op
+echo "optiunea: $op"
+while [[  "$op" != "n" ]]
+do
+	if [[ "$op" == "y" ]]
+	then
+		echo "Procese:"
+ 		ps
+
+		read pid
+		kill -9 "$pid"
+
+ 		echo "Altul?"
+ 		read op
+	else if [[ "$op" != "n" ]] 
+	then
+  		echo "Optiune eronata"
+  	exit
+	fi
+	fi
+done

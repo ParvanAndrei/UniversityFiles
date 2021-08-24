@@ -1,0 +1,116 @@
+fig.1
+<<var de tensiune pot fi de ordinul mV sau sub un mV. Pt un astfel de situatie inseamna ca rezist de intrare de 1kohm, un mV ar insemna 10 la nu stiu cat cu 10 la nu stiu cat 
+inseamna ca curentul ar fi i = 000001A.Puterea consumata de semnal ar fi de 0.000000002W
+daca schimbam metoda sau procedeul de control al interfetei noastre. Puterea pe care noi consumam poate fi extrem de mic
+deci practic schimband sursa dintr-una de tensiune intr-una de curent putem reduce puterea de consum sau ceva de genul
+>>
+
+
+Organizarea procesaii informatiilor de catre sistemele de calcul
+Proceesarea:
+-Centralizata:
+	
+-Distributia:
+
+-Clusterizata:
+
+Sincronizarea functionarii calculatoarelor:
+
+-prin scanarea portulurilo sistemului:
+
+nu stiu ce determinand prin comparatii succesive eventualele comparatii nu stiu ce. Altfel spus avem o scanare a interfetei iar pe alta
+parte vom aveam o decizie daca este sau nu cazul daca ramura programului nu stiu ce. 
+aceasta va fi obligata prin program sa nu stiu ce ciclic cu nu stiu ce astfel incat sa poata faca intr-un timp relativ scurt orice schimbare din sistem
+	
+		
+-cu ajutorul sistemului de intreruperi:
+sistem de interuperi hard soft cu tinta de a implementa un mecanism de sincronizare care sa realizeze cateva lucruri primare/esentiale. Sa identifice canalul/sursa de informatie.
+trebe sa identificam care din acele informatii si-a modificat starea
+
+sistem trebuie sa fie cap sa reactioneze specific cu starea care s-a schimbat
+
+acest sistem va trebui sa fie capabil sa reactioneze in cel mai scurt timp la schimbarea de stare aparuta in sistem
+-prin intermediul circuitelor DMA:
+ permite transf datelor intre circuitele de intrare/ iesire sau intre acestea si memoria sistemului fara interventia CPU. CPU va intia si finalizasesiunilede transfer. verificarea unei cereri se va face dupa fiecare nu stiu cui
+
+
+tipuri de unitati de calcul:
+
+CPU
+GPU
+Scalar processor si nu mai stiu ce
+
+
+		Single Instruction Multiple Data -memorie comuna
+		
+	fig 2. fig.3 
+	
+	
+		Performanta sistemelor
+		
+	Cum se reprezinta performanta unui sistem de calcul
+	
+raportul dintre numarul de instructiuni executate si timpul in care se executate
+	
+	Elemente ce caract performanta
+	
+MIPS - nr de milioanee de instr executtate intr-o secunda
+FLOPS - nr de op in virgula flotata executate intr-o secunda
+
+Task system : sistem de calcul calat pe rezolvarea unor probleme
+Concurenta: 2 task-urik-uri sunt concurente daca executia acestiora se realizeaza in paralel
+Simultaneitate: daca 2 task-uri  pleaca simultan dar se termina diferit
+Paralelism: Sistem care executa simultan cel putin 2 task-rui este un sistem ce incumba elemente de paralelism
+
+
+	Exemple de paralelism
+
+la nivel de prcesor: 
+	-toleranta de latenta, intelegem prin durata de timp in care se scurge de la inceputul unei actiuni pana la momentul in care actiunea se petrece
+este un interval de timp care se datoreaza unei unitati din sist de calcul care cere ceva dar semanlul de cerere se va propaga prin intermediul mai multor
+unitati intermediare catre tinta careia i este adresata respectiva cerere
+
+nu stiu ce se propaga de la registrele de magistrade de la nu stiu unde catre memoria ce implementeaza memoria de sistem
+acest timp de propagare de cand noi initiem actiunea si pana la momentul la care datele respective vor fi furnizate celui careia i-am cerut datele, adica memoria adresata
+unit moderne de calcul anticipeaza astfel de cereri si urmare a procesului de anticipare nu sunt nevoite sa astepte neaparat acest interval de timp corespunzator propagarii caci 
+realizeaza aceasta cerere cumva in avans in raport cu momentul la care ele au nevoie efectiv de datele cerute
+in acest fel aceste latente pot fi evitate si le putem numi toleranta la latenta cap de a conventiu fara nu stiu ce majore ce consta in intarzierea de catre sursele de informatii sau ceva de genul
+
+	Memoriile:
+-ilustreaza la fel de bine aceasta idee de paralelism, caci memoriile care au aceeasi organizare pe chip, in general se structureaza acelasi nu stiu ce de chip uri astfelincat organizarea lor sa se potriveacsa cu organizarea sistemului de calcul
+dar si unitatile de I/O au aceaasta organizare'
+
+		Scalabilitatea:
+		
+	Definitie: cap dea a creste performanta si sistemului prin adaugara de elemente acestuia
+putem face asta daca ulterior procesului a suferit o modificare unde sist nostru de calcul este capabil doar sa aditioneze elemente care sunt integrabile imediat a.i sa suporte noile conditii
+impuse de catre procesorul nu stiu cum reglat cred. Prin adaugare de componente fara a interveni la princiipiile de functionare ale acestuia sau la elementele fundamentale ale acestuia
+
+pe de alta parte daca am construi elemente nu stiu cum scalabile nu mai putem determina o crestere liniara a performantei in raport cu costul. e o crestere ligaritmica
+
+	Ce elemente suporta scalabilitatea:
+-latimea de banda a magistralelor (in general trebuie sa decidem de la inceput ca dpdv al dimensionarii latimii de banda sa dispunem de acele rezerve care presupune cresterea acesteia unde elementele aditionale 
+ce fac asta sunt integrate in sistem) 
+-latentele (la fel ca la latimea de banda) sa dispunem de elem tolerante la latenta a.i la aparitia acestor elem sa nu reducem performanta unitaii centrale gen sa avem un timp de nu stiu ce relativ lung
+	Costurile de regandire trebuie sa fie relativ mai mici atunci cand concepem acest sistem scalabile
+
+
+		Comunicatia in sistemele de calcul
+
+	Presupune introducerea unei ierarhizari asupra sistemului
+	fig 4 
+<<NU stiu care bus  limitaza superior variatia nu stiu cui sau ceva de genul
+o   astel de interfata nu ar putea sa ofere catre bus ul care ruleaza catree proces un flux major de informatii la nivelul la care ar putea sa satisfaca comunicatia
+ar fi normal ca toate astea sa fie legate in acel expansion bus si sa facem un bridge intre bus-uri
+
+Metodologia prin care noi vrem as implemetam un sir de actiuni caci noi va trebui sa implementam prin algoritmul nostrru sa prevedem si sa anticipam si prevedem acele cereri in avans
+in raport cu dilay-ul latentele pe care sistemul nostru le prezinta 
+Alinierea nu stiu cui baselor. Daca plasam pe acelasi bus elemente care pot sa suporte cam acelasi flux informational asta inseamna ca timpul de asteptare al acestui bus va fi nu am inteles cum
+indiferent de nu stiu ce conectat la acest bus. Sistemul trebuie proiectat in asa fel incat latentele pe bus respecttiv sa fie cat mai apropiate de nu stiu ce ca sa suporte ceva la elemente
+>>
+
+	fig5
+<< anii 80' 90' unde s-a implementat high speed bus
+
+	revenind la comunicatia lu peste:
+	Memoria comuna si transf informatiilor pe baza de mesaje reprezinta esenta comunnicatiei in calculatoare;

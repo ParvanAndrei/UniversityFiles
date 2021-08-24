@@ -1,0 +1,5 @@
+#!/bin/bash
+#pt o extensie data, mv all fisierele din directorul curent si le pune 
+#in directorul dat
+
+find $(pwd) -type f -name $1 -exec mv {} $2 \; 

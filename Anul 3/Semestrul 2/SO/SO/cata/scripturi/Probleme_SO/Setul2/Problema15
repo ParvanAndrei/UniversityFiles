@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# pentru fiecare  fisier din ramura desemnata de un director dat ca parametru
+# c- il compileaza
+# exe -il executa
+# altele le afiseaza 
+
+dir=$1
+dir+=/*
+arr=( $dir )
+for  ech in ${arr[@]}
+do
+if [[ -e $ech ]]; then
+	ext="${ech##*.}"
+	if [[ $ext == "c" ]]; then
+	echo "PENTRU COMPILARE!!"
+	else
+		if [[ $ext == "exe" ]]; then
+		echo "EXECUTIE "
+		else
+		echo "afisare"
+		fi
+	fi
+fi
+done

@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+# afiseaza data in formatul dat
+
+format=$(date +"%H %M %S" | awk '{print "Ora "$1","$2" minute, "$3" secunde"}')
+echo $format

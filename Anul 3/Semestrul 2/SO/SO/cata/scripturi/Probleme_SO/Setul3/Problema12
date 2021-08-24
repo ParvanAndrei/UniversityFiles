@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# inlocuieste in fisierul ($3) cuvintele($1) cu $2
+
+vechi=$1
+nou=$2
+
+awk -v a="$vechi" -v b="$nou" '{ gsub(a,b); print }' "$3" > temp
+mv temp $3
+

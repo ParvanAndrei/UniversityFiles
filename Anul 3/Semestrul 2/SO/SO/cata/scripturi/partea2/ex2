@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# pentru fisierul dat ce creaza uun folder cu fisiere(26) toate cuvintele
+# care incep cu litera egala cu nemele fisierului
+
+chars=({a..z})
+name="alfabetic"
+mkdir "$name"
+for char in "${chars[@]}"
+do
+      touch "$name/$char"
+done
+for w in `cat "$1"`
+	do
+	echo "$w" >> "$name/${w:0:1}" 
+	sort -o "$name/${w:0:1}" -u "$name/${w:0:1}"  
+done
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+functions=` grep -n -e  "\(void\|double\|int\) \w*(.*)$" main.c  | sed 's/^.*\(void\|double\|int\) \(\w*\)(.*$/\2/g'`
+echo "$functions"
+#for func in $functions
+#do
+ # echo "Counting references for $func:"
+ # grep "$func" -f main.c | wc -l
+#done

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if test $# -ne 2
+then
+	echo "trebuie doi parametr1 = fisierul cu lista utilizatori si fisierul cu mesaj";
+else
+      
+fi
+

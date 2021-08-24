@@ -1,0 +1,17 @@
+CxlResult:C:\2020-2021\Proiect_ED/unisims_ver/.cxl.verilog.unisim.unisims_ver.nt64.rpt =
+	ExecutionPlatform = nt64 ,
+	SourceLibrary = unisim ,
+	SourcePath = C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/unisims ,
+	Simulator = mti_pe ,
+	SimulatorVersion = 10.4a ,
+	CompiledLibrary = unisims_ver ,
+	CompiledPath = C:\2020-2021\Proiect_ED/unisims_ver ,
+	Timestamp = Sun Oct 25 14:55:47 2020 ,
+	Time = 1603630547 ,
+	Language = verilog ,
+	XilinxBuildNumber = P.20131013 ,
+	XilinxVersion = 14.7 ,
+	LogFile = C:\2020-2021\Proiect_ED/unisims_ver/.cxl.verilog.unisim.unisims_ver.nt64.log ,
+	NumOfErrors = 0 ,
+	NumOfWarnings = 4 ,
+

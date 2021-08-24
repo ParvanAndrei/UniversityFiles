@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+while test $# -ne 0
+do
+	file=$1
+	echo "fisierul este  $file"
+	shift
+    	mesaj=$( cat "$file" | head -$1)
+	echo "liniile sunt :  $mesaj"
+	shift
+done
+

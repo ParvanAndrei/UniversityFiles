@@ -1,0 +1,15 @@
+#!/bin/bash
+#Ordoneaza dupa nr de cuvinte fisierele date ca parametru
+my_list=()
+for i in $*
+do
+	#echo "Recive: " $i
+	size="$(wc -w < "$i")"
+	my_list+=("$size-$i")
+	#echo ${my_list[@]}
+done
+
+for each in ${my_list[@]}
+do
+	echo $each
+done | sort

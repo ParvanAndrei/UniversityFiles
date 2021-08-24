@@ -1,0 +1,73 @@
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+** Warning: (vlog-159) Mode option -32 is not supported in this context and will be ignored.
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+Start time: 08:14:34 on Nov 18,2020
+vlog -source -novopt -32 -work unimacro_ver -f C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver/.cxl.verilog.unimacro.unimacro_ver.nt64.cmf 
+-- Compiling module ADDMACC_MACRO
+-- Compiling module ADDSUB_MACRO
+-- Compiling module BRAM_SDP_MACRO
+-- Compiling module BRAM_SINGLE_MACRO
+-- Compiling module BRAM_TDP_MACRO
+-- Compiling module COUNTER_LOAD_MACRO
+-- Compiling module COUNTER_TC_MACRO
+-- Compiling module EQ_COMPARE_MACRO
+-- Compiling module FIFO_DUALCLOCK_MACRO
+-- Compiling module FIFO_SYNC_MACRO
+-- Compiling module MACC_MACRO
+-- Compiling module MULT_MACRO
+
+Top level modules:
+	ADDMACC_MACRO
+	ADDSUB_MACRO
+	BRAM_SDP_MACRO
+	BRAM_SINGLE_MACRO
+	BRAM_TDP_MACRO
+	COUNTER_LOAD_MACRO
+	COUNTER_TC_MACRO
+	EQ_COMPARE_MACRO
+	FIFO_DUALCLOCK_MACRO
+	FIFO_SYNC_MACRO
+	MACC_MACRO
+	MULT_MACRO
+End time: 08:14:35 on Nov 18,2020, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+
+QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+vmap unimacro_ver C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver 
+Modifying modelsim.ini
+

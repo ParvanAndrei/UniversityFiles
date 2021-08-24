@@ -1,0 +1,29 @@
+Proiect Electronica Digitala
+
+Un sistem digital pentru comanda unei intersectii semaforizate (un semafor)
+Intersectia are o banda pentru inainte si o banda pentru la stanga iar dupa intersectie cate o singura banda
+cu 4 strazi
+
+Screenshot-uri pe facebook
+
+la cerinte la 2 clk-ul porneste la 20ns si trebe sa facem un circuit care genereaza un puls la o secunda.
+
+Se utilizeaza "Xilinx ISE WebPack" (va trebui instalat) are 20 de gb :O :O
+
+Link: https://www.xilinx.com/downloadNav/vivado-design-tools/archive-ise.html
+te conectezi cu emailul de student.
+
+la cerinte desenele de mana.
+La punctul unu tabel care cum va fi verde/galben/rosu
+
+email profa : ale.stanciu@gamil.com
+alexandra.stanciu@unitbv.ro
+alexandra.balan@unitbv.ro
+
+
+placuta: https://reference.digilentinc.com/reference/programmable-logic/arty-z7/start
+
+la program. New Project/ alegi jos schematic (ceva de genul)/ bagi datele din datasheet la placa (zinque, si nu mai stiu ce)
+dupa ce creezi proiectu ai ceva in stanga kind of sus xc7s... dai click dreapta si parca ceva schematic
+si apoi arata foaia de desenat
+Stanga kind of jos Symbols

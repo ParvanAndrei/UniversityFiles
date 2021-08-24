@@ -1,0 +1,17 @@
+CxlResult:C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver/.cxl.verilog.unimacro.unimacro_ver.nt64.rpt =
+	ExecutionPlatform = nt64 ,
+	SourceLibrary = unimacro ,
+	SourcePath = C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/unimacro ,
+	Simulator = questasim ,
+	SimulatorVersion = 10.6c ,
+	CompiledLibrary = unimacro_ver ,
+	CompiledPath = C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver ,
+	Timestamp = Wed Nov 18 08:12:45 2020 ,
+	Time = 1605679965 ,
+	Language = verilog ,
+	XilinxBuildNumber = P.20131013 ,
+	XilinxVersion = 14.7 ,
+	LogFile = C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver/.cxl.verilog.unimacro.unimacro_ver.nt64.log ,
+	NumOfErrors = 0 ,
+	NumOfWarnings = 1 ,
+

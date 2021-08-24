@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+dirname=$1;
+find $1 -type f | sort >> fisier1;
+find $1 -type d | sort -rn >> fisier2;

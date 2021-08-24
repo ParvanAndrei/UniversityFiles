@@ -1,0 +1,9 @@
+Timp		Ai	As	Bi	Bs	Ci	Cs	Di	Ds	codul starii
+18 usec		V	R	R	R	V	R	R	R	000
+18 usec		G	R	R	R	G	R	R	R	001
+18 usec		R	V	R	R	R	V	R	R	010
+18 usec		R	G	R	R	R	G	R	R	011
+18 usec		R	R	V	R	R	R	V	R	100
+18 usec		R	R	G	R	R	R	G	R	101
+18 usec		R	R	R	V	R	R	R	V	110
+18 usec		R	R	R	G	R	R	R	G	111

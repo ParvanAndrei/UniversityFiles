@@ -1,0 +1,47 @@
+.data
+	str1: .half 1, 2, 3, 4, 5
+	lung: .word 5
+	
+.text
+.globl main
+
+main: 
+	la $a0, str1
+	li $t0, 0 # iteratorul
+	li $t1, lung
+	li $t2, 0 #min
+	jal min
+	
+	
+
+min:
+	subu $sp,$sp,32 # Se alocă 32 bytes in stivă
+	sw $ra,20($sp) # Se salvează adresa de revenire curentă
+	sw $t2,16($sp)
+
+	beq $t0, $t1, printare
+	lh $s3, 0($a0)
+	addi $a0, $a0, 2
+	addi $t1, $t1, 1
+	sgtu $s1, $t2, $s3
+	bne $s1, 1, min
+	addi $t2, $0, $s3
+	j min
+	
+printare:
+	jal print
+	lw $ra, 20($sp)
+	lw $t2, 16($sp)
+	
+	addu $sp, $sp, 32
+	jr $ra
+	
+print:
+	addu $a1, $0, $t2
+	li $v0, 1
+	syscall
+	
+	
+exit:
+	li $v0, 10
+	syscall

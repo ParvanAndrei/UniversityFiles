@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# din directorul dat, se creeaza 2 fisiere. Unu contine numele
+# fisiereler iar celalalt directoarele din directorul dat
+# acestea sortate corespunzator
+
+find $1 -type f | sort >> fisier1;
+find $1 -type d | sort -rn >> fisier2;

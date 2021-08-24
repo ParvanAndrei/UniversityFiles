@@ -1,0 +1,39 @@
+#!/bin/bash
+#2 fisiere 1 cu elevii si media notelor din iarna iar unul cu notele din vara => un sg fisier cu situatiza pe an
+# am ordonat ambele fisiere alfabetic apoi am calculat mediile
+me=$(sort $1 | awk '{print $2}')
+medii=($me)
+#echo "Medii: "$medii
+n1=$(sort $2 | awk '{print $2}')
+nota1=($n1)
+#echo "Nota1 "$nota1
+n2=$(sort $2 | awk '{print $3}')
+nota2=($n2)
+#echo "Nota2 "$nota2
+n3=$(sort $2 | awk '{print $4}')
+nota3=($n3)
+#echo "Nota3 "$nota3
+n4=$(sort $2 | awk '{print $5}')
+nota4=($n4)
+#echo "Nota4 "$nota4
+n5=$(sort $2 | awk '{print $6}')
+nota5=($n5)
+#echo "Nota5 "$nota5
+st=$(sort $2 | awk '{print $1}')
+student=($st)
+#echo "Student "$student
+echo "" > $1
+for(( i=0; i< ${#student[@]}; ++i))
+do
+	medie2=$(((${nota1[i]} + ${nota2[i]} + ${nota3[i]}+ ${nota4[i]}+ ${nota5[i]})/5))
+	medie2=$(( ($medi2+${medii[i]})/2))
+	echo "$medie2-${student[i]}" >> $1
+done
+sort=$(cat $1| sort)
+sort=($sort)
+echo -n "">$1
+for each in ${sort[@]}
+do
+ echo $each >> $1
+done
+cat $1

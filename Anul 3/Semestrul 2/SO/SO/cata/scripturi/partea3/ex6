@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# se afiseaza liniile din fisier care contin acelasi cuvant + numarul liniei
+# pe care apare
+
+ file=$1
+awk '{for(i = 0; i <= NF-1; i++) { print " linia este "$0"coloana"i ; if ($i == $(i+1)) {print NR; break}}}' "$file"
+

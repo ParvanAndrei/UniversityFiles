@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#se trimite un mesaj la utilizatul al carui este ziua de nastere
+
+luna="$(date +'%m')"
+echo "Luna:"$luna
+zi="$(date +'%d')"
+echo "Ziua:"$zi
+users=$(cat Utilizatori | awk -v a="$luna" -v b="$zi" '$4==a && $5==b {print $3}' )
+for each in $users
+do
+	nume=$(grep -w "$each" Utilizatori | awk  '{print $1,$2}') 
+	mesaj="La multi ani, "$nume" !"
+	write $each $mesaj
+done 

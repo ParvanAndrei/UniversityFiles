@@ -1,0 +1,6 @@
+C:\questasim64_10.6c\win64/vlib "C:\Users\yoyol\Desktop\College stuff\PED\questa/secureip"
+C:\questasim64_10.6c\win64/vmap secureip "C:\Users\yoyol\Desktop\College stuff\PED\questa/secureip"
+C:\questasim64_10.6c\win64/vlib "C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver"
+C:\questasim64_10.6c\win64/vmap unimacro_ver "C:\Users\yoyol\Desktop\College stuff\PED\questa/unimacro_ver"
+C:\questasim64_10.6c\win64/vlib "C:\Users\yoyol\Desktop\College stuff\PED\questa/unisims_ver"
+C:\questasim64_10.6c\win64/vmap unisims_ver "C:\Users\yoyol\Desktop\College stuff\PED\questa/unisims_ver"

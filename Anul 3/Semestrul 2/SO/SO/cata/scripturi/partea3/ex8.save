@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if (( $# != 1 ))
+  echo "trebuie dat un fisier ca parametru"
+else
+  file=$1
+  
+  awk '{for(i = 0; i <= NF-1; i++) { print " linia este "$0"coloana"i ; if ($i == $(i+1)) {print NR; break}}}' "$file"
+
+
+
+fi

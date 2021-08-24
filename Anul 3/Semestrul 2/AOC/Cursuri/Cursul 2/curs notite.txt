@@ -1,0 +1,113 @@
+Cursul 2 AOC
+
+Abstractiunea (DEX) - operatie a gandirii unde se desprind si retin
+unele dintre caracteristile si relatiile esentiale alea obiectului cercetarii
+Instructiunea.. nu am apucat
+
+Logica DEX foloseste raatiuneain realizarea anumitor activitati
+La calculatoare repr colectia de functiuni abstracte care stau 
+la baza deciziilor
+
+Aritmetica DEX - Ramura a matematicii ce se ocupa cu relatiile dintre numere
+Calculatoarele vor genera un raspuns numeric ce ar putea satisface 
+programatorii in reprezentarea aproximativa a nu stiu cui
+
+Potentiale clase de calculatoare: 
+-PC
+-Industrial Computers & Automations (difera de PC prin tratare multt mai atenta de protectie impotriva umiditatii zgomot, temperaturi, au mult mai bine dezvoltat interfatarea cu senzorii analogici si digitali dar si cu actuatorii)
+-Servers
+-Supercomputers sau "High Perfomance Computers" (HPC) - au scopul de a indeplini sarcini de procesarea a inf de complexitatea extrema si cu o extensie a interfetelor f importante
+Sunt folosite pentru calculul si det in domeniunul cercetarii, in simularea conditiilor de variatie climatului la nivel global
+sunt fol pt punerea in evidenta si analizarea unor ecosisteme la care nr de elemente de interactiune sunt majore
+pot consuma cantitati semnificative de energie (sute de MW)
+o serie de tehnologii de optimizare software si hardware sunt experimentate si dezvoltate
+-Embedded Computers/Systems implementeaza un nr f restrans de functiuni dar sunt fol in multe sisteme utilizate de noi
+se ingrijeste de 2 aspecte: interfata utilizatorului si actuatorul ce se ocupa de actiune (cred)
+intra foarte multe "jucarii" de care dispunem, multimedia din locuinta, automatizare case, institutii etc etc
+-Network Computers fac apel operatorii de telefonie, cap de calcul extrem de bine dezvoltate si se ocupa de codarea inf vehiculate in ceva raport cu protocoale de comunitate sau ceva de genul
+-Global Computers
+
+Aplicatii semnificative ale sistemelor de calcul
+- automatizari industriale robotizarea uzinelor
+- cercetari din fizica fundamentala si astronomie
+- automobile si controlul lor
+- telefonie mobila si infrastructura aferenta acesteia
+- ingineria si imagistica medicala precum si telemedicina
+- "Human genom"
+- WWW - web word wide sau Internetul
+- Masinile de cautare (google)
+- Green IT (minimizarea impactului asupra mediului)
+
+Idei principale ce au accelerat dezvoltarea
+- gandirea abstracta incercarea de a generaliza reprezentarea si evolutia, fibilizarea si imbunatatirea proc inf prin adaugara unor elem redundante la aceste sisteme
+	Eficientizarea prin : structurare vs secventele, utilizarea predictiei ca rezult al aplicarii modelelor si a dinamicii schimbarii in computer (prezent-viitor)
+ierarhizarea cu scopul de a eficientiza comunicatia (introducerii oridinii, ierarhiei. In principal este rezultatul nev de a nu consuma timp inutil
+nu s-a mai inteles ce spunea)
+dependabilitatea si redundanta (adaptarea, fiabilizarea se face print includerea in struct sistemelor a unor elemente cu functionalitati catt si cu o organizare a nu stiu cui similara
+e posibil ca uneori aceste sisteme pot sa greseasca in simulare datorita erorilor functionale aparute aleator de elementele aceste)
+
+Programarea Calculatoarelor
+Programare - repr dispunerea cronologica a unor miscari, op, actiuni/activitati astfel incat in finalul perioadei sa se realizeze o stare posibiliba a unui sisteme
+Programarea informatica contine urmatoarele sub activitati: specificarea, proiectarea, implementarea, documentarea si intretinerea produsului programatorii
+cu fig1.
+fig2.
+
+Principalele elemente ale unui calculator
+Set de reguli agreat la nivel international pentru interfete. acesta se numeste protocoale(asamblu de elemente introduse intr un fel sau altu in standarde).
+Document ce descriu prescriile sistemelor informatice. Trebuiesc implementate de catre structurile hard, interfete.
+Comunicatia (a doua interfata) sugereaza ideea ca sistemul nostru de calcul poate fi subordonat altui sistem, reprezinta de fapt ideea ierarhizarii
+-prin aceasta comunicatie intelegem ca reprezinta modalitatea prin care noi putem sa comunicam intre sisteme diferite
+Norisorul transmite mesaje/telegrame ale sistemului de informare si este de doua tipuri:
+	-cele programate
+	-cele spontane( transfera informatii care nu sunt neaparat pridictibile).
+	fig 4 pune in evidenta prrincipiul structurarii
+	
+	
+	Nivele caracteristice principale ale unui calculator:
+Hardaware: componente fizice care asigura implementarea functiunilor de logice, de calcul, memorare si comunicatie
+Sist software: componente de program care permit adaptarea executiei aplicatiilor de componenta hardware existenta
+acesta ne permite sa standardizam scrierea aplicatiilor noastre folosind elemente generice si adaptand prelucrarea acestor informatii la structura concrenta pe care masina noastra
+de calcul le detine
+Aplicatii software (aplicatii software) se refeera la procesele pe care noi le controlam. acest strat contine programe care sunt scrie 
+avand adresabilitate elementele generice ilustrate de sistem software si aceste programe vor adresa procesul specific pe care noi il implementam cu ajutorul sist de calcul
+
+	Ce reprezinta arhitectura si organizarea calculatoarelor?
+Repr acele caracterisitici vizibile programatorului. Principalul element reprezinta ISA ( instruction set architecture)
+Pune in evidenta actiunile CPU si modalitatile prin care acestea proceseaza informatiile SW
+-organizarea este legata de structurarea elementelor componente ale sistemului ce formeaza un calc -intereseaza in special pe proiectantul de calculatoare HW
+scheme in curs
+Prin arhitectura noi specificam cum anume se face transferul sau prelucrarea informatiilor. 
+Cele 2 laturi HW SI SW pot functiona doar impreuna.
+
+fig 5 -limbaje de nivel mediue (C) simplifica major viata, 
+	-limbajele de nivel inalt 
+	-ultimul limbaj este cel de cuprindere extrema. ne gandim la ceea ce repr elemente foarte abstracte, documentele, fisierele si sistemele de fisiere, paginile web etc care fac apel la un numar
+	extrem de restrans de atomi lexicali de cuvinte cheie care sunt folosite pentru a putea sa specificam actiunile. acest gen de limbaje ne ofera  ceva de nivel inalt deoarece compilatoarele lor pot
+	sa ignore unele erori produse de noi. Libertatea in definirea in astfel de limbaje este capabil sa defineasca propria unealta lingvistica sa defineasca dependabilitatea acestia in raport cu alte entitati
+	si sa specifice fie actiuni fie structuri de date si actiuni asamblate. Modul de scrie bazat pe mediu pe aceste tinte, entitati de maxima generalitate face ca macro limbajele nu stiu ce
+	
+Principalele functiuni ale calculatoarelor
+- calculabilitatea: capacitatea de a implementa operatii aritmetice si logice de baza in mediul digital
+-memorarea informatiilor
+-capacitatea de a comunica: a transmite informatiile si ale memora atunci cand este cazul
+-fiabilitatea datelor vehiculate si prelucrate
+
+fig 6 -au o proprietate de unicitate , fiecare componenta din ele raspund la aceasta cerinta de a adopta una din cele doua stari 0 sau 1
+dpdv al comunicatiei poate atinge o a treia stare starea de impedanta
+se inccearca o optimizarea spatiala cat mai bine a i fluxurile termice ca temperatura de lucru sa fie cat mai aproape de temeperatura ambientala
+
+Fluxurile informationale in cadrul unui sistem de calcul
+fig 7 
+
+	Comunicatia in calculatoare:
+-Zone de memorie comuna(MC): pp accesarea succesiva a aceleiasi zone de memorie dinsrpe cel puttin 2 magistrale avand capacitati de transfer diferite.
+rolul acestui tip de transfer consta in asigurarea sincronizarii transferului datelor si reducerea lantentelor ce apar in procesele de transfer
+in acest caz sincronizarea accesului de date este "explicita", iar natura datelor nu este in mod necesar cunoscuta
+-Magistrale comune(MPI): se deruleaza sub forma de cadre ce include o structura de date aprioric definita. o astfel de struct contine markerii de inceput si sfarsit a cadrului, precum si inf
+care sunt efectiv vehiculate. Sincronizarea transferului se realizeaza urrmare sistemului de detectie a inceputului si sfarsitului de cadru. 
+In general mesajele au cel putin o semnificattie care este explicitata in conjunctie cu protocolul de comunicatie utilizat.
+se aseamana cu o strada unde daca vrem sa ajunem undeva parcurgem strada cu un vehicul ce evident trebuie sa respectam niste reguli 
+relationam aceasta strada cu elementele din apropierea strazii, blocuri case, ele de fapt sunt compente unui calculator, iar strada in sine este o maggistrala
+careia i s-a conectatt respectivele case, elemente de locuit.
+
+protocolul de comunicatie repr asamblul de reguli ce fac referire la HW si SW ce asigura comunicatia fiabila si fara latente semnificative a informatiilor

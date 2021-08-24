@@ -1,0 +1,17 @@
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2hdl -intstyle ise -family artix7 -flat -suppress -vhdl prima_schema_drc.vhf -w {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2hdl -intstyle ise -family artix7 -flat -suppress -vhdl prima_schema_drc.vhf -w {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2hdl -intstyle ise -family artix7 -flat -suppress -vhdl prima_schema_drc.vhf -w {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2hdl -intstyle ise -family artix7 -flat -suppress -vhdl prima_schema_drc.vhf -w {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2hdl -intstyle ise -family artix7 -flat -suppress -vhdl prima_schema_drc.vhf -w {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+sch2hdl -intstyle ise -family artix7 -flat -suppress -vhdl prima_schema_drc.vhf -w {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} 
+sch2sym -intstyle ise -family artix7 -refsym prima_schema {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sch} {C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.sym} 
+xst -intstyle ise -ifn "C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.xst" -ofn "C:/Users/yoyol/Desktop/College stuff/PED/proiect_ed_part1/prima_schema.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim prima_schema.ngc prima_schema_synthesis.v 

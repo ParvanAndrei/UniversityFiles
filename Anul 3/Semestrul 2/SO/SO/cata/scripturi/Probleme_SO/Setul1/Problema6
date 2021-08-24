@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#echo -e "TO: catalinparvan96@gmail.com\nFROM: catalinparvan96@gmail.com\nSubject: test\nPR6a\n" > msg.txt
+#ssmtp catalinparvan96@gmail.com < msg.txt
+for each in $*
+do 
+	ss=$(grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}" $each)
+	mails=($ss)
+	for mail in ${mails[@]}
+	do
+	echo -e "TO: $mail\nFROM: catalinparvan96@gmail.com\nSubject: Problema6\nProblema6\n" > msg.txt
+	ssmtp catalinparvan@gmail.com < msg.txt
+	echo  $mail
+	done
+done
+

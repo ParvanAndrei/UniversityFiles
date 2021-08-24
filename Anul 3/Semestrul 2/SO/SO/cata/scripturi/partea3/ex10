@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# afiseaza numarul maxim de linii consecutive acre coincid
+
+awk 'BEGIN { count=1;max=1;l=$0}
+{ if($1 == prev)
+{
+   count++;
+   if(count>max){ max=count; l=$1}  
+}
+else
+count=1;
+prev=$1;
+}
+END{print max" "l}' "$1"
+

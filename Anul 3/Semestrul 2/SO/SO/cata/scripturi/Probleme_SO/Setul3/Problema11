@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# dedia cuvintelor din  fisierele tip din folderul dat ca parametru  si media
+# generala a acestora
+
+files=$(find $1 -type f -name "*.c" -o -name "*.cc" -o -name ".h")
+total=0
+for each in $files
+do
+	words=$(wc -w $each | awk '{print $1}' )
+	#echo "Cuvinte: "$words
+	linii=$(wc -l $each | awk '{print $1}')
+	#echo "Linii: "$linii
+	medie=$(( words/linii ))
+	total=$(( total+medie))
+	echo -e "Fisier: $each\nMedie: $medie  "
+done
+echo "Medie totala: $(($total/(${#files[@]}+1))) "

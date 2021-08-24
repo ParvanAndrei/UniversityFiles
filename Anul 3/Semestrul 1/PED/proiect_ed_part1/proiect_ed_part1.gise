@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="proiect_ed_part1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="compxlib.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/prima_schema_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/prima_schema_synthesis.v"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="prima_schema.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="prima_schema.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="prima_schema.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="prima_schema.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="prima_schema.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="prima_schema.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="prima_schema.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="prima_schema.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="prima_schema.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="prima_schema.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="prima_schema.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="prima_schema_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="prima_schema_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1610878532" xil_pn:name="TRANEXT_compLibraries2_virtex5" xil_pn:prop_ck="1059060741076304515" xil_pn:start_ts="1610878528">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="compxlib.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1610471589" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1610471589">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610878820" xil_pn:in_ck="-9199067545275210699" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3218325161792314253" xil_pn:start_ts="1610878817">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="prima_schema.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1610471591" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6837940887774729852" xil_pn:start_ts="1610471591">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610471591" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1610471591">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610471591" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="9128614980545933167" xil_pn:start_ts="1610471591">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1610473058" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1610473058">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1610473058" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2606041873982408122" xil_pn:start_ts="1610473058">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1610473070" xil_pn:in_ck="-9199067545275207269" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-296973517788096228" xil_pn:start_ts="1610473058">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="prima_schema.jhd"/>
+      <outfile xil_pn:name="prima_schema.lso"/>
+      <outfile xil_pn:name="prima_schema.ngc"/>
+      <outfile xil_pn:name="prima_schema.ngr"/>
+      <outfile xil_pn:name="prima_schema.prj"/>
+      <outfile xil_pn:name="prima_schema.stx"/>
+      <outfile xil_pn:name="prima_schema.syr"/>
+      <outfile xil_pn:name="prima_schema.xst"/>
+      <outfile xil_pn:name="prima_schema_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1610473094" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7269920085009059221" xil_pn:start_ts="1610473094">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1610473098" xil_pn:in_ck="-9199067545275216017" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="8639537299174419414" xil_pn:start_ts="1610473094">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/prima_schema_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/prima_schema_synthesis.v"/>
+    </transform>
+  </transforms>
+
+</generated_project>

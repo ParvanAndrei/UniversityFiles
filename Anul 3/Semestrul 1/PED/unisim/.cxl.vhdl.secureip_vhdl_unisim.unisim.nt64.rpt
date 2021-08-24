@@ -1,0 +1,17 @@
+CxlResult:C:\2020-2021\Proiect_ED/unisim/.cxl.vhdl.secureip_vhdl_unisim.unisim.nt64.rpt =
+	ExecutionPlatform = nt64 ,
+	SourceLibrary = secureip_vhdl_unisim ,
+	SourcePath = C:/Xilinx/14.7/ISE_DS/ISE/vhdl/src/unisims/secureip ,
+	Simulator = mti_pe ,
+	SimulatorVersion = 10.4a ,
+	CompiledLibrary = unisim ,
+	CompiledPath = C:\2020-2021\Proiect_ED/unisim ,
+	Timestamp = Sun Oct 25 14:55:47 2020 ,
+	Time = 1603630547 ,
+	Language = vhdl ,
+	XilinxBuildNumber = P.20131013 ,
+	XilinxVersion = 14.7 ,
+	LogFile = C:\2020-2021\Proiect_ED/unisim/.cxl.vhdl.secureip_vhdl_unisim.unisim.nt64.log ,
+	NumOfErrors = 0 ,
+	NumOfWarnings = 1 ,
+

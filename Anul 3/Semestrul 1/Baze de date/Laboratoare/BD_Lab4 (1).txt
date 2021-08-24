@@ -1,0 +1,57 @@
+-- ex 1
+
+SELECT * FROM Employees WHERE Salary BETWEEN 5000 AND 7000;
+SELECT * FROM Employees WHERE First_name = 'John';
+SELECT * FROM Employees WHERE Hire_date > '01-DEC-2007';
+SELECT * FROM Employees WHERE Job_id = 'IT_PROG' AND Salary > 5000;
+SELECT * FROM Employees WHERE Job_id = 'ST_CLERK' OR Job_id = 'MK_MAN';
+
+-- ex 2
+
+SELECT * FROM Employees WHERE First_name LIKE '__a%';
+SELECT * FROM Employees WHERE Job_id LIKE '%CLERK';
+
+-- ex 3
+
+SELECT First_name, Last_name, Salary FROM Employees ORDER BY Last_name, First_name; 
+
+-- ex 4
+
+SELECT First_name, Last_name, Salary as "Salariu brut", 1.2*Salary as "Propunere marire salariu" FROM Employees WHERE job_id LIKE '%MAN'; 
+
+-- ex 5
+
+SELECT MIN(Salary) Salariul_min, MAX(Salary) Salariul_max, ROUND(AVG(Salary),2) Salariul_mediu FROM Employees WHERE job_id = 'IT_PROG';
+
+-- ex 6
+
+SELECT First_name, Last_name, Department_ID FROM Employees WHERE(Department_ID) IN (SELECT Department_ID FROM Employees WHERE First_name = 'Karen' AND Last_name = 'Partners'); 
+
+-- Propuse
+-- ex 1
+
+SELECT First_name, Last_name, Departments.department_name FROM Employees, Departments WHERE Departments.department_name = 'Sales' AND Employees.department_id = Departments.department_id;
+
+-- ex 2
+
+SELECT COUNT(*) FROM Employees, Departments WHERE Departments.department_name = 'Sales' AND Employees.department_id = Departments.department_id;
+
+-- ex 3
+
+SELECT First_name, Last_name, Jobs.Job_title FROM Employees, Jobs WHERE Employees.job_id = Jobs.job_id;
+
+-- ex 4
+
+SELECT Departments.department_name as "Numele departamentului", COUNT(*) as "Numar de angajati" FROM Employees, Departments WHERE Employees.department_id = Departments.department_id GROUP BY Departments.department_name; 
+
+-- ex 5
+
+SELECT Department_name, Locations.city FROM Departments, Locations WHERE Departments.location_id = Locations.location_id AND locations.city = 'Seattle'; 
+
+-- ex 6
+
+SELECT Department_name, Locations.street_address FROM Departments, Locations WHERE Departments.location_id = Locations.location_id AND Locations.street_address LIKE '%Arthur St%'; 
+
+-- ex 7
+
+SELECT First_name, Last_name, Locations.country_id From Employees, Departments, Locations WHERE Employees.department_id = Departments.department_id AND Departments.location_id = Locations.location_id AND (Locations.country_id = 'US' OR Locations.country_id = 'CA');

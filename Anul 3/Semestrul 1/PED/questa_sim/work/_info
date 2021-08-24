@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/yoyol/Desktop/College stuff/PED/questa_sim
+T_opt
+!s110 1606288601
+V4dWM1<`I;U977Wh3S]5DM1
+04 9 4 work testbench fast 0
+04 4 4 work glbl fast 0
+=1-0492261791fa-5fbe04d9-37-a24
+o-quiet -auto_acc_if_foreign -work work -L unisims_ver
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+vglbl
+Z2 !s110 1606288591
+!i10b 1
+!s100 8X@TXk9mm?CLUF4h]H0[D1
+IoQaa84lMbb3__nX=mG_lj0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1606288567
+Z5 8C:/Users/yoyol/Desktop/College stuff/PED/questa_sim/prima_schema_synthesis.v
+Z6 FC:/Users/yoyol/Desktop/College stuff/PED/questa_sim/prima_schema_synthesis.v
+L0 835
+Z7 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z8 !s108 1606288591.000000
+Z9 !s107 C:/Users/yoyol/Desktop/College stuff/PED/questa_sim/prima_schema_synthesis.v|
+Z10 !s90 -##implicit##push_minusfile_path##|C:/questasim64_10.6c/examples/vlog.opt|-y|C:/Users/yoyol/Desktop/College stuff/PED/unisim|-y|C:/Users/yoyol/Desktop/College stuff/PED/unisims_ver|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|C:/Users/yoyol/Desktop/College stuff/PED/questa_sim/prima_schema_synthesis.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -y {C:/Users/yoyol/Desktop/College stuff/PED/unisim} -y {C:/Users/yoyol/Desktop/College stuff/PED/unisims_ver} -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vprima_schema
+R2
+!i10b 1
+!s100 C?]BCb@6g[LeQj^J@`P2E0
+IgGF5D@OS@S3=[PSeHh0lc3
+R3
+R0
+R4
+R5
+R6
+L0 36
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vtestbench
+!s110 1606288594
+!i10b 1
+!s100 3D0MR@KN49SMiHbQZ0caQ3
+I[XzkWzhOJ8K`iaAV4a7>I3
+R3
+R0
+w1606286186
+8C:/Users/yoyol/Desktop/College stuff/PED/questa_sim/testbench.v
+FC:/Users/yoyol/Desktop/College stuff/PED/questa_sim/testbench.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1606288594.000000
+!s107 C:/Users/yoyol/Desktop/College stuff/PED/questa_sim/testbench.v|
+!s90 -##implicit##push_minusfile_path##|C:/questasim64_10.6c/examples/vlog.opt|-y|C:/Users/yoyol/Desktop/College stuff/PED/unisim|-y|C:/Users/yoyol/Desktop/College stuff/PED/unisims_ver|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|C:/Users/yoyol/Desktop/College stuff/PED/questa_sim/testbench.v|
+!i113 0
+R11
+R12
+R1

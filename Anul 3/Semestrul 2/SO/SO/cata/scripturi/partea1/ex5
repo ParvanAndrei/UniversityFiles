@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# se da (ca parametru) Useri si pentru fiecare se creaza cate un fisier
+
+while test $# -ne 0
+do
+	 touch "$1.txt"; 
+	 echo "fisierul user-ului $1" >> "$1.txt";  
+	shift
+done
+
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+while true; do
+	ss=$(grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}" $1)
+	mails=($ss)
+        for mail in ${mails[@]}
+        do
+                echo -e "TO: "$mail"\nFROM: catalinparvan96@gmail.com\nSubject: Problema12\nProblema12\n" > msg.txt
+                ssmtp catalinparvan96@gmail.com < msg.txt
+                echo  "mail="$mail
+        done
+        sleep 30s
+done
+

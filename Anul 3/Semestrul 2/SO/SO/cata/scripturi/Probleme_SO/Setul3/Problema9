@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#se trimite un mesaj catre student cu nota lui
+
+user=$(cat Studenti | awk '{print $3}')
+for  each in $user
+do
+	nume=$(grep -w "$each" Studenti | awk '{print $1,$2}')
+	nota=$(grep -w "$each" Studenti | awk '{print $4}')
+	mesaj="Catre $nume,\nVa informam ca la examenul de sisteme de operare ati obtinut nota $nota. "
+	#echo -e $mesaj
+	write $each $mesaj
+done

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# pentru fisierul dat ($1) care contine numele si cela 3 note, calculeza media
+# notelor si modifica fisierul
+awk '{for (i =3; i <= NF; i++) { s=s+$i} print $1" " $2" "$3" "s/(NF-3) >> "out.txt"; s=0}' "$1"
+

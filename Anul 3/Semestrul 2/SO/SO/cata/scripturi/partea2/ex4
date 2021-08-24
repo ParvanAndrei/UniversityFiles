@@ -1,0 +1,10 @@
+#!/bin/bash
+
+name=$1
+shift
+while test $# -ne 0
+do
+          echo "Fisier = $1"
+          find "$name" -name "$1" -printf "%T@ %Tc %p\n"  | sort -n 
+          shift
+done
