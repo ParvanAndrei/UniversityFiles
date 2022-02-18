@@ -1,0 +1,41 @@
+- comutarea de pachete vs comutarea de circuite: avantaje si dezavantaje la fiecare  X
+- tipuri de servicii X
+- modelul ISO-OSI si TCP/IP X
+- ce avantaj are standardizarea si ce presupune X
+- incapsularea datelor X
+- ce rol are nivelul legatura de date  X
+       - Ethernet - algoritm folosit, ce corectie de erori foloseste, campuri de date  continute de cadre  X
+       - formatul adreselor Ethernet, adresa de broadcast  X		
+       - Wireless LAN 802.11 - algoritm folosit, particularitati, campuri de date  continute de cadre, ce informatii contin cadrele baliza X
+- half-duplex/full-duplex X
+- functionarea unui switch vs hub X
+- domenii de coliziuni, domenii de broadcast X
+- nivelul retea, comutarea de pachete (nu si de circuite virtuale) X
+
+
+
+- adresare, subnetare IP, agregarea adreselor  (calculare adresa de retea, broadcast, numar de biti de host, retea)
+- adrese IP speciale
+- protocolul ARP - operatii, scop X
+- protocolul DHCP - operatii, scop, secventa mesajelor X 
+- rutarea in Internet, procesul de rutare  X
+- clasificarea rutelor X
+- protocolul IPv6 - imbunatatiri fata de IPv4  X
+     - tipuri de adrese, adrese speciale  X
+     - autoconfigurarea adreselor  X
+- nivelul transport: caracteristici protocoale (TCP/UDP)  X
+- DNS - servere root, TLD, autoritare  X
+      - tipuri de inregistrari  X
+
+Rezolvarea unei probleme din temele:
+    - timpi de propagare, timpi de transmisie (+segmentare) X
+    - coduri cu redundanta ciclica (de la nivelul legatura de date) X 
+    - adresare, subnetare IP, calculare adresa de retea, broadcast, numar de biti de host, retea
+    - procesul de rutare
+    
+De exemplu:
+
+- timpi de propagare : să se calculeze timpul total de transmisie al unui packet de lungime dată (de ex 1000 de octeți) pentru o rețea ideală (nu se pierde timp de comutație in noduri) știind lungimea legăturilor și lățimea de bandă pentru fiecare legătură.
+- calculati CRC pentru un sir de biti la intrare, folosind un polinom generator dat. 
+- se dă o adresă IP și netmask-ul : să se calculeze adresa de rețea, de broadcast, primul și ultimul IP valabil, numărul maxim posibil de gazde din rețeaua respectivă.
+- se dă tabela de rutare a unui ruter și o adresă IP destinație, să se precizeze interfața de ieșire și dacă este cazul adresa următorului salt

@@ -1,0 +1,70 @@
+2 rutere
+2 switch uri 
+3 calculatoare
+
+
+
+
+1. Se asigneaza adresa ip router-ului 0: 10.1.1.1
+2. Se asigneaza adresa ip router-ului 1: 192.168.1.1 pentru ramura 
+din stanga si 192.168.2.1 pentru ramura din dreapta
+pentru portul serial se asigneaza adresa ip 10.1.1.2
+3. Se asigneaza o adresa ip fiecarui calculator: 
+PC0 -> 192.168.1.2
+PC1 -> 192.168.1.3
+PC2 -> 129.168.2.2
+
+
+	Router 0:
+4. Pentru interfata seriala mai intai se opreste router-ul, i se adauga
+modulul fizic pentru interfata seriala din lista de module
+WIC-1T si se reporneste router-ul
+
+5. Pentru interfata seriala se va seta clock rate de 64000 din sectiunea 
+config
+
+6. Pentru interfata seriala se asigneaza adresa ip mentionata la 
+punctul 1 si subnetmask: 255.255.255.252
+
+7. se porneste interfata bifand casuta "On"
+
+
+	Router 1:
+	
+8. Pentru interfata seriala mai intai se opreste router-ul, i se adauga
+modulul fizic pentru interfata seriala din lista de module
+WIC-1T si se reporneste router-ul
+
+9. Pentru interfata seriala se va seta clock rate de 64000 din sectiunea 
+config
+
+10. Pentru interfata seriala se asigneaza adresa ip mentionata la 
+punctul 2 si subnetmask: 255.255.255.252
+
+11. se porneste interfata bifand casuta "On"
+
+12. pentru interfata fastEnthernet 0 se asigneaza ip ul
+192.168.1.1 cu subnet mask implicit si se bifeaza "On" pentru a 
+activa interfata
+
+13. pentru interfata fastEnthernet1 se asigneaza ip-ul 
+192.168.2.1 cu subnet mask implicit si se bifeaza "On" pentru a 
+activa interfata
+
+
+	Pentru Pc-uri:
+	
+14. In sectiunea Config interfata FastEnthernet0 se asigneaza in mod 
+static ip-urile mentionate la punctul 3 pentru fiecare calculator
+
+
+Intrebari
+
+1. ce comanda putem folosi pentru a sterge o linie?
+2. ce comanda putem folosi pentru a sterge un cuvant?
+3. ce face telnet?
+
+
+1. Ctrl+U - sterge un linie
+2. ctrl+w - sterge un cuvant
+3. testeaza 

@@ -1,0 +1,21 @@
+1. source adress: 192.168.43.31
+
+2. ICMP (1)
+
+3. 20 bytes
+
+ 520 -20 = 500
+ 
+4. Nu. De ce? Pentru ca nu a fost setat de la inceput.
+
+5.identification, time to live, header checksum, ipv4 fragments.
+
+6.falgs, differential services,  header lenthg, source & destination address
+
+7. este un numar hexazecimal
+
+8. identification = 0xc3c9, TTL = 1
+
+9. nu. pentru ca trebuie sa aiba o valoare unica pentru fiecare in parte. TTL va avea aceasi valoare pentru ca ruta site-ului este mereu aceeasi.
+
+10. 2960

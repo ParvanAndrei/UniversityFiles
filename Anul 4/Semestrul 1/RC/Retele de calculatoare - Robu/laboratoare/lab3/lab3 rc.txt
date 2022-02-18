@@ -1,0 +1,25 @@
+1. a0:a4:c5:f3:fe:71 poza 1
+2. poza 2 - este adresa routerului
+3. poza 3 0x0800
+	reprezinta fragmentarea mesajului, avand in vedere ca bitii sunt 0 nu exista setari facute pentru fragmentare.
+4. 54
+5. Nu exista CRC in protocolul Enthernet
+6.poza 5 - adresa calculatorul personal
+7. da este adresa computerului nostru
+8. poza 6
+ reprezinta fragmentarea mesajului, avand in vedere ca bitii sunt 0 nu exista setari facute pentru fragmentare.
+9. nu avem okey din cauza ca site-ul este 404 not found..
+10. nu exista CRC in protocolul Enthernet
+11. poza 7 adresa internet, adresa fizica (adresa MAC), tipul
+12. poza 8
+
+13. poza 9
+reprezinta setari de fragmentare
+14. a) 20
+b) request(1)
+c) da, contine adresa transmitatorului (192.168.43.1)
+d) poza 10
+15.a) 20
+b) reply(2)
+c) poza 11
+16. poza 12

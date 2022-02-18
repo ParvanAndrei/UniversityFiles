@@ -1,0 +1,5 @@
+1. tcp, tlsv1.2, arp
+2. poza rc.png diferenta este 141644
+3. adresa ip a masinii: 10.90.116.49
+adresa ip a site-ului:107.21.112.245
+
