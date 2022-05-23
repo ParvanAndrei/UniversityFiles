@@ -1,0 +1,107 @@
+--***************************************************************************
+
+ENTITY counter IS
+  PORT ( ck, i, reset: IN BIT; 
+         o: OUT BIT;
+         -- These flags are for debugging purposes only
+         s0_flag, s1_flag, s2_flag, s3_flag, s4_flag : OUT BIT 
+  );
+END counter;
+
+--***************************************************************************
+
+ARCHITECTURE automate OF counter IS
+
+TYPE STATE_TYPE IS ( S0, S1, S2, S3, S4 );
+
+-- pragma CLOCK ck
+-- pragma CUR_STATE CURRENT_STATE
+-- pragma NEX_STATE NEXT_STATE
+
+SIGNAL CURRENT_STATE, NEXT_STATE: STATE_TYPE;
+
+BEGIN
+  PROCESS ( CURRENT_STATE, i, reset )
+  BEGIN
+    IF ( reset = '1' ) THEN
+      NEXT_STATE <= S0;
+      o <= '0';
+    ELSE
+    CASE CURRENT_STATE IS
+
+      WHEN S0 => s0_flag <= '1';
+        s1_flag <= '0';
+        s2_flag <= '0';
+        s3_flag <= '0';
+        s4_flag <= '0';
+        IF ( i = '1' ) THEN
+          NEXT_STATE <= S1;
+        ELSE
+          NEXT_STATE <= S0;
+        END IF;
+        o <= '0';
+
+      WHEN S1 => s1_flag <= '1';
+        s0_flag <= '0';
+        s2_flag <= '0';
+        s3_flag <= '0';
+        s4_flag <= '0';
+        IF ( i = '1' ) THEN
+          NEXT_STATE <= S2;
+        ELSE
+          NEXT_STATE <= S0;
+        END IF;
+        o <= '0';
+
+      WHEN S2 => s2_flag <= '1';
+        s0_flag <= '0';
+        s1_flag <= '0';
+        s3_flag <= '0';
+        s4_flag <= '0';
+        IF ( i = '1' ) THEN
+          NEXT_STATE <= S3;
+        ELSE
+          NEXT_STATE <= S0;
+        END IF;
+        o <= '0';
+
+      WHEN S3 => s3_flag <= '1';
+        s0_flag <= '0';
+        s1_flag <= '0';
+        s2_flag <= '0';
+        s4_flag <= '0';
+        IF ( i = '1' ) THEN
+          NEXT_STATE <= S4;
+        ELSE
+          NEXT_STATE <= S0;
+        END IF;
+        o <= '0';
+
+      WHEN S4 => s4_flag <= '1';
+        s0_flag <= '0';
+        s1_flag <= '0';
+        s2_flag <= '0';
+        s3_flag <= '0';
+        IF ( i = '1' ) THEN
+          NEXT_STATE <= S4;
+        ELSE
+          NEXT_STATE <= S0;
+        END IF;
+        o <= '1';
+
+      WHEN OTHERS =>
+        ASSERT ( '1' )
+        REPORT "Illegal State";
+
+    END CASE;
+  END IF;
+  END PROCESS;
+
+  PROCESS ( ck )
+  BEGIN
+    IF ( ck = '1' AND NOT ck'STABLE ) THEN
+      CURRENT_STATE <= NEXT_STATE;
+    END IF;
+  END PROCESS;
+
+END automate;

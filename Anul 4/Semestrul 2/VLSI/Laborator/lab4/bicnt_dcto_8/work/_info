@@ -1,0 +1,240 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8
+T_opt
+VM03VAKGma8:U?9KEo9TdA1
+Z1 04 15 15 work bin_dcto_8_test bin_dcto_8_test 1
+Z2 =1-0492261791fa-622eeffa-11b-610
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 n@_opt
+Z5 OE;O;6.6d;45
+Z6 dD:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8
+Ebicnt_dcto_8
+Z7 w1647242995
+Z8 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z10 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R6
+Z11 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8.vhd
+Z12 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8.vhd
+l0
+L5
+Z13 Vii5;PbL;;U^d<VjBoOD[>2
+Z14 OE;C;6.6d;45
+32
+Z15 o-work work
+Z16 tExplicit 1
+Z17 !s100 _1iX_?mLlYTg:c7WN7QEC1
+Abicnt_dcto_8_beh
+Z18 w1647242997
+R8
+R9
+R10
+Z19 DEx4 work 12 bicnt_dcto_8 0 22 ii5;PbL;;U^d<VjBoOD[>2
+Z20 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_beh.vhd
+Z21 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_beh.vhd
+l3
+L1
+Z22 VHoS0fe2=A2AELHXzGQI^A1
+R14
+32
+Z23 Mx3 4 ieee 14 std_logic_1164
+Z24 Mx2 4 ieee 18 std_logic_unsigned
+Z25 Mx1 4 ieee 15 std_logic_arith
+R15
+R16
+Z26 !s100 ?Xl=M=Y]iGk@_^kT@ERX_2
+Abicnt_dcto_8_guard
+R8
+R9
+R10
+Z27 DEx4 work 12 bicnt_dcto_8 0 22 1GMl`ZbDFQkY03Kh7IZbZ1
+Z28 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_guard.vhd
+Z29 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_guard.vhd
+l3
+L1
+Z30 Vgz7R5fzfG_QfVKGPl^TF<1
+R14
+32
+R23
+R24
+R25
+R15
+R16
+Z31 w1647242408
+Z32 !s100 QfF:1S9=cGc[O=n2K_4oW0
+Ebicnt_dcto_8_comp
+Z33 w1425056550
+R10
+R6
+Z34 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_comp.vhd
+Z35 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_comp.vhd
+l0
+L4
+Z36 V6[BL_CTn4gA`;3g`hm7E50
+R14
+32
+R15
+R16
+Z37 !s100 FY^M1Wj7kF@Y>6ZAWL18[3
+Abicnt_dcto_8_comp
+R10
+Z38 DEx4 work 17 bicnt_dcto_8_comp 0 22 6[BL_CTn4gA`;3g`hm7E50
+l13
+L12
+Z39 VA20j?d2AhRhPTS6`DVDXH1
+R14
+32
+Z40 Mx1 4 ieee 14 std_logic_1164
+R15
+R16
+Z41 !s100 QH:iiiPM7:zk`g7K0NKg?3
+Ebicnt_dcto_8_monitor
+Z42 w1425056890
+Z43 DPx4 work 8 io_utils 0 22 UkcAX2[LPM?XH<:hHaN<R1
+Z44 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R8
+R9
+R10
+R6
+Z45 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_monitor.vhd
+Z46 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_monitor.vhd
+l0
+L10
+Z47 VAKcTQJ;MQkFDc:ZRCnhgO2
+R14
+32
+R15
+R16
+Z48 !s100 NL2JKLEWZ>eV9Iz?Tkz7L3
+Abicnt_dcto_8_monitor
+R43
+R44
+R8
+R9
+R10
+Z49 DEx4 work 20 bicnt_dcto_8_monitor 0 22 AKcTQJ;MQkFDc:ZRCnhgO2
+l27
+L23
+Z50 V?7dVRTN06C[WV8aiV23?z0
+R14
+32
+Z51 Mx5 4 ieee 14 std_logic_1164
+Z52 Mx4 4 ieee 18 std_logic_unsigned
+Z53 Mx3 4 ieee 15 std_logic_arith
+Z54 Mx2 3 std 6 textio
+Z55 Mx1 4 work 8 io_utils
+R15
+R16
+Z56 !s100 Ticg_5Al=Q@ZUD^Ob7z5K3
+Ebicnt_dcto_8_tb
+Z57 w1425057992
+R43
+R44
+R8
+R9
+R10
+R6
+Z58 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_tb.vhd
+Z59 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_tb.vhd
+l0
+L9
+Z60 VZ=zXZE88??UEf3:dDfUhS0
+R14
+32
+R15
+R16
+Z61 !s100 Ih;6ALL3Ph2fH:Z[Ej?M22
+Abicnt_dcto_8_tb
+R43
+R44
+R8
+R9
+R10
+Z62 DEx4 work 15 bicnt_dcto_8_tb 0 22 Z=zXZE88??UEf3:dDfUhS0
+l23
+L21
+Z63 Vl0J_iaoR6W8Gg>C8`=DcZ0
+R14
+32
+R51
+R52
+R53
+R54
+R55
+R15
+R16
+Z64 !s100 cP`WK6Bm_L[]>c[1LKG>Q0
+Ebin_dcto_8_test
+Z65 w1647243209
+R10
+R6
+Z66 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bin_dcto_8_test.vhd
+Z67 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bin_dcto_8_test.vhd
+l0
+L4
+Z68 VYR1H@9JE4CUhgR2eT0nkS0
+R14
+32
+R15
+R16
+Z69 !s100 m?U::oQZ]`=hK_i>fn3O73
+Abin_dcto_8_test
+R38
+R49
+R19
+R43
+R44
+R8
+R9
+R62
+R10
+Z70 DEx4 work 15 bin_dcto_8_test 0 22 YR1H@9JE4CUhgR2eT0nkS0
+l75
+L7
+Z71 VXFMokB;R^=QcQ0bMC`VV`0
+R14
+32
+R51
+R52
+R53
+R54
+R55
+R15
+R16
+Z72 !s100 T@2fDl0PPZN0>QdlT4o0l1
+Pio_utils
+R10
+R44
+Z73 w1425056840
+R6
+Z74 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/io_utils.vhd
+Z75 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/io_utils.vhd
+l0
+L5
+Z76 VUkcAX2[LPM?XH<:hHaN<R1
+R14
+32
+b1
+R54
+R40
+R15
+R16
+Z77 !s100 Z2373D^JQ]:e]zYZ0a^A30
+Bbody
+Z78 DBx4 work 8 io_utils 0 22 UkcAX2[LPM?XH<:hHaN<R1
+R10
+R44
+l0
+L36
+Z79 V[nF0jW63`BW0]BlY2;<gT2
+R14
+32
+R54
+R40
+R15
+R16
+nbody
+Z80 !s100 gGY[jT@@eBCdZz>R^<Fm;0

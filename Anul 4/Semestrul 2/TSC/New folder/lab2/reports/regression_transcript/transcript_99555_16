@@ -1,0 +1,235 @@
+# 0
+# vsim +notimingchecks +nowarnTSCALE +NR_OF_TRANS=16 -sva -nocoverage -quiet -sv_seed 99555 -novopt top 
+# //  ModelSim SE 6.6d Nov  1 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(89): Clocking block output arithmetic_if.cb.opcode is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(90): Clocking block output arithmetic_if.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(91): Clocking block output arithmetic_if.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(88): Clocking block output arithmetic_if.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(95): Clocking block output arithmetic_if.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 4
+# 
+# Writing to register location 1: 
+#   opcode = 2 (PASSB)
+#   operand_a = 12
+#   operand_b = 11
+# 
+# Writing to register location 2: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 9
+# 
+# Writing to register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 5
+#   operand_b = 15
+# 
+# Writing to register location 4: 
+#   opcode = 6 (DIV)
+#   operand_a = 11
+#   operand_b = 4
+# 
+# Writing to register location 5: 
+#   opcode = 5 (MULT)
+#   operand_a = 7
+#   operand_b = 15
+# 
+# Writing to register location 6: 
+#   opcode = 0 (ZERO)
+#   operand_a = 11
+#   operand_b = 10
+# 
+# Writing to register location 7: 
+#   opcode = 3 (ADD)
+#   operand_a = 1
+#   operand_b = 1
+# 
+# Writing to register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = 14
+#   operand_b = 9
+# 
+# Writing to register location 9: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 9
+# 
+# Writing to register location 10: 
+#   opcode = 3 (ADD)
+#   operand_a = 4
+#   operand_b = 13
+# 
+# Writing to register location 11: 
+#   opcode = 4 (SUB)
+#   operand_a = 2
+#   operand_b = 2
+# 
+# Writing to register location 12: 
+#   opcode = 4 (SUB)
+#   operand_a = 6
+#   operand_b = 14
+# 
+# Writing to register location 13: 
+#   opcode = 7 (MOD)
+#   operand_a = 1
+#   operand_b = 13
+# 
+# Writing to register location 14: 
+#   opcode = 6 (DIV)
+#   operand_a = 8
+#   operand_b = 0
+# 
+# Writing to register location 15: 
+#   opcode = 5 (MULT)
+#   operand_a = 4
+#   operand_b = 5
+# 
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 4
+#   result    = 0
+# 
+# Read from register location 1: 
+#   opcode = 2 (PASSB)
+#   operand_a = 12
+#   operand_b = 11
+#   result    = 11
+# 
+# Read from register location 2: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 9
+#   result    = -5
+# 
+# Read from register location 3: 
+#   opcode = 2 (PASSB)
+#   operand_a = 5
+#   operand_b = 15
+#   result    = 15
+# 
+# Read from register location 4: 
+#   opcode = 6 (DIV)
+#   operand_a = 11
+#   operand_b = 4
+#   result    = 44
+# 
+# ** Error: DIV operation error: Expected result = 2 Actual result = 44
+# 
+#    Time: 225 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 133
+# Read from register location 5: 
+#   opcode = 5 (MULT)
+#   operand_a = 7
+#   operand_b = 15
+#   result    = 0
+# 
+# ** Error: MULT operation error: Expected result = 105 Actual result = 0
+# 
+#    Time: 235 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 127
+# Read from register location 6: 
+#   opcode = 0 (ZERO)
+#   operand_a = 11
+#   operand_b = 10
+#   result    = 0
+# 
+# Read from register location 7: 
+#   opcode = 3 (ADD)
+#   operand_a = 1
+#   operand_b = 1
+#   result    = 2
+# 
+# Read from register location 8: 
+#   opcode = 4 (SUB)
+#   operand_a = 14
+#   operand_b = 9
+#   result    = 5
+# 
+# Read from register location 9: 
+#   opcode = 4 (SUB)
+#   operand_a = 4
+#   operand_b = 9
+#   result    = -5
+# 
+# Read from register location 10: 
+#   opcode = 3 (ADD)
+#   operand_a = 4
+#   operand_b = 13
+#   result    = 17
+# 
+# Read from register location 11: 
+#   opcode = 4 (SUB)
+#   operand_a = 2
+#   operand_b = 2
+#   result    = 0
+# 
+# Read from register location 12: 
+#   opcode = 4 (SUB)
+#   operand_a = 6
+#   operand_b = 14
+#   result    = -8
+# 
+# Read from register location 13: 
+#   opcode = 7 (MOD)
+#   operand_a = 1
+#   operand_b = 13
+#   result    = 1
+# 
+# Read from register location 14: 
+#   opcode = 6 (DIV)
+#   operand_a = 8
+#   operand_b = 0
+#   result    = 0
+# 
+# Read from register location 15: 
+#   opcode = 5 (MULT)
+#   operand_a = 4
+#   operand_b = 5
+#   result    = 0
+# 
+# ** Error: MULT operation error: Expected result = 20 Actual result = 0
+# 
+#    Time: 335 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 127
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# TEST FAILED (3 errors)
+# ** Note: $finish    : ../lab01_testbench-interface/first_test.sv(69)
+#    Time: 340 ns  Iteration: 2  Instance: /top/test

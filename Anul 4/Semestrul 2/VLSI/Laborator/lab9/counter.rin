@@ -1,0 +1,5 @@
+
+west (p1 p2)
+north (p3)
+east (p9 p5 p8)
+south (p6 p4 p7)

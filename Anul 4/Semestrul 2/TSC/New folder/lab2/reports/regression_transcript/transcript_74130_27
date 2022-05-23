@@ -1,0 +1,356 @@
+# 0
+# vsim +notimingchecks +nowarnTSCALE +NR_OF_TRANS=27 -sva -nocoverage -quiet -sv_seed 74130 -novopt top 
+# //  ModelSim SE 6.6d Nov  1 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(89): Clocking block output arithmetic_if.cb.opcode is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(90): Clocking block output arithmetic_if.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(91): Clocking block output arithmetic_if.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(88): Clocking block output arithmetic_if.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(95): Clocking block output arithmetic_if.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   opcode = 0 (ZERO)
+#   operand_a = 2
+#   operand_b = 9
+# 
+# Writing to register location 1: 
+#   opcode = 1 (PASSA)
+#   operand_a = 8
+#   operand_b = 13
+# 
+# Writing to register location 2: 
+#   opcode = 0 (ZERO)
+#   operand_a = 2
+#   operand_b = 6
+# 
+# Writing to register location 3: 
+#   opcode = 3 (ADD)
+#   operand_a = 8
+#   operand_b = 0
+# 
+# Writing to register location 4: 
+#   opcode = 1 (PASSA)
+#   operand_a = 2
+#   operand_b = 9
+# 
+# Writing to register location 5: 
+#   opcode = 2 (PASSB)
+#   operand_a = 8
+#   operand_b = 14
+# 
+# Writing to register location 6: 
+#   opcode = 7 (MOD)
+#   operand_a = 12
+#   operand_b = 0
+# 
+# Writing to register location 7: 
+#   opcode = 0 (ZERO)
+#   operand_a = 6
+#   operand_b = 3
+# 
+# Writing to register location 8: 
+#   opcode = 2 (PASSB)
+#   operand_a = 12
+#   operand_b = 12
+# 
+# Writing to register location 9: 
+#   opcode = 7 (MOD)
+#   operand_a = 7
+#   operand_b = 5
+# 
+# Writing to register location 10: 
+#   opcode = 7 (MOD)
+#   operand_a = 3
+#   operand_b = 15
+# 
+# Writing to register location 11: 
+#   opcode = 0 (ZERO)
+#   operand_a = 4
+#   operand_b = 12
+# 
+# Writing to register location 12: 
+#   opcode = 6 (DIV)
+#   operand_a = 8
+#   operand_b = 13
+# 
+# Writing to register location 13: 
+#   opcode = 0 (ZERO)
+#   operand_a = 5
+#   operand_b = 6
+# 
+# Writing to register location 14: 
+#   opcode = 3 (ADD)
+#   operand_a = 0
+#   operand_b = 2
+# 
+# Writing to register location 15: 
+#   opcode = 6 (DIV)
+#   operand_a = 10
+#   operand_b = 2
+# 
+# Writing to register location 16: 
+#   opcode = 2 (PASSB)
+#   operand_a = 6
+#   operand_b = 3
+# 
+# Writing to register location 17: 
+#   opcode = 3 (ADD)
+#   operand_a = 9
+#   operand_b = 1
+# 
+# Writing to register location 18: 
+#   opcode = 1 (PASSA)
+#   operand_a = 9
+#   operand_b = 1
+# 
+# Writing to register location 19: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 4
+# 
+# Writing to register location 20: 
+#   opcode = 4 (SUB)
+#   operand_a = 10
+#   operand_b = 15
+# 
+# Writing to register location 21: 
+#   opcode = 0 (ZERO)
+#   operand_a = 0
+#   operand_b = 7
+# 
+# Writing to register location 22: 
+#   opcode = 2 (PASSB)
+#   operand_a = 10
+#   operand_b = 11
+# 
+# Writing to register location 23: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 10
+# 
+# Writing to register location 24: 
+#   opcode = 0 (ZERO)
+#   operand_a = 13
+#   operand_b = 5
+# 
+# Writing to register location 25: 
+#   opcode = 7 (MOD)
+#   operand_a = 12
+#   operand_b = 6
+# 
+# Writing to register location 26: 
+#   opcode = 5 (MULT)
+#   operand_a = 0
+#   operand_b = 9
+# 
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 0 (ZERO)
+#   operand_a = 2
+#   operand_b = 9
+#   result    = 0
+# 
+# Read from register location 1: 
+#   opcode = 1 (PASSA)
+#   operand_a = 8
+#   operand_b = 13
+#   result    = 8
+# 
+# Read from register location 2: 
+#   opcode = 0 (ZERO)
+#   operand_a = 2
+#   operand_b = 6
+#   result    = 0
+# 
+# Read from register location 3: 
+#   opcode = 3 (ADD)
+#   operand_a = 8
+#   operand_b = 0
+#   result    = 8
+# 
+# Read from register location 4: 
+#   opcode = 1 (PASSA)
+#   operand_a = 2
+#   operand_b = 9
+#   result    = 2
+# 
+# Read from register location 5: 
+#   opcode = 2 (PASSB)
+#   operand_a = 8
+#   operand_b = 14
+#   result    = 14
+# 
+# Read from register location 6: 
+#   opcode = 7 (MOD)
+#   operand_a = 12
+#   operand_b = 0
+#   result    = x
+# 
+# Read from register location 7: 
+#   opcode = 0 (ZERO)
+#   operand_a = 6
+#   operand_b = 3
+#   result    = 0
+# 
+# Read from register location 8: 
+#   opcode = 2 (PASSB)
+#   operand_a = 12
+#   operand_b = 12
+#   result    = 12
+# 
+# Read from register location 9: 
+#   opcode = 7 (MOD)
+#   operand_a = 7
+#   operand_b = 5
+#   result    = 2
+# 
+# Read from register location 10: 
+#   opcode = 7 (MOD)
+#   operand_a = 3
+#   operand_b = 15
+#   result    = 3
+# 
+# Read from register location 11: 
+#   opcode = 0 (ZERO)
+#   operand_a = 4
+#   operand_b = 12
+#   result    = 0
+# 
+# Read from register location 12: 
+#   opcode = 6 (DIV)
+#   operand_a = 8
+#   operand_b = 13
+#   result    = 104
+# 
+# ** Error: DIV operation error: Expected result = 0 Actual result = 104
+# 
+#    Time: 415 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 133
+# Read from register location 13: 
+#   opcode = 0 (ZERO)
+#   operand_a = 5
+#   operand_b = 6
+#   result    = 0
+# 
+# Read from register location 14: 
+#   opcode = 3 (ADD)
+#   operand_a = 0
+#   operand_b = 2
+#   result    = 2
+# 
+# Read from register location 15: 
+#   opcode = 6 (DIV)
+#   operand_a = 10
+#   operand_b = 2
+#   result    = 20
+# 
+# ** Error: DIV operation error: Expected result = 5 Actual result = 20
+# 
+#    Time: 445 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 133
+# Read from register location 16: 
+#   opcode = 2 (PASSB)
+#   operand_a = 6
+#   operand_b = 3
+#   result    = 3
+# 
+# Read from register location 17: 
+#   opcode = 3 (ADD)
+#   operand_a = 9
+#   operand_b = 1
+#   result    = 10
+# 
+# Read from register location 18: 
+#   opcode = 1 (PASSA)
+#   operand_a = 9
+#   operand_b = 1
+#   result    = 9
+# 
+# Read from register location 19: 
+#   opcode = 6 (DIV)
+#   operand_a = 12
+#   operand_b = 4
+#   result    = 48
+# 
+# ** Error: DIV operation error: Expected result = 3 Actual result = 48
+# 
+#    Time: 485 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 133
+# Read from register location 20: 
+#   opcode = 4 (SUB)
+#   operand_a = 10
+#   operand_b = 15
+#   result    = -5
+# 
+# Read from register location 21: 
+#   opcode = 0 (ZERO)
+#   operand_a = 0
+#   operand_b = 7
+#   result    = 0
+# 
+# Read from register location 22: 
+#   opcode = 2 (PASSB)
+#   operand_a = 10
+#   operand_b = 11
+#   result    = 11
+# 
+# Read from register location 23: 
+#   opcode = 2 (PASSB)
+#   operand_a = 14
+#   operand_b = 10
+#   result    = 10
+# 
+# Read from register location 24: 
+#   opcode = 0 (ZERO)
+#   operand_a = 13
+#   operand_b = 5
+#   result    = 0
+# 
+# Read from register location 25: 
+#   opcode = 7 (MOD)
+#   operand_a = 12
+#   operand_b = 6
+#   result    = 0
+# 
+# Read from register location 26: 
+#   opcode = 5 (MULT)
+#   operand_a = 0
+#   operand_b = 9
+#   result    = 0
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# TEST FAILED (3 errors)
+# ** Note: $finish    : ../lab01_testbench-interface/first_test.sv(69)
+#    Time: 560 ns  Iteration: 2  Instance: /top/test

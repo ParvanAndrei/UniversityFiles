@@ -1,0 +1,10 @@
+1.scripting - run.do (tkl)
+	-batch 
+2. regresie(adaugam test, verificam)
+3. randomize ( treaba cu seed-ul)
+4. coverage ( cod, functionalitate) - sa facem un function coverage
+				-bin 
+5.System Verilog - structura TB- sa punem o operatie, sa o verificam, sa punem un semnal,o operatie
+				- formele de unda
+6. GIT - checkout la o versiune
+7. modelsim 

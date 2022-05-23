@@ -1,0 +1,18 @@
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# ** Error: ../lab01_testbench-interface/instr_register_test.sv(29): Variables of embedded Covergroup type 'my_coverGroup' cannot be created.
+# ** Error: ../lab01_testbench-interface/instr_register_test.sv(35): Undefined variable: cov_test.
+# -- Compiling interface tb_ifc
+# ** Error: C:/modeltech_6.6d/win32/vlog failed.
+# Error in macro ./run.do line 21
+# C:/modeltech_6.6d/win32/vlog failed.
+#     while executing
+# "vlog -sv -timescale "1ns/1ns" -work work       -f sources.txt"
+#     invoked from within
+# "if {$compile_on || [batch_mode] == 0} {
+#   vlib work
+#   vlog -sv -timescale "1ns/1ns" -work work       -f sources.txt
+# }"

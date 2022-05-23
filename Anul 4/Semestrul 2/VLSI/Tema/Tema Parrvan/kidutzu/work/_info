@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\facultate\VLSI\Tema\Tema Parrvan\kidutzu
+T_opt
+VJNH[a24FYG5[44;Zz>ANQ2
+04 12 17 work divider_test divider_test_arch 1
+Z1 =1-0492261791fa-626bdafd-b3-23c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 n@_opt
+Z4 OE;O;6.6d;45
+Z5 dD:\facultate\VLSI\Tema\Tema Parrvan\kidutzu
+Edivider
+Z6 w1651221183
+Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R5
+Z8 8D:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider.vhd
+Z9 FD:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider.vhd
+l0
+L6
+Z10 VAg0N^BI;<25_5zH:dI<>c3
+Z11 OE;C;6.6d;45
+32
+Z12 o-work work
+Z13 tExplicit 1
+Z14 !s100 Cf;XI7V2nULIA_j:QKh4X1
+Adivider_arch
+R7
+Z15 DEx4 work 7 divider 0 22 Ag0N^BI;<25_5zH:dI<>c3
+l63
+L19
+Z16 VKC6`iH[VfBIigdZ>C4cIh0
+R11
+32
+Z17 Mx1 4 ieee 14 std_logic_1164
+R12
+R13
+Z18 !s100 SWDN@Y3F=407G9D>lHDT81
+Edivider_control
+Z19 w1651221134
+R7
+R5
+Z20 8D:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider_control.vhd
+Z21 FD:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider_control.vhd
+l0
+L4
+Z22 VUBEAlem`Ba9[;h1BbRT:N3
+R11
+32
+R12
+R13
+Z23 !s100 K]0<R;6n1ReTgBWHD8SdS3
+Adivider_control_arch
+R7
+Z24 DEx4 work 15 divider_control 0 22 UBEAlem`Ba9[;h1BbRT:N3
+l28
+L19
+Z25 VL]ZiCWP@7A8<KM1FTUUfB2
+R11
+32
+R17
+R12
+R13
+Z26 !s100 A2Q7[_DTVA]hdMH6Q:EXG2
+Edivider_data
+Z27 w1651221187
+Z28 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z29 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R7
+R5
+Z30 8D:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider_data.vhd
+Z31 FD:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider_data.vhd
+l0
+L5
+Z32 VTaY1?FQJ^MahinIbJ1e3h0
+R11
+32
+R12
+R13
+Z33 !s100 4NPj9hD^R6F>lnfNbl[ac1
+Adivider_data_arch
+R28
+R29
+R7
+Z34 DEx4 work 12 divider_data 0 22 TaY1?FQJ^MahinIbJ1e3h0
+l33
+L24
+Z35 VkkTQHzl=PX1Lc7WfRV5mF2
+R11
+32
+Z36 Mx3 4 ieee 14 std_logic_1164
+Z37 Mx2 4 ieee 15 std_logic_arith
+Z38 Mx1 4 ieee 18 std_logic_unsigned
+R12
+R13
+Z39 !s100 K]48<7KgWMW`4hDzVIk>W1
+Edivider_test
+Z40 w1651221186
+R7
+R5
+Z41 8D:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider_test.vhd
+Z42 FD:/facultate/VLSI/Tema/Tema Parrvan/kidutzu/divider_test.vhd
+l0
+L3
+Z43 Vkl67enO8^NE?ddMYQH_Ih3
+R11
+32
+R12
+R13
+Z44 !s100 N:]UXBS<0=c>_[T]gG;_83
+Adivider_test_arch
+R7
+Z45 DEx4 work 12 divider_test 0 22 kl67enO8^NE?ddMYQH_Ih3
+l23
+L5
+Z46 VXC?Vc_E5K_OBmL^IM33oF3
+R11
+32
+R17
+R12
+R13
+Z47 !s100 YP<U[mIb2dl0id?Va9[RB1

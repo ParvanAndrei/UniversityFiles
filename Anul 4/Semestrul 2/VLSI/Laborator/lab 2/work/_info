@@ -1,0 +1,138 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\facultate\VLSI\Laborator\lab 2
+T_opt
+VE8WN=f3Zj2YM7VRa1446S1
+04 10 10 work add_8_test add_8_test 1
+=1-0492261791fa-621c78d4-3b6-1f40
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;6.6d;45
+Z1 dD:\facultate\VLSI\Laborator\lab 2
+Eadd_8
+Z2 w1646033273
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R1
+8D:/facultate/VLSI/Laborator/lab 2/add_8.vhd
+FD:/facultate/VLSI/Laborator/lab 2/add_8.vhd
+l0
+L4
+V[JUblf4;jN1oemd>[@AMG3
+Z4 OE;C;6.6d;45
+32
+Z5 o-work work
+Z6 tExplicit 1
+!s100 4DfFYg6jMHS7G8hMddfHJ2
+Aadd_8_df
+R3
+Z7 DEx4 work 5 add_8 0 22 [JUblf4;jN1oemd>[@AMG3
+8D:/facultate/VLSI/Laborator/lab 2/add_8_df.vhd
+FD:/facultate/VLSI/Laborator/lab 2/add_8_df.vhd
+l3
+L1
+V;@BEDEi@T2_4ma2[6[zi;3
+R4
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R5
+R6
+!s100 2dd[oF[SF3_=QSPJgo;<S2
+Eadd_8_monitor
+Z9 w1646033731
+Z10 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R3
+R1
+Z12 8D:/facultate/VLSI/Laborator/lab 2/add_8_monitor.vhd
+Z13 FD:/facultate/VLSI/Laborator/lab 2/add_8_monitor.vhd
+l0
+L5
+Vc>Nzm8_3WFnd_0ok7:2BF0
+R4
+32
+R5
+R6
+!s100 zhlbdVd;6^X;b9A:^i<9]2
+Aadd_8_monitor
+R10
+R11
+R3
+Z14 DEx4 work 13 add_8_monitor 0 22 c>Nzm8_3WFnd_0ok7:2BF0
+l14
+L13
+V8<>^oFD_z_4MliL=::HUi1
+R4
+32
+Z15 Mx3 4 ieee 14 std_logic_1164
+Z16 Mx2 4 ieee 18 std_logic_unsigned
+Z17 Mx1 4 ieee 15 std_logic_arith
+R5
+R6
+!s100 hFkfHadVG_g=mcz5TOnK[1
+Eadd_8_tb
+Z18 w1646033888
+R10
+R11
+R3
+R1
+Z19 8D:/facultate/VLSI/Laborator/lab 2/add_8_tb.vhd
+Z20 FD:/facultate/VLSI/Laborator/lab 2/add_8_tb.vhd
+l0
+L5
+VQ;GKKK[MbMbiD@_UX7OUc0
+R4
+32
+R5
+R6
+!s100 27?JHZ89K?mkS2laD28Yh1
+Aadd_8_tb
+R10
+R11
+R3
+Z21 DEx4 work 8 add_8_tb 0 22 Q;GKKK[MbMbiD@_UX7OUc0
+l16
+L12
+V8>[:<fT^NmN[>:DiYXajY0
+R4
+32
+R15
+R16
+R17
+R5
+R6
+!s100 :e6h9XNo9YAZZGY9E9BAc3
+Eadd_8_test
+Z22 w1646033948
+R3
+R1
+Z23 8D:/facultate/VLSI/Laborator/lab 2/add_8_test.vhd
+Z24 FD:/facultate/VLSI/Laborator/lab 2/add_8_test.vhd
+l0
+L4
+VzC<T>^8dTU9NSdhzPO1h<3
+!s100 n2_c]G=N4cFf>4``^@?eF0
+R4
+32
+R5
+R6
+Aadd_8_test
+R14
+R7
+R10
+R11
+R21
+R3
+Z25 DEx4 work 10 add_8_test 0 22 zC<T>^8dTU9NSdhzPO1h<3
+l39
+L7
+V1JaTCToBVS>39FmLco10z1
+!s100 e;EJ=6o[BYSal67TE4EHN1
+R4
+32
+R15
+R16
+R17
+R5
+R6

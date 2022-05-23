@@ -1,0 +1,181 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\facultate\VLSI\Laborator\lab5
+T_opt
+Z1 VMnVN2dJY9WLiEg05h9GFE0
+Z2 04 14 14 work mealy_syn_test mealy_syn_test 1
+Z3 =1-0492261791fa-62381d4d-1b5-40cc
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dD:\facultate\VLSI\Laborator\lab5
+T_opt1
+Z8 V8PPNGnYhMmF9QV:UJWTTk1
+Z9 04 15 15 work mealy_asyn_test mealy_asyn_test 1
+Z10 =1-0492261791fa-62381e65-92-82c
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+VTC^fk3mN_jSNnOEeDc29z0
+04 19 19 work mealy_syn_asyn_test mealy_syn_asyn_test 1
+Z12 =1-0492261791fa-62381f07-2a6-2930
+R4
+Z13 n@_opt2
+R6
+R7
+Emealy
+Z14 w1425060202
+Z15 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R7
+Z16 8D:/facultate/VLSI/Laborator/lab5/mealy.vhd
+Z17 FD:/facultate/VLSI/Laborator/lab5/mealy.vhd
+l0
+L4
+Z18 VO9DAoe]4j94K]cHkJYQEl0
+Z19 OE;C;6.6d;45
+32
+Z20 o-work work
+Z21 tExplicit 1
+Z22 !s100 Wn5H[h[HW4SPhd]_?9Hk<3
+Amealy_asyn
+R15
+Z23 DEx4 work 5 mealy 0 22 O9DAoe]4j94K]cHkJYQEl0
+Z24 8D:/facultate/VLSI/Laborator/lab5/mealy_asyn.vhd
+Z25 FD:/facultate/VLSI/Laborator/lab5/mealy_asyn.vhd
+l8
+L1
+Z26 ViK=_ni5J0n@zK5Dde]?Bd1
+R19
+32
+Z27 Mx1 4 ieee 14 std_logic_1164
+R20
+R21
+Z28 !s100 N9U?4W15APF^mRBQUo]T91
+Amealy_syn
+R15
+R23
+Z29 8D:/facultate/VLSI/Laborator/lab5/mealy_syn.vhd
+Z30 FD:/facultate/VLSI/Laborator/lab5/mealy_syn.vhd
+l8
+L1
+Z31 VJ4^:SNgcE]PUNVkY[[LVA3
+R19
+32
+R27
+R20
+R21
+Z32 !s100 G;dKHWii7gS3<gjY7Q?dR0
+Emealy_asyn_test
+R14
+R15
+R7
+Z33 8D:/facultate/VLSI/Laborator/lab5/mealy_asyn_test.vhd
+Z34 FD:/facultate/VLSI/Laborator/lab5/mealy_asyn_test.vhd
+l0
+L4
+Z35 VC>FDOR`7=JF=Ua6jSEc4X0
+R19
+32
+R20
+R21
+Z36 !s100 j@Rf4LNP;ImDM_>T5C@fJ0
+Amealy_asyn_test
+Z37 DEx4 work 8 mealy_tb 0 22 YhK^RMije1MSPV[YTbLYS2
+R23
+R15
+Z38 DEx4 work 15 mealy_asyn_test 0 22 C>FDOR`7=JF=Ua6jSEc4X0
+l36
+L7
+Z39 V0S43H`k9l:gb;JhgN2kQN3
+R19
+32
+R27
+R20
+R21
+Z40 !s100 T9g?oclK1ne5TAY;:X=fJ0
+Emealy_syn_asyn_test
+R14
+R15
+R7
+Z41 8D:/facultate/VLSI/Laborator/lab5/mealy_syn_asyn_test.vhd
+Z42 FD:/facultate/VLSI/Laborator/lab5/mealy_syn_asyn_test.vhd
+l0
+L4
+Z43 V4T37A><zg6Ya@nn=ONmFJ0
+R19
+32
+R20
+R21
+Z44 !s100 4RnK;PEIU1k=@C]5dG:En3
+Amealy_syn_asyn_test
+R37
+R23
+R15
+Z45 DEx4 work 19 mealy_syn_asyn_test 0 22 4T37A><zg6Ya@nn=ONmFJ0
+l38
+L7
+Z46 V73Meg?=Kh:Kj0:Jzm5N[L0
+R19
+32
+R27
+R20
+R21
+Z47 !s100 WD1;b;RIWF^G@aLLYOCU40
+Emealy_syn_test
+R14
+R15
+R7
+Z48 8D:/facultate/VLSI/Laborator/lab5/mealy_syn_test.vhd
+Z49 FD:/facultate/VLSI/Laborator/lab5/mealy_syn_test.vhd
+l0
+L4
+Z50 V@=^KGlNgRX1kMeDPi`AJR3
+R19
+32
+R20
+R21
+Z51 !s100 kA>IDS7meIS1h:m8:O^5:3
+Amealy_syn_test
+R37
+R23
+R15
+Z52 DEx4 work 14 mealy_syn_test 0 22 @=^KGlNgRX1kMeDPi`AJR3
+l36
+L7
+Z53 Vd<EHL1BnoCf[_?Y`@]`330
+R19
+32
+R27
+R20
+R21
+Z54 !s100 clcVXez;U811JU?3S1oXG0
+Emealy_tb
+R14
+R15
+R7
+Z55 8D:/facultate/VLSI/Laborator/lab5/mealy_tb.vhd
+Z56 FD:/facultate/VLSI/Laborator/lab5/mealy_tb.vhd
+l0
+L4
+Z57 VYhK^RMije1MSPV[YTbLYS2
+R19
+32
+R20
+R21
+Z58 !s100 M@5V9iJh4UYcjl4Sd3mXU2
+Amealy_tb
+R15
+R37
+l15
+L13
+Z59 V1cTFRQmkJkKXR8<fQUVHC0
+R19
+32
+R27
+R20
+R21
+Z60 !s100 VSJ?:;TPgkV]8M3CzCz9U3

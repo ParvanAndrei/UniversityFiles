@@ -1,0 +1,81 @@
+pui societate nume ce ofera servicii de vulcanizare auto isi stabileste oferta de pret (compari si cu ce a scris profu) pornind  de la costurile consumabilelor necesare realizarii serviciilor.
+
+	In principiu aceste servicii reprezinta un standard in domeniu, insa 
+datorita locatiei si a lipsei concurentei in zona, unde probabil va exista si cerere.
+In vedere stabilirii pretului se ia in considerare anumite aspecte: complexitate lucrarii si numarul de consumabile necesar realizarii serviciului.
+
+Astfel ca potrivit unei analize cu privire la pretul de cumparare a serviciilor se vor realiza calcule economice pentru a se determina cheltuielile totale utilizand realatia CT=Cd+Ci ulterior determinandu-se si analizandu-se marja de profit utilizata in calcularea venitului total VT = CT + P cat si in stabilirea pretului pe unitate de serviciu vandut (p) in functie de cantitate de servicii vandute (q) rezultand astfel relatia p = VT/q.
+
+Analiza economica din punct de vedere al costurilor de productie porneste de la cantitate de servicii cat si durata unui serviciu respectiv consumabilele folosite pentru realizarea 
+
+Consideram ca, folosirea capacitatilor existente de productie (mijloacele fixe) si a celor 
+administrative (personal, sediu etc.) ne da posibilitatea de a calcula care 
+va fi volumul costurilor indirecte (Ci) determinate in principal de cheltuielile cu: amortizarea 
+mijloacelor fixe, iluminatul, incalzirea, salariile personalului administrativ, promovarea firmei 
+si a produsului si alte cheltuieli din sfera administrativa. La aceste cheltuieli se adauga 
+cheltuielile directe (Cd), cheltuieli legate nemijlocit de productia noului produs.
+
+In categoria cheltuielilor directe (Cd) intra cheltuielile cu: materialele consumabile utilizate in realizarea serviciilor, energia, 
+salariile lucratorilor direct implicati in activitatea de realizare a serviciului etc. Aceste cheltuieli pot fi fluctuante in functie de 
+cererea serviciului, pretul energiei cat si al consumabilelor. Costul total (CT) al interprinderii este reprezentat de suma dintre Cheltuieli indirecte (Ci) si de Cheltuielile directe (Cd).
+
+In vederea valorificarii pe piata si pentru rentabilizarea activitatii de productie este necesar 
+sa luam in calcul si profitul (P) firmei intr-o marja care tine seama de mai multi factori: cerere 
+si oferta, noutatea serviciilor, calitatea acestora cat si activitatea de marketing 
+in ceea ce priveste promovarea prin toate mijloacele (etichetare, standuri, benere, reclame TV, 
+popularizare prin mijloacele de comunicatii telefonice, targuri, promotii, etc. ). 
+
+Tinand seama de noutate serviciului pe piata, cunoasterea acestor servicii in zona, prestigiul 
+firmei, calitatea serviciilor si activitatea de popularizare, apreciem ca marja de profit ar trebui sa fie de 60-70% din cheltuielile totale (CT).
+
+In concluzie, costul total de productie (CT) si profitul (P) vor determina venitul total (VT) 
+al firmei in urma vanzarii pe piata a serviciilor, VT = CT + P .
+
+1. Pragul de rentabilitate al produsului
+
+În baza analizei privind volumul cererilor, în vederea stabilirii pragului de rentabilitate pot fi facute calcule si comparatii la 
+nivel de venit total si cost total si la nivel de pret unitar de productie si pret unitar de vanzare, 
+pe un serviciu, astfel: 
+
+	a) la nivel de venit total (VT) si cost total (CT), 
+	VT > CT - firma are profit, activitate rentabila
+	VT < CT - firma nu are profit, activitate nerentabila
+	VT = CT - firma se afla la pragul de rentabilitate al serviciului
+	
+	b) la nivel de pret unitar de productie si pret unitar de vanzare
+	Pretul de productie = CT/q
+	Pretul de vansare = VT/q
+	
+	În concluzie, pragul de rentabilitate al produsului reprezinta o situatie de avarie din care 
+firma trebuie sa iasa lansand noi politici economice si de marketing pentru salvarea serviciilor prin fie imbunatatirea acestora ori utilizand oferte mai avantajoase).
+
+
+2. Strategia privind politica de pret adoptata
+
+	In vederea stabilirii pretului de produs, ca parte a fluxului de marketing SC Arvo-serv SRL va adopta o strategie flexibila in
+raport cu cerintele de piata si caracteristicile fiecarui serviciu.
+	
+	
+	Intr-o prima faza, la lansare, interprinderea va folosi strategia unei politici de pret scazut avand ca argument faptul ca fiind la 
+inceput, societatea doreste sa isi atraga clienti, datorita zonei si reticentei localnicilor.
+
+	Totodata, societatea va folosi si strategia de pret bazata pe costurile de productie. Pretul 
+de vanzare al unui serviciu  va reflecat costurile totale de productie si profitul, estimat la o marja de 60-70% din CT, pentru a asigura rentabilitatea pentru aceste servicii.
+
+Pretul unitar de vanzare al produsului (p) va cuprinde costurile totale de productie pe 
+unitatea de produs (CT/q) si profitul unitar (P/q), a carui marja va fi tot de (60-70)% din CT/q
+
+Consideram ca adoptarea unor strategii fundamentale pentru un pret bazat pe costul de productie si prin adoptarea unei strategii de inceput cu pret scazut va asigura fimeri un venit total VT = qxp ce va contine marja de profit luata in calcul 60-70% din CT investit respectiv din cifra de afaceri.
+
+pentru o argumentare bazata pe calcule economice luam in calcul realizarea a 2 servicii pe o durata de o zi:
+
+-CT/q = 40 lei
+-VT/q = CT/q + P/q = 40 lei + 40lei * 70% = calcule
+care reprezinta si costul consumabilelor utilizate cate si manopera.
+
+profitul calculat pentru a doua servicii desfasurate intr-o zi:
+p = VT - CT = (p*q) - (CT/q *q) = calcule
+sau prin rata profitului RP = (P/CT)/100 =
+unde RP e 70%
+
+si mai citeste ceva la final acolo sa vezi ce e

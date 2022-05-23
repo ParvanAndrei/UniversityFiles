@@ -1,0 +1,118 @@
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling interface tb_ifc
+# -- Compiling package instr_register_test_sv_unit
+# -- Importing package instr_register_pkg
+# -- Compiling module instr_register_test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim +notimingchecks +nowarnTSCALE +NR_OF_TRANS=4 -sva -nocoverage -quiet -sv_seed 22375 -novopt top 
+# //  ModelSim SE 6.6d Nov  1 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing C:\Users\User\Desktop\tsc\lab2\sim\work.instr_register_pkg
+# Refreshing C:\Users\User\Desktop\tsc\lab2\sim\work.top
+# Refreshing C:\Users\User\Desktop\tsc\lab2\sim\work.tb_ifc
+# Refreshing C:\Users\User\Desktop\tsc\lab2\sim\work.instr_register_test_sv_unit
+# Refreshing C:\Users\User\Desktop\tsc\lab2\sim\work.instr_register_test
+# Refreshing C:\Users\User\Desktop\tsc\lab2\sim\work.instr_register
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(89): Clocking block output arithmetic_if.cb.opcode is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(90): Clocking block output arithmetic_if.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(91): Clocking block output arithmetic_if.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(88): Clocking block output arithmetic_if.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/first_test.sv(95): Clocking block output arithmetic_if.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /instr_register_test_sv_unit
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   opcode = 2 (PASSB)
+#   operand_a = 8
+#   operand_b = 0
+# 
+# Writing to register location 1: 
+#   opcode = 7 (MOD)
+#   operand_a = 12
+#   operand_b = 13
+# 
+# Writing to register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 2
+#   operand_b = 3
+# 
+# Writing to register location 3: 
+#   opcode = 6 (DIV)
+#   operand_a = 13
+#   operand_b = 3
+# 
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 2 (PASSB)
+#   operand_a = 8
+#   operand_b = 0
+#   result    = 0
+# 
+# Read from register location 1: 
+#   opcode = 7 (MOD)
+#   operand_a = 12
+#   operand_b = 13
+#   result    = 12
+# 
+# Read from register location 2: 
+#   opcode = 5 (MULT)
+#   operand_a = 2
+#   operand_b = 3
+#   result    = 0
+# 
+# ** Error: MULT operation error: Expected result = 6 Actual result = 0
+# 
+#    Time: 85 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 127
+# Read from register location 3: 
+#   opcode = 6 (DIV)
+#   operand_a = 13
+#   operand_b = 3
+#   result    = 39
+# 
+# ** Error: DIV operation error: Expected result = 4 Actual result = 39
+# 
+#    Time: 95 ns  Scope: instr_register_test_sv_unit.first_test.print_results File: ../lab01_testbench-interface/first_test.sv Line: 133
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# TEST FAILED (2 errors)
+# ** Note: $finish    : ../lab01_testbench-interface/first_test.sv(69)
+#    Time: 100 ns  Iteration: 2  Instance: /top/test

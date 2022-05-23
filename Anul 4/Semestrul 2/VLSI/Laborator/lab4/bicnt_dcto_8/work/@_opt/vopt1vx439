@@ -1,0 +1,240 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8
+T_opt
+Z1 VM03VAKGma8:U?9KEo9TdA1
+Z2 04 15 15 work bin_dcto_8_test bin_dcto_8_test 1
+Z3 =1-0492261791fa-622eeffa-11b-610
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 dD:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8
+Ebicnt_dcto_8
+Z8 w1647242995
+Z9 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z10 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z11 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R7
+Z12 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8.vhd
+Z13 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8.vhd
+l0
+L5
+Z14 Vii5;PbL;;U^d<VjBoOD[>2
+Z15 OE;C;6.6d;45
+32
+Z16 o-work work
+Z17 tExplicit 1
+Z18 !s100 _1iX_?mLlYTg:c7WN7QEC1
+Abicnt_dcto_8_beh
+Z19 w1647242997
+Z20 DPx22 C:\modeltech_6.6d\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z21 DPx22 C:\modeltech_6.6d\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z22 DPx22 C:\modeltech_6.6d\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z23 DEx50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 12 bicnt_dcto_8 0 22 ii5;PbL;;U^d<VjBoOD[>2
+32
+Z24 Mx3 22 C:\modeltech_6.6d\ieee 14 std_logic_1164
+Z25 Mx2 22 C:\modeltech_6.6d\ieee 18 std_logic_unsigned
+Z26 Mx1 22 C:\modeltech_6.6d\ieee 15 std_logic_arith
+Z27 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_beh.vhd
+Z28 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_beh.vhd
+l3
+L1
+Z29 VHoS0fe2=A2AELHXzGQI^A1
+R15
+R16
+R17
+Z30 !s100 ?Xl=M=Y]iGk@_^kT@ERX_2
+Abicnt_dcto_8_guard
+R20
+R21
+R22
+R23
+32
+R24
+R25
+R26
+Z31 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_guard.vhd
+Z32 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_guard.vhd
+l3
+L1
+Z33 Vgz7R5fzfG_QfVKGPl^TF<1
+R15
+R16
+R17
+Z34 !s100 QfF:1S9=cGc[O=n2K_4oW0
+Ebicnt_dcto_8_comp
+Z35 w1425056550
+R11
+R7
+Z36 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_comp.vhd
+Z37 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_comp.vhd
+l0
+L4
+Z38 V6[BL_CTn4gA`;3g`hm7E50
+R15
+32
+R16
+R17
+Z39 !s100 FY^M1Wj7kF@Y>6ZAWL18[3
+Abicnt_dcto_8_comp
+R22
+Z40 DEx50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 17 bicnt_dcto_8_comp 0 22 6[BL_CTn4gA`;3g`hm7E50
+32
+Z41 Mx1 22 C:\modeltech_6.6d\ieee 14 std_logic_1164
+l13
+L12
+Z42 VA20j?d2AhRhPTS6`DVDXH1
+R15
+R16
+R17
+Z43 !s100 QH:iiiPM7:zk`g7K0NKg?3
+Ebicnt_dcto_8_monitor
+Z44 w1425056890
+Z45 DPx4 work 8 io_utils 0 22 UkcAX2[LPM?XH<:hHaN<R1
+Z46 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R9
+R10
+R11
+R7
+Z47 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_monitor.vhd
+Z48 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_monitor.vhd
+l0
+L10
+Z49 VAKcTQJ;MQkFDc:ZRCnhgO2
+R15
+32
+R16
+R17
+Z50 !s100 NL2JKLEWZ>eV9Iz?Tkz7L3
+Abicnt_dcto_8_monitor
+Z51 DPx50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 8 io_utils 0 22 UkcAX2[LPM?XH<:hHaN<R1
+Z52 DPx21 C:\modeltech_6.6d\std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R20
+R21
+R22
+Z53 DEx50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 20 bicnt_dcto_8_monitor 0 22 AKcTQJ;MQkFDc:ZRCnhgO2
+32
+Z54 Mx5 22 C:\modeltech_6.6d\ieee 14 std_logic_1164
+Z55 Mx4 22 C:\modeltech_6.6d\ieee 18 std_logic_unsigned
+Z56 Mx3 22 C:\modeltech_6.6d\ieee 15 std_logic_arith
+Z57 Mx2 21 C:\modeltech_6.6d\std 6 textio
+Z58 Mx1 50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 8 io_utils
+l27
+L23
+Z59 V?7dVRTN06C[WV8aiV23?z0
+R15
+R16
+R17
+Z60 !s100 Ticg_5Al=Q@ZUD^Ob7z5K3
+Ebicnt_dcto_8_tb
+Z61 w1425057992
+R45
+R46
+R9
+R10
+R11
+R7
+Z62 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_tb.vhd
+Z63 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bicnt_dcto_8_tb.vhd
+l0
+L9
+Z64 VZ=zXZE88??UEf3:dDfUhS0
+R15
+32
+R16
+R17
+Z65 !s100 Ih;6ALL3Ph2fH:Z[Ej?M22
+Abicnt_dcto_8_tb
+R51
+R52
+R20
+R21
+R22
+Z66 DEx50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 15 bicnt_dcto_8_tb 0 22 Z=zXZE88??UEf3:dDfUhS0
+32
+R54
+R55
+R56
+R57
+R58
+l23
+L21
+Z67 Vl0J_iaoR6W8Gg>C8`=DcZ0
+R15
+R16
+R17
+Z68 !s100 cP`WK6Bm_L[]>c[1LKG>Q0
+Ebin_dcto_8_test
+Z69 w1647243209
+R11
+R7
+Z70 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bin_dcto_8_test.vhd
+Z71 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/bin_dcto_8_test.vhd
+l0
+L4
+Z72 VYR1H@9JE4CUhgR2eT0nkS0
+R15
+32
+R16
+R17
+Z73 !s100 m?U::oQZ]`=hK_i>fn3O73
+Abin_dcto_8_test
+R40
+R53
+R23
+R51
+R52
+R20
+R21
+R66
+R22
+Z74 DEx50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 15 bin_dcto_8_test 0 22 YR1H@9JE4CUhgR2eT0nkS0
+32
+R54
+R55
+R56
+R57
+R58
+l75
+L7
+Z75 VXFMokB;R^=QcQ0bMC`VV`0
+R15
+R16
+R17
+Z76 !s100 T@2fDl0PPZN0>QdlT4o0l1
+Pio_utils
+R22
+R52
+32
+b1
+R57
+R41
+Z77 w1425056840
+R7
+Z78 8D:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/io_utils.vhd
+Z79 FD:/facultate/VLSI/Laborator/lab4/bicnt_dcto_8/io_utils.vhd
+l0
+L5
+Z80 VUkcAX2[LPM?XH<:hHaN<R1
+R15
+b1
+R16
+R17
+Z81 !s100 Z2373D^JQ]:e]zYZ0a^A30
+Bbody
+Z82 DBx50 D:\facultate\VLSI\Laborator\lab4\bicnt_dcto_8\work 8 io_utils 0 22 UkcAX2[LPM?XH<:hHaN<R1
+R22
+R52
+32
+R57
+R41
+l0
+L36
+Z83 V[nF0jW63`BW0]BlY2;<gT2
+R15
+R16
+R17
+nbody
+Z84 !s100 gGY[jT@@eBCdZz>R^<Fm;0
